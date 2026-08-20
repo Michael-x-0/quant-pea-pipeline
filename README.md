@@ -31,7 +31,9 @@ rapport à la demande — PC éteint.
 - `MAIL_USERNAME` — adresse Gmail d'envoi.
 - `MAIL_PASSWORD` — mot de passe d'application Gmail (Compte Google → Sécurité → Mots de
   passe des applications ; nécessite la validation en 2 étapes activée).
-- `MAIL_TO` — adresse de réception (peut être la même).
+- `MAIL_TO` — adresse(s) de réception. Plusieurs destinataires possibles : liste séparée par
+  des virgules, ex. `personne1@example.com,personne2@example.com` (supporté nativement par
+  l'action `dawidd6/action-send-mail`, aucune modification du workflow requise).
 - `ANTHROPIC_API_KEY` — clé API Anthropic (console.anthropic.com, compte de facturation
   séparé de l'abonnement Claude.ai). Utilisée uniquement pour la recherche web et la
   rédaction de la couche news — facturée à l'usage (~10 $/1000 recherches + tokens
