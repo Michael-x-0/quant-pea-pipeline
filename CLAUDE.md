@@ -116,6 +116,11 @@ the LLM alone to respect the boundary. Note: `make_report.py`'s reserve banner t
 lists tickers by name (including `HLT`, replaced by `GOAI` in `universe.json` on 2026-08-18) —
 treat `universe.json` as the source of truth if the two disagree.
 
+There is no per-position commentary in the pipeline: `position.txt` and the report's old
+"Avis par position" section were removed (2026-08-20) — `generate_narrative.py` now writes
+only `bilan_html` and `contexte_html` to `predictions/narratif_{date}.json`, and
+`make_report.py` no longer has a position-based section.
+
 ### Config files
 
 - `config/universe.json` — instrument list, Boursorama symbols, PAD group. Single source of
@@ -126,8 +131,6 @@ treat `universe.json` as the source of truth if the two disagree.
 - `config/news_scale.md` — the news-scoring rubric given verbatim to Claude in
   `generate_narrative.py`'s prompt. Keep the coefficient table here and in `weights.json` →
   `news` in sync if the scale ever changes.
-- `position.txt` — Michael-maintained open positions (`TICKER;QUANTITE;PRU_EUR;DATE_ACHAT`),
-  read by `generate_narrative.py` to ground the per-position commentary.
 
 ## GitHub Actions secrets
 
