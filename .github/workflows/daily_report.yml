@@ -21,6 +21,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Installer les dépendances
+        run: pip install anthropic
+
       - name: 1. Récupérer les cours Boursorama
         run: python scripts/fetch_boursorama.py
 
@@ -30,18 +33,41 @@ jobs:
       - name: 3. Recalibrer les poids du modèle (bornée, walk-forward)
         run: python scripts/calibrate_weights.py
 
-      - name: 4. Calculer features + prédictions du jour
-        run: python scripts/compute_features.py
+      - name: 4. Déterminer la date de séance du jour
+        id: date
+        run: |
+          RUN_DATE=$(python -c "
+          import glob
+          rows = []
+          for p in glob.glob('data/*.csv'):
+              with open(p, encoding='utf-8') as f:
+                  next(f)
+                  for line in f:
+                      line = line.strip()
+                      if line:
+                          rows.append(line.split(';')[0])
+          print(max(rows))
+          ")
+          echo "run_date=$RUN_DATE" >> "$GITHUB_OUTPUT"
 
-      - name: 5. Générer le rapport HTML
+      - name: 5. Générer le score news + narratif (recherche web via l'API Claude)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/generate_narrative.py --date "${{ steps.date.outputs.run_date }}"
+
+      - name: 6. Calculer features + prédictions du jour (avec couche news)
+        run: |
+          python scripts/compute_features.py \
+            --news "predictions/news_${{ steps.date.outputs.run_date }}.json" \
+            --out "predictions/quant_${{ steps.date.outputs.run_date }}.json"
+
+      - name: 7. Générer le rapport HTML
         id: report
         run: |
-          RUN_DATE=$(python -c "import json,glob; f=max(glob.glob('predictions/quant_*.json')); print(json.load(open(f))['run_date'])")
-          echo "date=$RUN_DATE" >> "$GITHUB_OUTPUT"
-          python scripts/make_report.py --date "$RUN_DATE"
-          echo "report_path=rapports/rapport_${RUN_DATE}.html" >> "$GITHUB_OUTPUT"
+          python scripts/make_report.py --date "${{ steps.date.outputs.run_date }}"
+          echo "report_path=rapports/rapport_${{ steps.date.outputs.run_date }}.html" >> "$GITHUB_OUTPUT"
 
-      - name: 6. Committer les données et le rapport mis à jour
+      - name: 8. Committer les données et le rapport mis à jour
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -49,11 +75,11 @@ jobs:
           if git diff --cached --quiet; then
             echo "Aucun changement."
           else
-            git commit -m "Rapport du ${{ steps.report.outputs.date }}"
+            git commit -m "Rapport du ${{ steps.date.outputs.run_date }}"
             git push
           fi
 
-      - name: 7. Envoyer le rapport par e-mail
+      - name: 9. Envoyer le rapport par e-mail
         uses: dawidd6/action-send-mail@v4
         with:
           server_address: smtp.gmail.com
@@ -62,6 +88,6 @@ jobs:
           password: ${{ secrets.MAIL_PASSWORD }}
           from: Pipeline PEA <${{ secrets.MAIL_USERNAME }}>
           to: ${{ secrets.MAIL_TO }}
-          subject: "Rapport PEA — ${{ steps.report.outputs.date }}"
-          body: "Rapport du ${{ steps.report.outputs.date }} en pièce jointe."
+          subject: "Rapport PEA — ${{ steps.date.outputs.run_date }}"
+          body: "Rapport du ${{ steps.date.outputs.run_date }} en pièce jointe."
           attachments: ${{ steps.report.outputs.report_path }}
