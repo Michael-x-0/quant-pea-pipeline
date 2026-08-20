@@ -1,50 +1,50 @@
 {
  "WPEA": {
   "score": 0,
-  "justif": "Marché mondial stable ; intervention Treasury résorbe tensions obligataires, S&P 500 +0,21% jeudi."
+  "justif": "Marché mondial tiraillé entre stabilité du Trésor US et hausse des rendements obligataires, sans catalyseur net directif."
  },
  "PE500": {
-  "score": 1,
-  "justif": "Rendements Treasuries au plus haut depuis 25 ans à 5,216% sur 30 ans, pression inflationniste US persistante mais stabilisation obligataire soutient indices."
+  "score": -1,
+  "justif": "S&P 500 recule de 0,33%, pressé par les rendements obligataires élevés et prudence avant publications macro."
  },
  "PCEU": {
-  "score": 0,
-  "justif": "Inflation zone euro à 2,9% en juillet, BCE maintient cours, pas de catalyseur directionnel net ce jour."
+  "score": -1,
+  "justif": "Europe cède 0,50% (CAC 40) face aux tensions obligataires long terme et incertitude géopolitique Moyen-Orient."
  },
  "PAEEM": {
-  "score": 1,
-  "justif": "Tensions Iran/Moyen-Orient maintiennent primes de risque, demande IA en semi-conducteurs soutient équipementiers émergents."
+  "score": 2,
+  "justif": "TSMC juillet +44,7% a/a et capex relevé 60-64 Mds$ soutiennent demande IA émergents ; Samsung prix +15% confirme tension capacités."
  },
  "PTPXE": {
-  "score": -1,
-  "justif": "Yield Treasuries 10Y au-dessus 4,6%, risque renforcement yen, tensions géopolitiques freinent appétit pour risque asiatique."
+  "score": 1,
+  "justif": "TOPIX +0,8%, Nikkei +1,3% bénéficient du rebond obligataire US et demande IA malgré rendements élevés."
  },
  "RS2K": {
-  "score": -1,
-  "justif": "Small caps US pressées par remontée taux longs ; intervention Treasury récente crée doute sur trajectoire rates."
+  "score": 0,
+  "justif": "Russell 2000 +0,50% détaché du S&P500, sans signal macro spécifique petites caps ce jour."
  },
  "PUST": {
-  "score": 1,
-  "justif": "Nasdaq soutenu par demande IA durable ; rendements obligataires élevés reflètent platefond croissance nominale."
+  "score": -1,
+  "justif": "Nasdaq-100 -0,52% plombé par rendements Trésor 30ans à 5,18% et semi-conducteurs en consolidation."
  },
  "EXA1": {
-  "score": 1,
-  "justif": "Banques zone euro : taux directeurs BCE à 2,40%, cycle de resserrement crédité, primes de risque soutenues par tensions géopolitiques."
+  "score": 0,
+  "justif": "Banques euro zone à l'équilibre ; taux BCE 2,40%, aucune nouvelle de politique annoncée aujourd'hui."
  },
  "STEC": {
-  "score": 2,
-  "justif": "Demande semi-conducteurs IA explosive, prix DRAM +125% et NAND +234% en 2026, leaders europ. tech en position stratégique."
+  "score": 1,
+  "justif": "Semiconducteurs US index SOX +1,64% porté par TSMC/Micron robust ; technologie europe stable malgré baisse indices."
  },
  "DEFS": {
-  "score": 2,
-  "justif": "Tensions Iran-Israël, escalade Middle East relancent cycle défense Europe ; budgets militaires allemands 117,2 Mds€ en 2026."
+  "score": 0,
+  "justif": "Géopolitique Moyen-Orient persistante mais sans escalade majeure jour ; marché défense attentiste fin août."
  },
  "SMH": {
   "score": 2,
-  "justif": "Crise mémoire 2026 : DRAM +125%, NAND +234%, GPU IA +30% mix secteur, hyperscalers investissements +50% en infrastructure IA."
+  "justif": "Micron +4,13% après TSMC +44,7% juillet ; capacité IA saturée, prix semiconducteurs augmentent (Samsung +15%)."
  },
  "GOAI": {
-  "score": 2,
-  "justif": "Hyperscalers infrastructure IA +50% annuel (~600 Mds$), demande puces HBM et GPU durabilité soutenue à 30% du CA semi-conducteurs."
+  "score": 1,
+  "justif": "IA/robotique bénéficie investissements TSMC 60-64 Mds$ capex et demande durable infrastructure données IA."
  }
 }
