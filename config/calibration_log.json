@@ -40,8 +40,8 @@
   "gain_min_validation": 0.003
  },
  "live": {
-  "hit_ratio_1d": 0.3979591836734694,
-  "n_observations": 98
+  "hit_ratio_1d": 0.38461538461538464,
+  "n_observations": 91
  },
  "train": {
   "avant": {
@@ -113,14 +113,14 @@
     }
    }
   },
-  "objectif_avant": 0.4292,
-  "objectif_apres": 0.43255
+  "objectif_avant": 0.42919,
+  "objectif_apres": 0.43254
  },
  "test": {
   "avant": {
-   "hit_1d": 0.5075,
+   "hit_1d": 0.5083,
    "hit_5d": 0.5035,
-   "mae_1d": 0.011102948197354742,
+   "mae_1d": 0.01109895156733049,
    "n_obs_1d": 1204,
    "n_obs_5d": 1156,
    "par_ticker": {
@@ -176,7 +176,7 @@
     },
     "SMH": {
      "n": 103,
-     "hit_1d": 0.4951,
+     "hit_1d": 0.5049,
      "hit_5d": 0.596
     },
     "GOAI": {
@@ -187,9 +187,9 @@
    }
   },
   "apres": {
-   "hit_1d": 0.51,
+   "hit_1d": 0.5108,
    "hit_5d": 0.5052,
-   "mae_1d": 0.011110920681418104,
+   "mae_1d": 0.011106924051393852,
    "n_obs_1d": 1204,
    "n_obs_5d": 1156,
    "par_ticker": {
@@ -245,7 +245,7 @@
     },
     "SMH": {
      "n": 103,
-     "hit_1d": 0.4951,
+     "hit_1d": 0.5049,
      "hit_5d": 0.596
     },
     "GOAI": {
@@ -255,8 +255,8 @@
     }
    }
   },
-  "objectif_avant": 0.39668,
-  "objectif_apres": 0.39879
+  "objectif_avant": 0.39721,
+  "objectif_apres": 0.39931
  },
  "poids_avant": {
   "W_MOM20": 0.5,
@@ -286,5 +286,5 @@
   "W_MOM20": -0.025
  },
  "decision": "REJETE_VALIDATION",
- "resume_rapport": "Auto-calibration : candidat REJETÉ. L'ajustement proposé (momentum 20 s, -0,0250) améliorait l'échantillon d'apprentissage mais le gain sur l'échantillon de validation (50,7 % → 51,0 % de hit ratio J+1) reste sous le seuil de significativité de 0,3 pt : indiscernable du bruit. Poids inchangés."
+ "resume_rapport": "Auto-calibration : candidat REJETÉ. L'ajustement proposé (momentum 20 s, -0,0250) améliorait l'échantillon d'apprentissage mais le gain sur l'échantillon de validation (50,8 % → 51,1 % de hit ratio J+1) reste sous le seuil de significativité de 0,3 pt : indiscernable du bruit. Poids inchangés."
 }
