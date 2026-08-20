@@ -1,0 +1,15 @@
+{
+ "WPEA":  {"score": 1,  "justif": "CPI juillet US +0,1% m/m / +3,4% a/a conforme au consensus, S&P500 +0,30% et EM +1,1% : soulagement general sans catalyseur isolable unique."},
+ "PE500": {"score": 1,  "justif": "S&P500 +0,30%, Nasdaq +0,59% ; CPI juillet en ligne (3,4% a/a, core 2,5%) ; CoreWeave +18% et Super Micro +9% soutiennent le sentiment tech."},
+ "PCEU":  {"score": 1,  "justif": "Stoxx 600 record a 660,8 pts, EuroStoxx50 record +0,5% ; ASML +2,7% et Siemens Energy +3% (AI infra) compensent la faiblesse du luxe (LVMH -1,8%, Kering -2,9%)."},
+ "PAEEM": {"score": 2,  "justif": "MSCI EM +1,1%, tire par les semi-conducteurs asiatiques (Samsung, SK Hynix, TSMC) ; Kospi +3,7% : rotation tech identifiable et large."},
+ "PTPXE": {"score": 1,  "justif": "Nikkei 225 +0,83% (+553,84 pts) ; yen quasi stable a 159,34/USD (+0,03%) : hausse moderee sans catalyseur specifique majeur."},
+ "PUST":  {"score": 1,  "justif": "Nasdaq +0,59%, porte par les resultats tech (CoreWeave +18%, Super Micro +9%) et le CPI en ligne qui conforte les paris de baisse de taux Fed."},
+ "RS2K":  {"score": 2,  "justif": "3e semaine consecutive de hausse des small caps ; marche pricee a ~100% une baisse Fed en septembre et pres de 3 baisses d'ici fin d'annee : decalage net des anticipations de taux."},
+
+ "EXA1":  {"score": 0,  "justif": "Aucune actualite bancaire specifique identifiee ce jour ; Stoxx 600 a son record mais sans catalyseur sectoriel bancaire net."},
+ "STEC":  {"score": 2,  "justif": "ASML +2,7% et Siemens Energy +3% sur l'engouement infrastructures IA ; tech europeenne en tete des gains du jour."},
+ "DEFS":  {"score": 0,  "justif": "Aucun nouveau catalyseur specifique identifie ce jour au-dela de la note de broker de la veille (RBC/Thales/Rheinmetall) deja integree."},
+ "SMH":   {"score": 3,  "justif": "Rally large des semi-conducteurs : MSCI EM +1,1% tire par Samsung/SK Hynix/TSMC, Kospi +3,7%, ASML +2,7% en Europe : catalyseur sectoriel net et generalise."},
+ "HLT":   {"score": 0,  "justif": "Aucun catalyseur sectoriel sante identifie ce jour."}
+}

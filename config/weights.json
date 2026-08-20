@@ -1,0 +1,56 @@
+{
+ "version": "v2.0",
+ "date_maj": "2026-08-11",
+ "origine": "Valeurs v1 d'origine, aucune calibration appliquee a ce jour (voir config/calibration_log.json).",
+
+ "_comment_poids": "Poids du modele quant deterministe. Modifiables UNIQUEMENT par scripts/calibrate_weights.py, dans les bornes definies ci-dessous.",
+ "poids": {
+  "W_MOM20": 0.5,
+  "W_MOM60": 0.5,
+  "W_MR": -0.15,
+  "W_RSI": -0.10,
+  "W_EOY_MOM": 0.6,
+  "W_EOY_BASE": 0.4,
+  "W_EOY_MR": 0.5,
+  "CLIP_1D": 1.5,
+  "CLIP_5D": 1.5,
+  "CLIP_EOY": 2.0
+ },
+
+ "_comment_ancrage": "Valeurs v1 figees. Les bornes dures de calibration sont calculees a partir de CES valeurs, jamais des valeurs courantes : cela empeche une derive cumulative ou 30 pas de +5% finiraient par quadrupler un poids.",
+ "ancrage_v1": {
+  "W_MOM20": 0.5,
+  "W_MOM60": 0.5,
+  "W_MR": -0.15,
+  "W_RSI": -0.10,
+  "W_EOY_MOM": 0.6,
+  "W_EOY_BASE": 0.4,
+  "W_EOY_MR": 0.5,
+  "CLIP_1D": 1.5,
+  "CLIP_5D": 1.5,
+  "CLIP_EOY": 2.0
+ },
+
+ "_comment_calibration": "Garde-fous choisis par Michael le 2026-08-11 (option 'prudente et bornee').",
+ "calibration": {
+  "actif": true,
+  "min_seances_evaluees_par_ticker": 20,
+  "pas_max_relatif_par_run": 0.05,
+  "borne_relative_vs_ancrage": 0.30,
+  "poids_calibrables": ["W_MOM20", "W_MOM60", "W_MR", "W_RSI", "W_EOY_MOM", "W_EOY_MR"],
+  "poids_geles": ["W_EOY_BASE", "CLIP_1D", "CLIP_5D", "CLIP_EOY"],
+  "rollback_fenetre_seances": 10,
+  "rollback_seuil_degradation_hit": 0.05,
+  "_comment_gain_min": "Un candidat qui n'ameliore l'objectif de validation que de facon marginale est du bruit, pas un progres. Seuil : +0.3 pt sur l'objectif combine.",
+  "gain_min_validation": 0.003
+ },
+
+ "_comment_news": "Echelle news elargie a [-5, +5] le 2026-08-11. Les k ont ete divises par 2.5 pour que le plafond d'influence des news reste EXACTEMENT celui de la v1 (+/-0.20 pt a J+1, +/-0.50 a J+5, +/-1.50 en fin d'annee) : seule la granularite change, pas le poids total des news. Ces coefficients ne sont PAS calibres automatiquement.",
+ "news": {
+  "echelle_min": -5,
+  "echelle_max": 5,
+  "k_1d": 0.04,
+  "k_5d": 0.10,
+  "k_eoy": 0.30
+ }
+}

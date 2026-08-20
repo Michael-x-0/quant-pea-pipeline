@@ -1,0 +1,67 @@
+name: Daily PEA report
+
+on:
+  schedule:
+    # 17h00 UTC = 19h00 Paris (été, UTC+2) / 18h00 Paris (hiver, UTC+1) — toujours après
+    # la clôture Euronext (17h35 Paris). Cron fixe en UTC : à ajuster de ±1h en mars/octobre
+    # si l'horaire de réception dérive par rapport à l'heure locale souhaitée.
+    - cron: "0 17 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 1. Récupérer les cours Boursorama
+        run: python scripts/fetch_boursorama.py
+
+      - name: 2. Fusionner dans le dataset
+        run: python scripts/update_dataset.py
+
+      - name: 3. Recalibrer les poids du modèle (bornée, walk-forward)
+        run: python scripts/calibrate_weights.py
+
+      - name: 4. Calculer features + prédictions du jour
+        run: python scripts/compute_features.py
+
+      - name: 5. Générer le rapport HTML
+        id: report
+        run: |
+          RUN_DATE=$(python -c "import json,glob; f=max(glob.glob('predictions/quant_*.json')); print(json.load(open(f))['run_date'])")
+          echo "date=$RUN_DATE" >> "$GITHUB_OUTPUT"
+          python scripts/make_report.py --date "$RUN_DATE"
+          echo "report_path=rapports/rapport_${RUN_DATE}.html" >> "$GITHUB_OUTPUT"
+
+      - name: 6. Committer les données et le rapport mis à jour
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ config/ predictions/ rapports/
+          if git diff --cached --quiet; then
+            echo "Aucun changement."
+          else
+            git commit -m "Rapport du ${{ steps.report.outputs.date }}"
+            git push
+          fi
+
+      - name: 7. Envoyer le rapport par e-mail
+        uses: dawidd6/action-send-mail@v4
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          from: Pipeline PEA <${{ secrets.MAIL_USERNAME }}>
+          to: ${{ secrets.MAIL_TO }}
+          subject: "Rapport PEA — ${{ steps.report.outputs.date }}"
+          body: file://${{ steps.report.outputs.report_path }}
+          content_type: text/html

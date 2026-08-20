@@ -1,0 +1,18 @@
+{
+ "_comment": "Univers suivi quotidiennement. 'bourso' = symbole Boursorama pour GetTicksEOD (prefixe 1rT = Euronext Paris, 1rA = Euronext Amsterdam). 'groupe' = core (eligible PEA, hors scope PAD, investissable par Michael) ou sectoriel (SUIVI UNIQUEMENT - en scope PAD, non investissable par Michael ; presence eventuelle dans position.txt = compte d'un tiers). HLT remplace par GOAI le 2026-08-18 (voir note sur la ligne GOAI).",
+ "instruments": [
+  {"ticker": "WPEA",  "bourso": "1rTWPEA",  "isin": "IE0002XZSHO1", "nom": "iShares MSCI World Swap PEA",              "groupe": "core",      "frais": 0.20},
+  {"ticker": "PE500", "bourso": "1rTPE500", "isin": "FR0013412285", "nom": "Amundi PEA S&P 500 Screened",              "groupe": "core",      "frais": 0.25},
+  {"ticker": "PCEU",  "bourso": "1rTPCEU",  "isin": "FR0013412038", "nom": "Amundi PEA MSCI Europe",                   "groupe": "core",      "frais": 0.15},
+  {"ticker": "PAEEM", "bourso": "1rTPAEEM", "isin": "FR0013412020", "nom": "Amundi PEA MSCI Emerging Markets",         "groupe": "core",      "frais": 0.30},
+  {"ticker": "PTPXE", "bourso": "1rTPTPXE", "isin": "FR0013411980", "nom": "Amundi PEA Japon (TOPIX)",                 "groupe": "core",      "frais": 0.20},
+  {"ticker": "RS2K",  "bourso": "1rTRS2K",  "isin": "LU1681038672", "nom": "Amundi Russell 2000",                      "groupe": "core",      "frais": 0.35},
+  {"ticker": "PUST",  "bourso": "1rTPUST",  "isin": "FR0011871110", "nom": "Amundi PEA Nasdaq-100",                    "groupe": "core",      "frais": 0.30},
+
+  {"ticker": "EXA1",  "bourso": "1rAEXA1",  "isin": "DE000A2QP372", "nom": "iShares EURO STOXX Banks 30-15 (Acc)",     "groupe": "sectoriel", "frais": 0.52, "secteur": "Banques zone euro",        "place": "Euronext Amsterdam"},
+  {"ticker": "STEC",  "bourso": "1rASTEC",  "isin": "DE000A2QP398", "nom": "iShares STOXX Europe 600 Technology (Acc)","groupe": "sectoriel", "frais": 0.39, "secteur": "Technologie Europe",       "place": "Euronext Amsterdam"},
+  {"ticker": "DEFS",  "bourso": "1rTDEFS",  "isin": "LU3038520774", "nom": "Amundi Stoxx Europe Defense",              "groupe": "sectoriel", "frais": 0.35, "secteur": "Defense Europe",           "place": "Euronext Paris", "lancement": "2025-05-12"},
+  {"ticker": "SMH",   "bourso": "1rTSMH",   "isin": "IE00BMC38736", "nom": "VanEck Semiconductor",                     "groupe": "sectoriel", "frais": 0.35, "secteur": "Semi-conducteurs monde",   "place": "Euronext Paris"},
+  {"ticker": "GOAI",  "bourso": "1rTGOAI",  "isin": "LU1861132840", "nom": "Amundi MSCI Robotics & AI",                "groupe": "sectoriel", "frais": 0.40, "secteur": "IA / robotique monde",     "place": "Euronext Paris", "historique_disponible_depuis": "2025-08-18", "note": "Remplace HLT le 2026-08-18 a la demande de Michael (meilleure performance). Historique Boursorama limite a 1 an glissant pour ce symbole (au-dela, l'API GetTicksEOD renvoie des donnees intraday corrompues plutot que des cloches quotidiennes) — pas une contrainte de lancement du fonds (le fonds existe depuis 2018)."}
+ ]
+}

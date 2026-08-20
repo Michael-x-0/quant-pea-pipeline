@@ -1,0 +1,15 @@
+{
+ "WPEA":  {"score": 0,  "justif": "Marche mondial quasi stable (S&P 500 -0,06 %, Stoxx 600 flat) ; CPI US publie demain, risque symetrique des deux cotes."},
+ "PE500": {"score": 0,  "justif": "S&P 500 quasi stable a 7 753 pts ; FOMC divise et CPI US demain = risque majeur non directionnel ; Nvidia +1,5 % compense Intel -1,5 %."},
+ "PCEU":  {"score": 0,  "justif": "Stoxx 600 en pause a 660,45 pts pres de son record ; energie +1,3 % et tech +1,1 % soutiennent, sans catalyseur directionnel net."},
+ "PAEEM": {"score": 3,  "justif": "TSMC (top 3 de l'indice) : CA juillet +45 % a/a et capex 2026 releve a 60-64 Mds$ — annonce structurante pour la tech asiatique."},
+ "PTPXE": {"score": -2, "justif": "Yen sous 158/USD, l'effet de l'intervention conjointe de fin juillet s'essouffle ; Nikkei -0,12 %. Change marque mais sans rupture."},
+ "PUST":  {"score": 0,  "justif": "Nvidia +1,5 % (500 Mds$ leves pour l'infrastructure IA) compense la rotation hors Magnificent Seven et Intel -1,5 % ; CPI demain."},
+ "RS2K":  {"score": 2,  "justif": "Environnement de taux favorable aux small caps (~40 % de dette a taux variable) et croissance des benefices attendue a +43 % a/a."},
+
+ "EXA1":  {"score": 0,  "justif": "Aucune actualite bancaire specifique identifiee ce jour ; Stoxx 600 pres de son record. Le CPI US de demain reste le principal catalyseur de taux."},
+ "STEC":  {"score": 3,  "justif": "Capex TSMC releve a 60-64 Mds$ dont 70-80 % en technologies avancees : lecture directement positive pour ASML (30,7 % du fonds). Tech europeenne +1,1 %, meilleur secteur du jour."},
+ "DEFS":  {"score": 2,  "justif": "RBC initie la couverture de Thales a l'achat (objectif 330 EUR) et de Rheinmetall (1 600 EUR), remettant le secteur sous les projecteurs ; commandes Thales +21 % au S1. Note de broker, pas choc fondamental — et RSI deja a 77."},
+ "SMH":   {"score": 4,  "justif": "TSMC : CA juillet +45 % a/a, capex 2026 releve a 60-64 Mds$, objectif de croissance 2026 superieur a 40 % en dollars — catalyseur direct pour tout le complexe semi-conducteurs et les equipementiers."},
+ "HLT":   {"score": 0,  "justif": "Aucun catalyseur sectoriel net ce jour ; Novo Nordisk poursuit son programme de rachat d'actions, Roche et Novartis sans annonce."}
+}

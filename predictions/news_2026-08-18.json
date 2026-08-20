@@ -1,0 +1,14 @@
+{
+ "WPEA": {"score": -1, "justif": "Wall Street recule (Dow, S&P500 en baisse) sous l'effet de la hausse du petrole (tensions Iran, memorandum expire le 17/08) et des rendements obligataires eleves, flux mondial negatif sans catalyseur isolable pour un indice ~1400 valeurs."},
+ "PE500": {"score": -2, "justif": "S&P500 et Nasdaq reculent le 18/08 sous l'effet conjugue de la vente sur les semi-conducteurs/IA (TSMC -3,7%, capex 2026 releve a 60-64 Mds$, craintes de compression de marge) et des rendements du Tresor eleves."},
+ "PCEU": {"score": -1, "justif": "Stoxx Europe 600 recule (~-0,2%) dans le sillage de la faiblesse americaine (petrole, rendements obligataires eleves), sans catalyseur specifique europeen identifie ce jour."},
+ "PAEEM": {"score": -3, "justif": "Vente marquee sur les semi-conducteurs/tech le 18/08 (TSMC -3,7% sur craintes de compression de marge et de pic des depenses IA), secteur tres represente dans l'indice emergent."},
+ "PTPXE": {"score": -3, "justif": "Nikkei -0,4% et rendement du JGB 10 ans au plus haut depuis trois decennies (~2,95%), amplifie par la poursuite du repli des valeurs tech japonaises (Tokyo Electron, Advantest) lie aux craintes IA/semi-conducteurs."},
+ "RS2K": {"score": -1, "justif": "Rendements obligataires eleves (cout du capital accru pour les small caps) pesent sur l'indice malgre une resilience relative par rapport aux indices large cap le 18/08."},
+ "PUST": {"score": -2, "justif": "Nasdaq-100 expose directement a la vente sur les semi-conducteurs/IA du 18/08 (TSMC capex releve, craintes de pic des depenses IA) et aux rendements obligataires eleves."},
+ "EXA1": {"score": 0, "justif": "Aucune actualite bancaire zone euro specifique identifiee ce jour."},
+ "STEC": {"score": -2, "justif": "Technologie europeenne affectee par contagion sectorielle de la vente sur les semi-conducteurs (TSMC, craintes de pic des depenses IA), sans catalyseur propre a l'Europe identifie."},
+ "DEFS": {"score": 0, "justif": "Tensions Iran/detroit d'Ormuz deja largement integrees par le marche, aucune nouvelle escalade specifique rapportee ce jour."},
+ "SMH": {"score": -3, "justif": "Vente nette sur les semi-conducteurs mondiaux le 18/08 (TSMC -3,7% sur craintes de compression de marge et de capex 2026 revu a 60-64 Mds$, Nvidia egalement en baisse -2,2%), exposition directe et majeure de l'indice."},
+ "HLT": {"score": 0, "justif": "Aucun catalyseur sante specifique identifie ce jour ; la hausse du jour (+1,17%) n'est pas rattachable a une actualite sectorielle isolable."}
+}
