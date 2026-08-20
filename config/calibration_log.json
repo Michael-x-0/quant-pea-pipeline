@@ -40,7 +40,7 @@
   "gain_min_validation": 0.003
  },
  "live": {
-  "hit_ratio_1d": 0.3956043956043956,
+  "hit_ratio_1d": 0.38461538461538464,
   "n_observations": 91
  },
  "train": {
@@ -113,14 +113,14 @@
     }
    }
   },
-  "objectif_avant": 0.42926,
-  "objectif_apres": 0.43261
+  "objectif_avant": 0.42927,
+  "objectif_apres": 0.43262
  },
  "test": {
   "avant": {
-   "hit_1d": 0.5091,
+   "hit_1d": 0.5083,
    "hit_5d": 0.5035,
-   "mae_1d": 0.011123596912942466,
+   "mae_1d": 0.011126611788610664,
    "n_obs_1d": 1204,
    "n_obs_5d": 1156,
    "par_ticker": {
@@ -166,7 +166,7 @@
     },
     "STEC": {
      "n": 107,
-     "hit_1d": 0.5234,
+     "hit_1d": 0.514,
      "hit_5d": 0.4175
     },
     "DEFS": {
@@ -187,9 +187,9 @@
    }
   },
   "apres": {
-   "hit_1d": 0.5116,
+   "hit_1d": 0.5108,
    "hit_5d": 0.5052,
-   "mae_1d": 0.011131635437142382,
+   "mae_1d": 0.011134584272674027,
    "n_obs_1d": 1204,
    "n_obs_5d": 1156,
    "par_ticker": {
@@ -235,7 +235,7 @@
     },
     "STEC": {
      "n": 107,
-     "hit_1d": 0.5327,
+     "hit_1d": 0.5234,
      "hit_5d": 0.4272
     },
     "DEFS": {
@@ -255,8 +255,8 @@
     }
    }
   },
-  "objectif_avant": 0.39754,
-  "objectif_apres": 0.39965
+  "objectif_avant": 0.39702,
+  "objectif_apres": 0.39913
  },
  "poids_avant": {
   "W_MOM20": 0.5,
@@ -286,5 +286,5 @@
   "W_MOM20": -0.025
  },
  "decision": "REJETE_VALIDATION",
- "resume_rapport": "Auto-calibration : candidat REJETÉ. L'ajustement proposé (momentum 20 s, -0,0250) améliorait l'échantillon d'apprentissage mais le gain sur l'échantillon de validation (50,9 % → 51,2 % de hit ratio J+1) reste sous le seuil de significativité de 0,3 pt : indiscernable du bruit. Poids inchangés."
+ "resume_rapport": "Auto-calibration : candidat REJETÉ. L'ajustement proposé (momentum 20 s, -0,0250) améliorait l'échantillon d'apprentissage mais le gain sur l'échantillon de validation (50,8 % → 51,1 % de hit ratio J+1) reste sous le seuil de significativité de 0,3 pt : indiscernable du bruit. Poids inchangés."
 }

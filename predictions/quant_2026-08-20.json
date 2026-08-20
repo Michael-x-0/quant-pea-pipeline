@@ -63,7 +63,7 @@
    "groupe": "core",
    "nom": "iShares MSCI World Swap PEA",
    "news_score": 0,
-   "news_justif": "Marché mondial en consolidation ; stabilisation post-rally obligataire, S&P 500 +0,21% mercredi, aucun catalyseur net le 20 août."
+   "news_justif": "Marché mondial stable ; intervention Treasury résorbe tensions obligataires, S&P 500 +0,21% jeudi."
   },
   "PE500": {
    "date": "2026-08-20",
@@ -100,14 +100,14 @@
     "pred_5d_pct": 0.475,
     "pred_eoy_pct": 6.04,
     "h_seances_eoy": 95,
-    "final_1d_pct": 0.107,
-    "final_5d_pct": 0.475,
-    "final_eoy_pct": 6.04
+    "final_1d_pct": 0.147,
+    "final_5d_pct": 0.575,
+    "final_eoy_pct": 6.34
    },
    "groupe": "core",
    "nom": "Amundi PEA S&P 500 Screened",
-   "news_score": 0,
-   "news_justif": "Stabilité post-intervention Trésor sur les rendements obligataires ; S&P 500 à 7,708 mercredi, sans catalyseur directionnel identifié."
+   "news_score": 1,
+   "news_justif": "Rendements Treasuries au plus haut depuis 25 ans à 5,216% sur 30 ans, pression inflationniste US persistante mais stabilisation obligataire soutient indices."
   },
   "PCEU": {
    "date": "2026-08-20",
@@ -151,7 +151,7 @@
    "groupe": "core",
    "nom": "Amundi PEA MSCI Europe",
    "news_score": 0,
-   "news_justif": "Données macroéconomiques européennes attendues (PPI Allemagne, discours Lagarde), mais sans surprise majeure annoncée ; équilibre des risques."
+   "news_justif": "Inflation zone euro à 2,9% en juillet, BCE maintient cours, pas de catalyseur directionnel net ce jour."
   },
   "PAEEM": {
    "date": "2026-08-20",
@@ -188,14 +188,14 @@
     "pred_5d_pct": -0.182,
     "pred_eoy_pct": 1.54,
     "h_seances_eoy": 95,
-    "final_1d_pct": -0.105,
-    "final_5d_pct": -0.182,
-    "final_eoy_pct": 1.54
+    "final_1d_pct": -0.065,
+    "final_5d_pct": -0.082,
+    "final_eoy_pct": 1.84
    },
    "groupe": "core",
    "nom": "Amundi PEA MSCI Emerging Markets",
-   "news_score": 0,
-   "news_justif": "Absence de catalyseur spécifique aux marchés émergents ; attention vers Fed septembre pour orientation des taux, contexte neutre."
+   "news_score": 1,
+   "news_justif": "Tensions Iran/Moyen-Orient maintiennent primes de risque, demande IA en semi-conducteurs soutient équipementiers émergents."
   },
   "PTPXE": {
    "date": "2026-08-20",
@@ -232,14 +232,14 @@
     "pred_5d_pct": 0.584,
     "pred_eoy_pct": 5.68,
     "h_seances_eoy": 95,
-    "final_1d_pct": 0.212,
-    "final_5d_pct": 0.684,
-    "final_eoy_pct": 5.98
+    "final_1d_pct": 0.132,
+    "final_5d_pct": 0.484,
+    "final_eoy_pct": 5.38
    },
    "groupe": "core",
    "nom": "Amundi PEA Japon (TOPIX)",
-   "news_score": 1,
-   "news_justif": "Yen légèrement apprécié (+0,347% le 19 août vs USD) suite aux tensions du Moyen-Orient ; intervention conjointe USA-Japon soutient le yen, supportive pour exportateurs."
+   "news_score": -1,
+   "news_justif": "Yield Treasuries 10Y au-dessus 4,6%, risque renforcement yen, tensions géopolitiques freinent appétit pour risque asiatique."
   },
   "RS2K": {
    "date": "2026-08-20",
@@ -276,14 +276,14 @@
     "pred_5d_pct": 0.346,
     "pred_eoy_pct": 2.97,
     "h_seances_eoy": 95,
-    "final_1d_pct": 0.124,
-    "final_5d_pct": 0.346,
-    "final_eoy_pct": 2.97
+    "final_1d_pct": 0.084,
+    "final_5d_pct": 0.246,
+    "final_eoy_pct": 2.67
    },
    "groupe": "core",
    "nom": "Amundi Russell 2000",
-   "news_score": 0,
-   "news_justif": "Indices domestiques US stables ; rendements obligataires élevés (10Y 4,64%) restent frein relatif aux petites caps."
+   "news_score": -1,
+   "news_justif": "Small caps US pressées par remontée taux longs ; intervention Treasury récente crée doute sur trajectoire rates."
   },
   "PUST": {
    "date": "2026-08-20",
@@ -327,7 +327,7 @@
    "groupe": "core",
    "nom": "Amundi PEA Nasdaq-100",
    "news_score": 1,
-   "news_justif": "Nasdaq +0,16% mercredi ; ralliement crypto (+11,5% Bitcoin) suite à annonce Trésor boost liquidity sur matériel tech ; léger biais haussier."
+   "news_justif": "Nasdaq soutenu par demande IA durable ; rendements obligataires élevés reflètent platefond croissance nominale."
   },
   "EXA1": {
    "date": "2026-08-20",
@@ -352,7 +352,7 @@
    "vol20_d": 0.010875919321355539,
    "vol20_ann": 0.1726498668210548,
    "dist_52wk_high": -0.029836829836829892,
-   "vol_ratio": 0.9850917597125426,
+   "vol_ratio": 0.985191370324261,
    "px_vs_ma5": -0.014491380943360554,
    "px_vs_ma10": -0.02019869108715089,
    "px_vs_ma20": -0.007049898009089617,
@@ -364,58 +364,58 @@
     "pred_5d_pct": 1.435,
     "pred_eoy_pct": 16.43,
     "h_seances_eoy": 95,
-    "final_1d_pct": 0.313,
-    "final_5d_pct": 1.435,
-    "final_eoy_pct": 16.43
+    "final_1d_pct": 0.353,
+    "final_5d_pct": 1.535,
+    "final_eoy_pct": 16.73
    },
    "groupe": "sectoriel",
    "nom": "iShares EURO STOXX Banks 30-15 (Acc)",
-   "news_score": 0,
-   "news_justif": "Secteur bancaire européen stable, aucune surprise macroéconomique majeure sur taux ou crédit attendue le 20 août."
+   "news_score": 1,
+   "news_justif": "Banques zone euro : taux directeurs BCE à 2,40%, cycle de resserrement crédité, primes de risque soutenues par tensions géopolitiques."
   },
   "STEC": {
    "date": "2026-08-20",
-   "close": 7.792,
+   "close": 7.757,
    "n_seances": 417,
-   "ret_1d": 0.0007706139224248343,
-   "ret_5d": -0.02478097622027542,
-   "ret_20d": 0.05883951623861927,
-   "ret_60d": 0.023781369071081304,
-   "ret_120d": 0.1949087563257168,
-   "ret_252d": 0.2807363576594346,
-   "ytd": 0.22359887564579695,
-   "ma5": 7.8862000000000005,
-   "ma10": 7.929900000000001,
-   "ma20": 7.72125,
-   "ma50": 7.7528999999999995,
-   "ma100": 7.4130889999999985,
-   "ma200": 6.939712000000001,
-   "trend_20d": 0.0046111824048656255,
-   "z20": 0.2756090615706752,
-   "rsi14": 51.33063325096126,
-   "vol20_d": 0.013426099608328754,
-   "vol20_ann": 0.21313272384731755,
-   "dist_52wk_high": -0.0418101328086572,
-   "vol_ratio": 0.6878618300752815,
-   "px_vs_ma5": -0.011944916436306574,
-   "px_vs_ma10": -0.017389878813099946,
-   "px_vs_ma20": 0.00916302412174197,
-   "px_vs_ma50": 0.005043274129680642,
-   "px_vs_ma100": 0.05111377996406108,
-   "px_vs_ma200": 0.12281316573367862,
+   "ret_1d": -0.003724633958386847,
+   "ret_5d": -0.02916145181476848,
+   "ret_20d": 0.05408343524935444,
+   "ret_60d": 0.019182761792142955,
+   "ret_120d": 0.1895414813678884,
+   "ret_252d": 0.2749835634451019,
+   "ytd": 0.21810273079882525,
+   "ma5": 7.8792,
+   "ma10": 7.926400000000001,
+   "ma20": 7.719500000000001,
+   "ma50": 7.7522,
+   "ma100": 7.412738999999998,
+   "ma200": 6.939537000000001,
+   "trend_20d": 0.004546869478701349,
+   "z20": 0.14630407107860519,
+   "rsi14": 49.864053022703466,
+   "vol20_d": 0.013501888628311538,
+   "vol20_ann": 0.21433583724122005,
+   "dist_52wk_high": -0.046114117068371874,
+   "vol_ratio": 0.6887886714636487,
+   "px_vs_ma5": -0.015509188750126968,
+   "px_vs_ma10": -0.02137161889382333,
+   "px_vs_ma20": 0.0048578275795063686,
+   "px_vs_ma50": 0.0006191790717473555,
+   "px_vs_ma100": 0.0464418078122002,
+   "px_vs_ma200": 0.1177979164892411,
    "pred": {
-    "pred_1d_pct": 0.108,
-    "pred_5d_pct": 0.702,
-    "pred_eoy_pct": 10.28,
+    "pred_1d_pct": 0.122,
+    "pred_5d_pct": 0.691,
+    "pred_eoy_pct": 9.53,
     "h_seances_eoy": 95,
-    "final_1d_pct": 0.148,
-    "final_5d_pct": 0.802,
-    "final_eoy_pct": 10.58
+    "final_1d_pct": 0.202,
+    "final_5d_pct": 0.891,
+    "final_eoy_pct": 10.13
    },
    "groupe": "sectoriel",
    "nom": "iShares STOXX Europe 600 Technology (Acc)",
-   "news_score": 1,
-   "news_justif": "Semis mondiaux : bénéfices Q2 forward +133% a/a estimés, mais indice à -20% vs sommet juin ; anticipations élevées déjà intégrées, ralliement technique possible."
+   "news_score": 2,
+   "news_justif": "Demande semi-conducteurs IA explosive, prix DRAM +125% et NAND +234% en 2026, leaders europ. tech en position stratégique."
   },
   "DEFS": {
    "date": "2026-08-20",
@@ -452,14 +452,14 @@
     "pred_5d_pct": 1.314,
     "pred_eoy_pct": 15.74,
     "h_seances_eoy": 95,
-    "final_1d_pct": 0.271,
-    "final_5d_pct": 1.314,
-    "final_eoy_pct": 15.74
+    "final_1d_pct": 0.351,
+    "final_5d_pct": 1.514,
+    "final_eoy_pct": 16.34
    },
    "groupe": "sectoriel",
    "nom": "Amundi Stoxx Europe Defense",
-   "news_score": 0,
-   "news_justif": "Secteur défense en attente ; tensions géopolitiques (Iran/Middle East) existantes depuis juillet, sans escalade nouvelle identifiée le 20 août."
+   "news_score": 2,
+   "news_justif": "Tensions Iran-Israël, escalade Middle East relancent cycle défense Europe ; budgets militaires allemands 117,2 Mds€ en 2026."
   },
   "SMH": {
    "date": "2026-08-20",
@@ -496,14 +496,14 @@
     "pred_5d_pct": -0.47,
     "pred_eoy_pct": -10.38,
     "h_seances_eoy": 95,
-    "final_1d_pct": 0.109,
-    "final_5d_pct": -0.37,
-    "final_eoy_pct": -10.08
+    "final_1d_pct": 0.149,
+    "final_5d_pct": -0.27,
+    "final_eoy_pct": -9.78
    },
    "groupe": "sectoriel",
    "nom": "VanEck Semiconductor",
-   "news_score": 1,
-   "news_justif": "Rallye crypto suite à intervention Trésor Treasuries ; semi-conducteurs favorisés par hausse liquidité, mais vigilance sur rendements obligataires."
+   "news_score": 2,
+   "news_justif": "Crise mémoire 2026 : DRAM +125%, NAND +234%, GPU IA +30% mix secteur, hyperscalers investissements +50% en infrastructure IA."
   },
   "GOAI": {
    "date": "2026-08-20",
@@ -540,14 +540,14 @@
     "pred_5d_pct": 0.669,
     "pred_eoy_pct": 5.99,
     "h_seances_eoy": 95,
-    "final_1d_pct": 0.246,
-    "final_5d_pct": 0.769,
-    "final_eoy_pct": 6.29
+    "final_1d_pct": 0.286,
+    "final_5d_pct": 0.869,
+    "final_eoy_pct": 6.59
    },
    "groupe": "sectoriel",
    "nom": "Amundi MSCI Robotics & AI",
-   "news_score": 1,
-   "news_justif": "Secteur IA/robotique bénéficiant de sentiment favorable post-annonce liquidité Trésor et ralliement tech ; biais haussier léger sur flux."
+   "news_score": 2,
+   "news_justif": "Hyperscalers infrastructure IA +50% annuel (~600 Mds$), demande puces HBM et GPU durabilité soutenue à 30% du CA semi-conducteurs."
   }
  }
 }

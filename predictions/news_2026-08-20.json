@@ -1,50 +1,50 @@
 {
  "WPEA": {
   "score": 0,
-  "justif": "Marché mondial en consolidation ; stabilisation post-rally obligataire, S&P 500 +0,21% mercredi, aucun catalyseur net le 20 août."
+  "justif": "Marché mondial stable ; intervention Treasury résorbe tensions obligataires, S&P 500 +0,21% jeudi."
  },
  "PE500": {
-  "score": 0,
-  "justif": "Stabilité post-intervention Trésor sur les rendements obligataires ; S&P 500 à 7,708 mercredi, sans catalyseur directionnel identifié."
+  "score": 1,
+  "justif": "Rendements Treasuries au plus haut depuis 25 ans à 5,216% sur 30 ans, pression inflationniste US persistante mais stabilisation obligataire soutient indices."
  },
  "PCEU": {
   "score": 0,
-  "justif": "Données macroéconomiques européennes attendues (PPI Allemagne, discours Lagarde), mais sans surprise majeure annoncée ; équilibre des risques."
+  "justif": "Inflation zone euro à 2,9% en juillet, BCE maintient cours, pas de catalyseur directionnel net ce jour."
  },
  "PAEEM": {
-  "score": 0,
-  "justif": "Absence de catalyseur spécifique aux marchés émergents ; attention vers Fed septembre pour orientation des taux, contexte neutre."
+  "score": 1,
+  "justif": "Tensions Iran/Moyen-Orient maintiennent primes de risque, demande IA en semi-conducteurs soutient équipementiers émergents."
  },
  "PTPXE": {
-  "score": 1,
-  "justif": "Yen légèrement apprécié (+0,347% le 19 août vs USD) suite aux tensions du Moyen-Orient ; intervention conjointe USA-Japon soutient le yen, supportive pour exportateurs."
+  "score": -1,
+  "justif": "Yield Treasuries 10Y au-dessus 4,6%, risque renforcement yen, tensions géopolitiques freinent appétit pour risque asiatique."
  },
  "RS2K": {
-  "score": 0,
-  "justif": "Indices domestiques US stables ; rendements obligataires élevés (10Y 4,64%) restent frein relatif aux petites caps."
+  "score": -1,
+  "justif": "Small caps US pressées par remontée taux longs ; intervention Treasury récente crée doute sur trajectoire rates."
  },
  "PUST": {
   "score": 1,
-  "justif": "Nasdaq +0,16% mercredi ; ralliement crypto (+11,5% Bitcoin) suite à annonce Trésor boost liquidity sur matériel tech ; léger biais haussier."
+  "justif": "Nasdaq soutenu par demande IA durable ; rendements obligataires élevés reflètent platefond croissance nominale."
  },
  "EXA1": {
-  "score": 0,
-  "justif": "Secteur bancaire européen stable, aucune surprise macroéconomique majeure sur taux ou crédit attendue le 20 août."
+  "score": 1,
+  "justif": "Banques zone euro : taux directeurs BCE à 2,40%, cycle de resserrement crédité, primes de risque soutenues par tensions géopolitiques."
  },
  "STEC": {
-  "score": 1,
-  "justif": "Semis mondiaux : bénéfices Q2 forward +133% a/a estimés, mais indice à -20% vs sommet juin ; anticipations élevées déjà intégrées, ralliement technique possible."
+  "score": 2,
+  "justif": "Demande semi-conducteurs IA explosive, prix DRAM +125% et NAND +234% en 2026, leaders europ. tech en position stratégique."
  },
  "DEFS": {
-  "score": 0,
-  "justif": "Secteur défense en attente ; tensions géopolitiques (Iran/Middle East) existantes depuis juillet, sans escalade nouvelle identifiée le 20 août."
+  "score": 2,
+  "justif": "Tensions Iran-Israël, escalade Middle East relancent cycle défense Europe ; budgets militaires allemands 117,2 Mds€ en 2026."
  },
  "SMH": {
-  "score": 1,
-  "justif": "Rallye crypto suite à intervention Trésor Treasuries ; semi-conducteurs favorisés par hausse liquidité, mais vigilance sur rendements obligataires."
+  "score": 2,
+  "justif": "Crise mémoire 2026 : DRAM +125%, NAND +234%, GPU IA +30% mix secteur, hyperscalers investissements +50% en infrastructure IA."
  },
  "GOAI": {
-  "score": 1,
-  "justif": "Secteur IA/robotique bénéficiant de sentiment favorable post-annonce liquidité Trésor et ralliement tech ; biais haussier léger sur flux."
+  "score": 2,
+  "justif": "Hyperscalers infrastructure IA +50% annuel (~600 Mds$), demande puces HBM et GPU durabilité soutenue à 30% du CA semi-conducteurs."
  }
 }
