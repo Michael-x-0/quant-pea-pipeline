@@ -1,50 +1,50 @@
 {
  "WPEA": {
-  "score": 1,
-  "justif": "Les indices mondiaux se stabilisent le 19/08 après le sell-off obligataire, le S&P 500 regagnant 0,21% à 7708 pts et l'intervention du Trésor US calmant les rendements longs."
+  "score": 0,
+  "justif": "Marché mondial en consolidation ; stabilisation post-rally obligataire, S&P 500 +0,21% mercredi, aucun catalyseur net le 20 août."
  },
  "PE500": {
-  "score": 1,
-  "justif": "Wall Street rebondit modestement (S&P 500 +0,21% à 7708, Nasdaq +0,16% à 26 331) après l'apaisement du marché obligataire américain mercredi."
+  "score": 0,
+  "justif": "Stabilité post-intervention Trésor sur les rendements obligataires ; S&P 500 à 7,708 mercredi, sans catalyseur directionnel identifié."
  },
  "PCEU": {
   "score": 0,
-  "justif": "Lagarde alerte sur le retard européen en IA et la fragmentation des marchés de capitaux mais ne modifie aucun paramètre de politique monétaire ce jour."
+  "justif": "Données macroéconomiques européennes attendues (PPI Allemagne, discours Lagarde), mais sans surprise majeure annoncée ; équilibre des risques."
  },
  "PAEEM": {
-  "score": 1,
-  "justif": "Le boom mémoire/IA se poursuit (DRAM attendue en hausse de 125% en 2026 selon Gartner) et soutient TSMC/Samsung, qui pèsent près de 25% du MSCI EM."
+  "score": 0,
+  "justif": "Absence de catalyseur spécifique aux marchés émergents ; attention vers Fed septembre pour orientation des taux, contexte neutre."
  },
  "PTPXE": {
   "score": 1,
-  "justif": "Le yen reste stable autour de 159,5/USD, favorable aux exportateurs japonais, tandis que les exports de juillet restent robustes grâce à la demande de puces IA malgré un déficit commercial record côté imports pétroliers."
+  "justif": "Yen légèrement apprécié (+0,347% le 19 août vs USD) suite aux tensions du Moyen-Orient ; intervention conjointe USA-Japon soutient le yen, supportive pour exportateurs."
  },
  "RS2K": {
-  "score": -2,
-  "justif": "Les minutes du FOMC (publiées le 19/08) confirment un débat plus dur en juillet avec 3 dissidents pro-hausse (Hammack, Kashkari, Logan), ravivant la remontée des rendements qui pèse sur les small caps très endettées à taux variable."
+  "score": 0,
+  "justif": "Indices domestiques US stables ; rendements obligataires élevés (10Y 4,64%) restent frein relatif aux petites caps."
  },
  "PUST": {
-  "score": -1,
-  "justif": "Le ton hawkish des minutes du FOMC de juillet, laissant la porte ouverte à une hausse de taux en septembre, pèse sur la valorisation des grandes valeurs technologiques sensibles aux taux longs."
+  "score": 1,
+  "justif": "Nasdaq +0,16% mercredi ; ralliement crypto (+11,5% Bitcoin) suite à annonce Trésor boost liquidity sur matériel tech ; léger biais haussier."
  },
  "EXA1": {
-  "score": 1,
-  "justif": "La remontée des rendements obligataires US et la perspective d'une Fed encore restrictive maintiennent un environnement de taux plutôt porteur pour les marges des banques européennes, sans catalyseur spécifique au secteur aujourd'hui."
+  "score": 0,
+  "justif": "Secteur bancaire européen stable, aucune surprise macroéconomique majeure sur taux ou crédit attendue le 20 août."
  },
  "STEC": {
-  "score": -1,
-  "justif": "Le regain de tension sur les rendements suite aux minutes du FOMC pèse mécaniquement sur les valorisations tech, y compris en Europe, sans nouvelle spécifique au secteur ce jour."
+  "score": 1,
+  "justif": "Semis mondiaux : bénéfices Q2 forward +133% a/a estimés, mais indice à -20% vs sommet juin ; anticipations élevées déjà intégrées, ralliement technique possible."
  },
  "DEFS": {
   "score": 0,
-  "justif": "Aucune annonce budgétaire ou contractuelle nouvelle identifiée aujourd'hui sur la défense européenne ; le contexte de hausse des budgets OTAN vers 5% du PIB d'ici 2035 reste déjà connu et intégré."
+  "justif": "Secteur défense en attente ; tensions géopolitiques (Iran/Middle East) existantes depuis juillet, sans escalade nouvelle identifiée le 20 août."
  },
  "SMH": {
-  "score": 2,
-  "justif": "La dynamique mémoire/IA reste forte avec des prix DRAM attendus en hausse de 125% en 2026 (Gartner) et l'accélération de la roadmap Nvidia Feynman qui pousse TSMC à investir davantage en capacité et packaging."
+  "score": 1,
+  "justif": "Rallye crypto suite à intervention Trésor Treasuries ; semi-conducteurs favorisés par hausse liquidité, mais vigilance sur rendements obligataires."
  },
  "GOAI": {
   "score": 1,
-  "justif": "Le thème IA reste porteur (Nvidia investit dans SSI d'Ilya Sutskever, roadmap Feynman confirmée) tandis que Lagarde souligne publiquement le risque que l'Europe manque le virage de l'IA, sans catalyseur négatif direct sur le secteur."
+  "justif": "Secteur IA/robotique bénéficiant de sentiment favorable post-annonce liquidité Trésor et ralliement tech ; biais haussier léger sur flux."
  }
 }

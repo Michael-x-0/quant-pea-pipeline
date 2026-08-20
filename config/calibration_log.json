@@ -40,7 +40,7 @@
   "gain_min_validation": 0.003
  },
  "live": {
-  "hit_ratio_1d": 0.4065934065934066,
+  "hit_ratio_1d": 0.3956043956043956,
   "n_observations": 91
  },
  "train": {
@@ -113,14 +113,14 @@
     }
    }
   },
-  "objectif_avant": 0.42921,
-  "objectif_apres": 0.43256
+  "objectif_avant": 0.42926,
+  "objectif_apres": 0.43261
  },
  "test": {
   "avant": {
-   "hit_1d": 0.51,
+   "hit_1d": 0.5091,
    "hit_5d": 0.5035,
-   "mae_1d": 0.011107652998340153,
+   "mae_1d": 0.011123596912942466,
    "n_obs_1d": 1204,
    "n_obs_5d": 1156,
    "par_ticker": {
@@ -136,7 +136,7 @@
     },
     "PCEU": {
      "n": 107,
-     "hit_1d": 0.5514,
+     "hit_1d": 0.5421,
      "hit_5d": 0.4563
     },
     "PAEEM": {
@@ -166,7 +166,7 @@
     },
     "STEC": {
      "n": 107,
-     "hit_1d": 0.514,
+     "hit_1d": 0.5234,
      "hit_5d": 0.4175
     },
     "DEFS": {
@@ -176,7 +176,7 @@
     },
     "SMH": {
      "n": 103,
-     "hit_1d": 0.5049,
+     "hit_1d": 0.4951,
      "hit_5d": 0.596
     },
     "GOAI": {
@@ -187,9 +187,9 @@
    }
   },
   "apres": {
-   "hit_1d": 0.5125,
+   "hit_1d": 0.5116,
    "hit_5d": 0.5052,
-   "mae_1d": 0.011115475234203198,
+   "mae_1d": 0.011131635437142382,
    "n_obs_1d": 1204,
    "n_obs_5d": 1156,
    "par_ticker": {
@@ -205,7 +205,7 @@
     },
     "PCEU": {
      "n": 107,
-     "hit_1d": 0.5607,
+     "hit_1d": 0.5514,
      "hit_5d": 0.4563
     },
     "PAEEM": {
@@ -235,7 +235,7 @@
     },
     "STEC": {
      "n": 107,
-     "hit_1d": 0.5234,
+     "hit_1d": 0.5327,
      "hit_5d": 0.4272
     },
     "DEFS": {
@@ -245,7 +245,7 @@
     },
     "SMH": {
      "n": 103,
-     "hit_1d": 0.5049,
+     "hit_1d": 0.4951,
      "hit_5d": 0.596
     },
     "GOAI": {
@@ -255,8 +255,8 @@
     }
    }
   },
-  "objectif_avant": 0.39814,
-  "objectif_apres": 0.40025
+  "objectif_avant": 0.39754,
+  "objectif_apres": 0.39965
  },
  "poids_avant": {
   "W_MOM20": 0.5,
@@ -286,5 +286,5 @@
   "W_MOM20": -0.025
  },
  "decision": "REJETE_VALIDATION",
- "resume_rapport": "Auto-calibration : candidat REJETÉ. L'ajustement proposé (momentum 20 s, -0,0250) améliorait l'échantillon d'apprentissage mais le gain sur l'échantillon de validation (51,0 % → 51,2 % de hit ratio J+1) reste sous le seuil de significativité de 0,3 pt : indiscernable du bruit. Poids inchangés."
+ "resume_rapport": "Auto-calibration : candidat REJETÉ. L'ajustement proposé (momentum 20 s, -0,0250) améliorait l'échantillon d'apprentissage mais le gain sur l'échantillon de validation (50,9 % → 51,2 % de hit ratio J+1) reste sous le seuil de significativité de 0,3 pt : indiscernable du bruit. Poids inchangés."
 }
