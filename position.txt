@@ -1,4 +1,0 @@
-# Fichier de positions — maintenu par Michael
-# Format : TICKER;QUANTITE;PRU_EUR;DATE_ACHAT (une ligne par position)
-# Exemple : WPEA;100;5.42;2026-08-05
-# Fichier vide (hors commentaires) = aucune position ouverte.

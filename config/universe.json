@@ -1,5 +1,5 @@
 {
- "_comment": "Univers suivi quotidiennement. 'bourso' = symbole Boursorama pour GetTicksEOD (prefixe 1rT = Euronext Paris, 1rA = Euronext Amsterdam). 'groupe' = core (eligible PEA, hors scope PAD, investissable par Michael) ou sectoriel (SUIVI UNIQUEMENT - en scope PAD, non investissable par Michael ; presence eventuelle dans position.txt = compte d'un tiers). HLT remplace par GOAI le 2026-08-18 (voir note sur la ligne GOAI).",
+ "_comment": "Univers suivi quotidiennement. 'bourso' = symbole Boursorama pour GetTicksEOD (prefixe 1rT = Euronext Paris, 1rA = Euronext Amsterdam). 'groupe' = core (eligible PEA, hors scope PAD, investissable par Michael) ou sectoriel (SUIVI UNIQUEMENT - en scope PAD, non investissable par Michael). HLT remplace par GOAI le 2026-08-18 (voir note sur la ligne GOAI).",
  "instruments": [
   {"ticker": "WPEA",  "bourso": "1rTWPEA",  "isin": "IE0002XZSHO1", "nom": "iShares MSCI World Swap PEA",              "groupe": "core",      "frais": 0.20},
   {"ticker": "PE500", "bourso": "1rTPE500", "isin": "FR0013412285", "nom": "Amundi PEA S&P 500 Screened",              "groupe": "core",      "frais": 0.25},

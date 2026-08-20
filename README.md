@@ -14,8 +14,8 @@ Boursorama ni lire/écrire ce dépôt directement) :
    (`scripts/calibrate_weights.py`).
 4. Détermination de la date de séance du jour (déduite des données, jamais de l'horloge
    système).
-5. Score news par ticker + narratif (bilan prédiction/réalisé, avis par position, contexte
-   macro) via une recherche web réelle par l'API Claude (`scripts/generate_narrative.py`).
+5. Score news par ticker + narratif (bilan prédiction/réalisé, contexte macro) via une
+   recherche web réelle par l'API Claude (`scripts/generate_narrative.py`).
 6. Calcul des features et prédictions du jour, couche news incluse
    (`scripts/compute_features.py`).
 7. Génération du rapport HTML complet (`scripts/make_report.py`).

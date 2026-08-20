@@ -2,7 +2,7 @@
 """
 generate_narrative.py — Couche « actualités » : score news par ticker (recherche web via
 l'API Claude) + rédaction du narratif quotidien (bilan prédiction/réalisé — socle ET
-sectoriel —, avis par position, contexte macro).
+sectoriel —, contexte macro).
 
 Tourne sur GitHub Actions, après update_dataset.py et calibrate_weights.py, et AVANT
 compute_features.py (qui consomme predictions/news_{date}.json) et make_report.py (qui
@@ -12,7 +12,7 @@ Principe (identique à l'esprit du reste du pipeline) : toute l'arithmétique �
 prédiction/réalisé, statistiques — est calculée ici en Python, déterministe, à partir des
 fichiers de données. Claude n'intervient que pour (a) attribuer un score news borné et
 justifié par ticker en s'appuyant sur une recherche web réelle, et (b) rédiger la prose
-(contexte macro, avis par position) autour de chiffres déjà calculés — jamais l'inverse.
+(contexte macro) autour de chiffres déjà calculés — jamais l'inverse.
 
 Nécessite : la variable d'environnement ANTHROPIC_API_KEY et le paquet `anthropic`
 (pip install anthropic).
@@ -140,8 +140,6 @@ def main():
 
     universe = load_json(BASE / "config" / "universe.json")["instruments"]
     news_scale = (BASE / "config" / "news_scale.md").read_text(encoding="utf-8")
-    position_path = BASE / "position.txt"
-    position_txt = position_path.read_text(encoding="utf-8") if position_path.exists() else "(vide)"
 
     bilan_html, bilan_data = build_bilan(today_iso, universe)
 
@@ -159,9 +157,6 @@ grille officielle d'attribution du score news, à respecter strictement :
 
 Univers suivi aujourd'hui ({today_iso}) :
 {tickers_desc}
-
-position.txt (positions ouvertes de Michael, format TICKER;QUANTITE;PRU_EUR;DATE_ACHAT) :
-{position_txt}
 
 Rappel de conformité PAD, impératif : les lignes du groupe "sectoriel" sont en scope PAD
 et ne sont PAS investissables par Michael. Ne formule JAMAIS d'avis d'investissement
@@ -182,8 +177,7 @@ Réponds UNIQUEMENT avec un objet JSON valide (rien avant, rien après), au form
     "TICKER": {{"score": <entier -5..5>, "justif": "<une phrase factuelle en français, avec chiffres>"}},
     ... (un par ticker de l'univers ci-dessus, aucun de plus, aucun de moins)
   }},
-  "contexte_html": "<quelques paragraphes HTML (balises <p>, <strong>) résumant l'actualité macro et sectorielle du jour, style note d'analyste>",
-  "avis_html": "<HTML : avis factuel par position ouverte sur le socle uniquement (jamais sur le sectoriel), plus tout point de vigilance ; termine par un rappel explicite que les lignes sectorielles ne sont pas investissables par Michael>"
+  "contexte_html": "<quelques paragraphes HTML (balises <p>, <strong>) résumant l'actualité macro et sectorielle du jour, style note d'analyste>"
 }}"""
 
     client = anthropic.Anthropic()
@@ -224,7 +218,6 @@ Réponds UNIQUEMENT avec un objet JSON valide (rien avant, rien après), au form
 
     narratif = {
         "bilan_html": bilan_html,
-        "avis_html": payload.get("avis_html", ""),
         "contexte_html": payload.get("contexte_html", ""),
     }
     narr_path = BASE / "predictions" / f"narratif_{today_iso}.json"

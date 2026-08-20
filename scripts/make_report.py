@@ -7,7 +7,7 @@ Usage :
 
 Entrées :
   predictions/quant_{date}.json      produit par compute_features.py (--news déjà appliqué)
-  predictions/narratif_{date}.json   parties rédigées : bilan, avis positions, contexte news
+  predictions/narratif_{date}.json   parties rédigées : bilan, contexte news
   config/calibration_log.json        produit par calibrate_weights.py — section « modifications du modèle »
 
 Les tableaux de cours, de prédictions et la section calibration sont générés
@@ -165,9 +165,8 @@ def main():
     H.append('<div class="reserve"><strong>Statut PAD des lignes sectorielles.</strong> Les cinq ETF '
              'sectoriels (EXA1, STEC, DEFS, SMH, HLT) sont des fonds sectoriels au sens des critères PAD : '
              'ils sont <strong>en scope</strong> et ne sont pas investissables par Michael sans autorisation '
-             'préalable. Ils figurent ici à titre de suivi de marché. Toute ligne sectorielle apparaissant '
-             'dans <em>position.txt</em> est réputée appartenir à un tiers et n\'engage pas le périmètre '
-             'PAD de Michael — aucun avis d\'investissement personnel n\'est formulé sur ces lignes.</div>\n')
+             'préalable. Ils figurent ici à titre de suivi de marché uniquement — aucun avis '
+             'd\'investissement personnel n\'est formulé sur ces lignes.</div>\n')
 
     H.append("<h2>1. Cours et variations exactes (source : dataset local)</h2>\n")
     H.append("<h3>Socle — investissable</h3>\n" + table_cours(core))
@@ -192,10 +191,8 @@ def main():
     H.append("<h2>4. Modifications du modèle appliquées à cette exécution</h2>\n")
     H.append(section_calibration(clog))
 
-    if narr.get("avis_html"):
-        H.append("<h2>5. Avis par position</h2>\n" + narr["avis_html"])
     if narr.get("contexte_html"):
-        H.append("<h2>6. Résumé de l'actualité du jour</h2>\n" + narr["contexte_html"])
+        H.append("<h2>5. Résumé de l'actualité du jour</h2>\n" + narr["contexte_html"])
 
     H.append(f'<footer>Rapport généré par make_report.py · modèle {q["model"]} · '
              'composante quant strictement déterministe et reproductible (mêmes cours ⇒ mêmes valeurs) ; '
