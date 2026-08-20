@@ -30,7 +30,7 @@ import anthropic
 
 BASE = Path(__file__).resolve().parent.parent
 # IDs de modèles disponibles : voir docs.claude.com/en/docs/about-claude/models
-MODEL = "claude-sonnet-5"
+MODEL = "claude-haiku-4-5"
 
 
 def load_json(p):
