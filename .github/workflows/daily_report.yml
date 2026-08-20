@@ -63,5 +63,5 @@ jobs:
           from: Pipeline PEA <${{ secrets.MAIL_USERNAME }}>
           to: ${{ secrets.MAIL_TO }}
           subject: "Rapport PEA — ${{ steps.report.outputs.date }}"
-          body: file://${{ steps.report.outputs.report_path }}
-          content_type: text/html
+          body: "Rapport du ${{ steps.report.outputs.date }} en pièce jointe."
+          attachments: ${{ steps.report.outputs.report_path }}
