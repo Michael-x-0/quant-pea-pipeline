@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -1,
+  "justif": "CAC 40 en baisse de 0,57%, tensions géopolitiques et énergétiques persistantes, rendements longs US à 20 ans, créant un biais défavorable."
+ },
+ "PE500": {
+  "score": -1,
+  "justif": "S&P 500 cède 0,4%, Walmart plonge de 9% après déception trimestrielle, consommation américaine prudente, taux élevés pénalisent valuations."
+ },
+ "PCEU": {
+  "score": 0,
+  "justif": "Europe mitigée : CAC 40 -0,57%, tensions équilibrées par tendance consensus, inflation juillet 2,1% en France conforme attentes, pas de catalyseur net."
+ },
+ "PAEEM": {
+  "score": 1,
+  "justif": "Asie-Pacifique en vigueur, Nikkei +0,71%, MSCI Asia a doublé depuis fin 2022, classe moyenne émergente dynamique, demande IA soutenue pour semi-conducteurs."
+ },
+ "PTPXE": {
+  "score": 1,
+  "justif": "Nikkei 225 à +0,71%, marché japonais robuste porté par innovation IA et intégration asiatique, yen faible soutient attrait pour investissement."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Russell 2000 en baisse de 1,37%, petites capitalisations pénalisées par taux élevés et volatilité sur taux vs macro, complexe de croissance affecté."
+ },
+ "PUST": {
+  "score": -1,
+  "justif": "Nasdaq-100 baisse de 1,12%, rendement 10Y à 4,6960% exerce pression sur technologie croissance, volatilité de taux dominante en fin de semaine."
+ },
+ "EXA1": {
+  "score": 0,
+  "justif": "Secteur bancaire européen résilient malgré tensions géopolitiques, tests de résistance BCE prévus 2026, provisions globalement stables, pas de choc sectoriel."
+ },
+ "STEC": {
+  "score": 1,
+  "justif": "TSMC/Intel : TSMC domine capex 2026 soutenue demande IA, Intel progresse 4,62% en préouverture, compétition intense mais carnet rempli."
+ },
+ "DEFS": {
+  "score": 2,
+  "justif": "Augmentation des budgets défense Europe et OTAN, Livre blanc défense 2025 structure montée en puissance, dépenses allemandes/italiennes en accélération stratégique."
+ },
+ "SMH": {
+  "score": 1,
+  "justif": "Secteur semi-conducteurs en vigueur : demande IA soutenue, TSMC capex 2026 élevé, capacités CoWoS saturées favorisent innovation et pricing."
+ },
+ "GOAI": {
+  "score": 2,
+  "justif": "IA/robotique en rythme soutenu : TSMC A16 arrivée 2H2026, clients IA (Nvidia, Google) moteurs clés, innovation packaging/EMIB booste adoption."
+ }
+}
