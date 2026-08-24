@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -1,
+  "justif": "Tensions géopolitiques récurrentes (Iran, Ukraine) et volatilité accrue des taux obligataires US (30-year yields >5.2%) pèsent légèrement sur les marchés globaux."
+ },
+ "PE500": {
+  "score": -2,
+  "justif": "Rendements obligataires US élevés et craintes de ralentissement du marché: CPI août 3.4%, emploi juillet -23k, semi-conducteurs sous pression (Micron -7.5%, SanDisk -10%)."
+ },
+ "PCEU": {
+  "score": -1,
+  "justif": "Volatilité macro européenne persistante; divergences inflationnistes zona euro (France 1.8%, Allemagne 2.3%, Espagne 3.2%); tensions tarifaires US-Canada impact indirect."
+ },
+ "PAEEM": {
+  "score": -1,
+  "justif": "Samsung relève plan actionnaires mais marché déçu; SoftBank annonce émission obligataire record 1000 Mds yens (-6.3Mds$) malgré note Fitch stable."
+ },
+ "PTPXE": {
+  "score": 0,
+  "justif": "Absence de catalyseur net sur le Japon; yen faible vs USD, pétrole stabilisé après tensions Iran; Bank of Korea maintient hausse taux future, Philippines hausse 25bps."
+ },
+ "RS2K": {
+  "score": 0,
+  "justif": "Russell 2000 moins exposé aux tensions technologiques et tarifaires; performance stable, pas de macro specifique small-caps US aujourd'hui."
+ },
+ "PUST": {
+  "score": -2,
+  "justif": "Nasdaq-100 sous pression: volatilité obligataire (5%+), rotation technologie (-chipmakers), Samsung/SoftBank asiatiques faibles, rendements records menacent valuations tech."
+ },
+ "EXA1": {
+  "score": 1,
+  "justif": "Banques zone euro: marge transformation relevée par taux élevés 2026-2027; réarmement européen accélère financements défense; provisions reste faibles malgré risques géopolitiques."
+ },
+ "STEC": {
+  "score": -2,
+  "justif": "Technologie Europe: semi-conducteurs mondiaux en rotation (Gartner prévoit +64% marché mais concentré IA/HBM); Samsung déçoit; polysilicium tarifs US 15%."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Défense Europe: réarmement accéléré face Ukraine persistante et tensions Moyen-Orient (Iran 'Jour J' économique); besoins financement gouvernementaux croissants."
+ },
+ "SMH": {
+  "score": -3,
+  "justif": "Semi-conducteurs mondiaux choc baissier: Samsung guidance faible, Micron -7.5%, SanDisk -10%, DRAM prix +125% YoY crée tensions margin, pénurie offre AI imminente."
+ },
+ "GOAI": {
+  "score": -1,
+  "justif": "IA/robotique monde: malgré demande structurelle IA (+64% semi-conducteurs 2026), pénurie DRAM/HBM et inflation prix mémoire (+125%) menace marges datacenters et moindre accessibilité solutions."
+ }
+}
