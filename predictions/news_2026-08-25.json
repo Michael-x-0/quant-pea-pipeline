@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -1,
+  "justif": "Recul des indices mondiaux lundi (-0,3% S&P 500), volatilité tech pesant sur l'économie mondiale malgré baisse du pétrole."
+ },
+ "PE500": {
+  "score": -1,
+  "justif": "S&P 500 clos en baisse de 0,3% lundi ; tech-heavy Nasdaq -0,8% ; attente résultats Nvidia mercredi crée prudence."
+ },
+ "PCEU": {
+  "score": 0,
+  "justif": "Europe attendue en hausse mardi (mesures US contre Iran), mais tensions géopolitiques et PMI flash matinal en équilibre."
+ },
+ "PAEEM": {
+  "score": -1,
+  "justif": "Asie en baisse lundi (Tokyo -0,70%, Shanghai -0,97%, Hong Kong -1,96%) ; risque géopolitique pèse sur marchés émergents."
+ },
+ "PTPXE": {
+  "score": -1,
+  "justif": "Tokyo a reculé de 0,70% lundi ; yen sensible aux tensions macro globales et attentes de décision Fed/BCE."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Small-caps américaines affectées par rotation vers défense et prudence sur tech ; marché en recalibrage."
+ },
+ "PUST": {
+  "score": -1,
+  "justif": "Nasdaq-100 chute 0,8% lundi ; tech lourdement touchée avant résultats Nvidia ; attente Jackson Hole crée nervosité."
+ },
+ "EXA1": {
+  "score": 0,
+  "justif": "Banques euro bien capitalisées et rentables (source BCE), mais risques géopolitiques surveiller ; rentabilité résiste pour l'instant."
+ },
+ "STEC": {
+  "score": -1,
+  "justif": "Secteur technologie européen affecté par rotations globales et baisse des valorisations tech lundi."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Contexte géopolitique tendu soutient demande défense ; billet Lagarde et tensions commerciales bénéfiques pour le secteur."
+ },
+ "SMH": {
+  "score": -2,
+  "justif": "Semiconducteurs en recul net lundi (Nasdaq tech -1,8%) ; résultats Nvidia mercredi critiques pour sentiment secteur."
+ },
+ "GOAI": {
+  "score": -2,
+  "justif": "IA et robotique fortement exposées à l'attente Nvidia mercredi ; volatilité tech et réévaluations défavorables mardi matin."
+ }
+}
