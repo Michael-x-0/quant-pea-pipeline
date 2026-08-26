@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 0,
+  "justif": "Marchés mondiaux stables : S&P 500 et Nasdaq en légère hausse, majeure attente concentrée sur Nvidia earnings aujourd'hui sans catalyseur macro net identifiable."
+ },
+ "PE500": {
+  "score": 1,
+  "justif": "S&P 500 +0,3% avec rebond tech ; PCE juillet à +3,7% a/a et core PCE stable à +3,3%, confirme anticipations Fed sans surprise majeure directe."
+ },
+ "PCEU": {
+  "score": 0,
+  "justif": "STOXX 600 +0,3% hier ; tensions géopolitiques Iran apaisées temporairement, rendements obligataires détendus, sans catalyseur spécifique région."
+ },
+ "PAEEM": {
+  "score": 2,
+  "justif": "Émergents Asian +1% (Chine CSI 300 +1,31%, Corée KOSPI +1,04%) ; rebond broad suite baisse pétrole, avant Nvidia earnings qui impact lourdement semi AsiaX."
+ },
+ "PTPXE": {
+  "score": 0,
+  "justif": "Nikkei +0,62% (66262 pts) sur baisse pétrole et rendements obligataires ; Terra Drone +20% après contrat défense mais pas catalyseur systémique Topix."
+ },
+ "RS2K": {
+  "score": 0,
+  "justif": "Russell 2000 inchangé ; marché US préoccupé par Nvidia earnings après heures, sans catalyseur spécifique small caps identifiable."
+ },
+ "PUST": {
+  "score": 1,
+  "justif": "Nasdaq +0,66%, semi rebondissent avant Nvidia earnings due ce soir ; options pricing ~5,4% move impliqué, baisse pétrole soutient growth stocks."
+ },
+ "EXA1": {
+  "score": 1,
+  "justif": "Banques Europe zone euro stables malgré rendements plus élevés ; aucune décision ECB aujourd'hui, taux inchangés depuis juin, flux sectoriel neutre."
+ },
+ "STEC": {
+  "score": -1,
+  "justif": "Tech Europe affectée ; Infineon et Siemens Energy -3% hier sur attente Nvidia ; ASML -1%, crainte d'une déception possible ce soir sur demand AI."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Défense Europe stable ; Terra Drone Japan +20% contrat JSF, geopolitique Moyen-Orient toujours backdrop positif pour secteur défense européen."
+ },
+ "SMH": {
+  "score": 1,
+  "justif": "Semi mondiaux +1,5% hier malgré baisse chip stocks lundi ; rally avant Nvidia earnings, SOXX en rebond, momentum court-terme favorable."
+ },
+ "GOAI": {
+  "score": 1,
+  "justif": "Robotique & IA monde bénéficient baisse pétrole et rendements ; Terra Drone +20%, physique AI accélère en 2026, flow capital privé/gov sustenance."
+ }
+}
