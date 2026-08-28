@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Rapport PEA — 2026-08-27</title>
+<style>
+  body { font-family: -apple-system, Segoe UI, Arial, sans-serif; max-width: 1060px; margin: 30px auto; padding: 0 20px; color: #1a1a1a; line-height: 1.5; }
+  h1 { font-size: 1.5em; border-bottom: 3px solid #1a4d8f; padding-bottom: 10px; }
+  h2 { font-size: 1.15em; color: #1a4d8f; margin-top: 34px; border-bottom: 1px solid #ddd; padding-bottom: 6px; }
+  h3 { font-size: 1.0em; color: #333; margin-top: 22px; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 0.92em; }
+  th, td { border: 1px solid #ddd; padding: 6px 9px; text-align: right; }
+  th { background: #1a4d8f; color: #fff; text-align: center; }
+  td:first-child, th:first-child { text-align: left; font-weight: 600; }
+  tr:nth-child(even) { background: #f6f8fb; }
+  .pos { color: #0a7a2f; font-weight: 600; }
+  .neg { color: #b3221e; font-weight: 600; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 0.85em; font-weight: 600; }
+  .ok { background: #dff3e3; color: #0a7a2f; }
+  .nok { background: #fbe0df; color: #b3221e; }
+  .note { background: #fff8e1; border-left: 4px solid #f0ad4e; padding: 10px 14px; margin: 14px 0; font-size: 0.93em; }
+  .reserve { background: #fdeceb; border-left: 4px solid #b3221e; padding: 10px 14px; margin: 14px 0; font-size: 0.93em; }
+  .calib { background: #eef4fb; border-left: 4px solid #1a4d8f; padding: 10px 14px; margin: 14px 0; font-size: 0.93em; }
+  .sect th { background: #6b4d8f; }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #ddd; font-size: 0.85em; color: #555; }
+  .small { font-size: 0.85em; color: #555; }
+  td.just { text-align: left; font-weight: 400; font-size: 0.9em; }
+</style>
+</head>
+<body>
+<h1>📊 Rapport PEA — 2026-08-27</h1>
+<p class="small">Analyste quotidien automatisé — modèle <strong>v2.0</strong>. Univers : 7 ETF socle (éligibles PEA, hors scope PAD) + 5 ETF sectoriels <strong>en suivi seul</strong>. Données Boursorama EOD, clôture Euronext définitive.</p>
+<div class="reserve"><strong>Statut PAD des lignes sectorielles.</strong> Les cinq ETF sectoriels (EXA1, STEC, DEFS, SMH, HLT) sont des fonds sectoriels au sens des critères PAD : ils sont <strong>en scope</strong> et ne sont pas investissables par Michael sans autorisation préalable. Ils figurent ici à titre de suivi de marché uniquement — aucun avis d'investissement personnel n'est formulé sur ces lignes.</div>
+<h2>1. Cours et variations exactes (source : dataset local)</h2>
+<h3>Socle — investissable</h3>
+<table>
+<tr><th>Ticker</th><th>Close</th><th>Var 1J</th><th>Var 5J</th><th>YTD</th><th>Var 1 an</th><th>RSI14</th><th>Z20</th><th>Vol. 20j ann.</th></tr>
+<tr><td>WPEA</td><td>6,967</td><td class="pos">+0,35%</td><td class="pos">+0,75%</td><td class="pos">+13,83%</td><td class="pos">+21,08%</td><td>52,4</td><td>-0,30</td><td>9,2%</td></tr>
+<tr><td>PE500</td><td>55,410</td><td class="pos">+0,82%</td><td class="pos">+1,02%</td><td class="pos">+14,37%</td><td class="pos">+23,45%</td><td>55,6</td><td>-0,00</td><td>12,1%</td></tr>
+<tr><td>PCEU</td><td>40,230</td><td class="neg">-0,72%</td><td class="pos">+0,29%</td><td class="pos">+12,44%</td><td class="pos">+21,10%</td><td>50,2</td><td>-1,00</td><td>5,9%</td></tr>
+<tr><td>PAEEM</td><td>35,855</td><td class="pos">+0,29%</td><td class="pos">+1,63%</td><td class="pos">+25,06%</td><td class="pos">+38,44%</td><td>55,3</td><td>1,21</td><td>21,4%</td></tr>
+<tr><td>PTPXE</td><td>38,515</td><td class="pos">+0,27%</td><td class="pos">+1,45%</td><td class="pos">+20,32%</td><td class="pos">+26,26%</td><td>51,4</td><td>-0,25</td><td>15,3%</td></tr>
+<tr><td>RS2K</td><td>388,770</td><td class="pos">+0,48%</td><td class="pos">+0,38%</td><td class="pos">+22,19%</td><td class="pos">+28,74%</td><td>46,9</td><td>-0,62</td><td>10,9%</td></tr>
+<tr><td>PUST</td><td>101,700</td><td class="pos">+1,21%</td><td class="pos">+1,27%</td><td class="pos">+17,19%</td><td class="pos">+26,48%</td><td>50,2</td><td>-0,14</td><td>18,1%</td></tr>
+</table>
+<h3>Sectoriels — suivi seul</h3>
+<table class="sect">
+<tr><th>Ticker</th><th>Close</th><th>Var 1J</th><th>Var 5J</th><th>YTD</th><th>Var 1 an</th><th>RSI14</th><th>Z20</th><th>Vol. 20j ann.</th></tr>
+<tr><td>EXA1</td><td>20,850</td><td class="neg">-1,95%</td><td class="pos">+0,19%</td><td class="pos">+22,29%</td><td class="pos">+44,42%</td><td>50,4</td><td>-1,28</td><td>13,6%</td></tr>
+<tr><td>STEC</td><td>7,847</td><td class="pos">+1,65%</td><td class="pos">+1,16%</td><td class="pos">+23,22%</td><td class="pos">+30,90%</td><td>53,8</td><td>0,16</td><td>20,3%</td></tr>
+<tr><td>DEFS</td><td>6,222</td><td class="neg">-0,10%</td><td class="neg">-1,39%</td><td class="pos">+10,63%</td><td class="pos">+8,25%</td><td>48,8</td><td>-1,05</td><td>18,5%</td></tr>
+<tr><td>SMH</td><td>90,565</td><td class="pos">+1,62%</td><td class="pos">+0,80%</td><td class="pos">+70,95%</td><td class="pos">+118,77%</td><td>46,5</td><td>-0,47</td><td>39,5%</td></tr>
+<tr><td>GOAI</td><td>143,490</td><td class="pos">+3,80%</td><td class="pos">+3,64%</td><td class="pos">+27,31%</td><td class="pos">+34,91%</td><td>56,1</td><td>0,29</td><td>26,3%</td></tr>
+</table>
+<h2>2. Bilan des prédictions passées (auto-évaluation)</h2>
+<p class="small">Comparaison des prédictions J+1 faites le 2026-08-26 vs réalisé exact du dataset. Univers évalué : 12 tickers (socle + sectoriel).</p>
+<table>
+<tr><th>Ticker</th><th>Prédit %</th><th>Réalisé %</th><th>Erreur (pts)</th><th>Direction</th></tr>
+<tr><td>WPEA</td><td>+0,10</td><td>+0,35</td><td>+0,24</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>PE500</td><td>+0,19</td><td>+0,82</td><td>+0,63</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>PCEU</td><td>+0,07</td><td>-0,72</td><td>-0,79</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>PAEEM</td><td>+0,01</td><td>+0,29</td><td>+0,28</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>PTPXE</td><td>+0,17</td><td>+0,27</td><td>+0,10</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>RS2K</td><td>+0,14</td><td>+0,48</td><td>+0,33</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>PUST</td><td>+0,21</td><td>+1,21</td><td>+1,00</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>EXA1</td><td>+0,27</td><td>-1,95</td><td>-2,22</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>STEC</td><td>+0,17</td><td>+1,65</td><td>+1,47</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>DEFS</td><td>+0,38</td><td>-0,10</td><td>-0,47</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>SMH</td><td>+0,48</td><td>+1,62</td><td>+1,14</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>GOAI</td><td>+0,32</td><td>+3,80</td><td>+3,48</td><td><span class="badge ok">OUI</span></td></tr>
+</table>
+<p><strong>9/12 directions correctes</strong> &middot; erreur moyenne signée <strong>+0,43 pt</strong> &middot; erreur absolue moyenne <strong>1,01 pt</strong>.</p><h2>3. Prédictions — J+1 / J+5 / fin d'année</h2>
+<p class="small">Valeur unique = signal quant déterministe + overlay news borné. Échelle news <strong>[-5, +5]</strong> (élargie le 11/08/2026) · J+1 : quant + score×0,04 · J+5 : quant + score×0,10 · EOY : quant + score×0,30. Influence maximale des news : ±0,20 pt (J+1), ±0,50 pt (J+5), ±1,50 pt (EOY) — identique à la v1 malgré l'échelle élargie. Barème : config/news_scale.md</p>
+<h3>Socle</h3>
+<table>
+<tr><th>Ticker</th><th>Quant J+1</th><th>News</th><th>Préd. J+1</th><th>Quant J+5</th><th>Préd. J+5</th><th>Quant EOY</th><th>Préd. EOY</th><th>Justification du score news</th></tr>
+<tr><td>WPEA</td><td class="pos">+0,11%</td><td>+0</td><td class="pos">+0,11%</td><td class="pos">+0,50%</td><td class="pos">+0,50%</td><td class="pos">+5,99%</td><td class="pos">+5,99%</td><td class="just">Indice mondial sans catalyseur spécifique ; divergence entre excellents résultats Nvidia (+106% CA) et recul CAC 40 (-1,68%) reflète l'hétérogénéité des marchés.</td></tr>
+<tr><td>PE500</td><td class="pos">+0,13%</td><td>+2</td><td class="pos">+0,21%</td><td class="pos">+0,68%</td><td class="pos">+0,88%</td><td class="pos">+8,45%</td><td class="pos">+9,05%</td><td class="just">Nvidia surperforme avec +106% de croissance annuelle de CA et +117% sur les datacenters ; S&P 500 futures en hausse, mais attente du discours de Kevin Warsh vendredi crée une tension de court terme.</td></tr>
+<tr><td>PCEU</td><td class="pos">+0,11%</td><td>-2</td><td class="pos">+0,03%</td><td class="pos">+0,38%</td><td class="pos">+0,18%</td><td class="pos">+3,99%</td><td class="pos">+3,39%</td><td class="just">CAC 40 recule de 1,68% à 8 320 pts ; préoccupations sur inflation américaine persistante et attente de clarifications sur les taux de la Fed ; banques européennes et Pernod Ricard en baisse significative.</td></tr>
+<tr><td>PAEEM</td><td class="neg">-0,12%</td><td>+1</td><td class="neg">-0,09%</td><td class="pos">+0,09%</td><td class="pos">+0,19%</td><td class="pos">+7,01%</td><td class="pos">+7,31%</td><td class="just">Émergents tirent profit des tensions sur mémoire DRAM (+125% de prix prévus en 2026 selon Gartner) et forte demande IA ; Asie en rebond, notamment technologie.</td></tr>
+<tr><td>PTPXE</td><td class="pos">+0,12%</td><td>+0</td><td class="pos">+0,12%</td><td class="pos">+0,53%</td><td class="pos">+0,53%</td><td class="pos">+6,05%</td><td class="pos">+6,05%</td><td class="just">Japon neutre en séance ; TOPIX a gagné 1,6% jeudi précédent, mais absence de catalyseur spécifique au 27 août ; devises figées en attente Jackson Hole.</td></tr>
+<tr><td>RS2K</td><td class="pos">+0,14%</td><td>-1</td><td class="pos">+0,10%</td><td class="pos">+0,54%</td><td class="pos">+0,43%</td><td class="pos">+5,47%</td><td class="pos">+5,17%</td><td class="just">Small caps américains en retrait ; convergence vers les tech du large cap alimentée par résultats Nvidia, laissant les Russell 2000 en second plan avec volatilité macro en arrière-plan.</td></tr>
+<tr><td>PUST</td><td class="pos">+0,11%</td><td>+3</td><td class="pos">+0,23%</td><td class="pos">+0,48%</td><td class="pos">+0,79%</td><td class="pos">+5,78%</td><td class="pos">+6,68%</td><td class="just">Nasdaq 100 en hausse suite résultats Nvidia (chiffre d'affaires +106% annuel, revenus datacenters +117%, prévisions 2028 +70%) ; futures nettement redressées.</td></tr>
+</table>
+<h3>Sectoriels — suivi seul</h3>
+<table class="sect">
+<tr><th>Ticker</th><th>Quant J+1</th><th>News</th><th>Préd. J+1</th><th>Quant J+5</th><th>Préd. J+5</th><th>Quant EOY</th><th>Préd. EOY</th><th>Justification du score news</th></tr>
+<tr><td>EXA1</td><td class="pos">+0,33%</td><td>-1</td><td class="pos">+0,29%</td><td class="pos">+1,22%</td><td class="pos">+1,12%</td><td class="pos">+11,00%</td><td class="pos">+10,70%</td><td class="just">Banques européennes sous pression avec CAC 40 en baisse de 1,68% ; persistance craintes inflation américaine alimente incertitude sur taux Fed ; secteur bancaire zone euro affecté.</td></tr>
+<tr><td>STEC</td><td class="pos">+0,08%</td><td>+2</td><td class="pos">+0,16%</td><td class="pos">+0,53%</td><td class="pos">+0,73%</td><td class="pos">+7,45%</td><td class="pos">+8,05%</td><td class="just">Technologie Europe rebondit : Soitec +2,3% sur percée photonique silicium pour datacenters IA ; STMicroelectronics +3% suite résultats de secteur favorables.</td></tr>
+<tr><td>DEFS</td><td class="pos">+0,34%</td><td>+0</td><td class="pos">+0,34%</td><td class="pos">+1,20%</td><td class="pos">+1,20%</td><td class="pos">+10,35%</td><td class="pos">+10,35%</td><td class="just">Défense Europe neutre ; absence de choc géopolitique majeur ; CAC 40 en baisse reflet général, mais pas d'actualité sectorielle défense spécifique du jour.</td></tr>
+<tr><td>SMH</td><td class="pos">+0,19%</td><td>+3</td><td class="pos">+0,31%</td><td class="pos">+0,41%</td><td class="pos">+0,71%</td><td class="pos">+1,71%</td><td class="pos">+2,61%</td><td class="just">Semi-conducteurs portés par résultats Nvidia et perspective croissance 2026 à +30% du marché (IA-focused) ; demande infrastructure datacenters IA soutient prix et volumes.</td></tr>
+<tr><td>GOAI</td><td class="pos">+0,06%</td><td>+4</td><td class="pos">+0,22%</td><td class="pos">+0,56%</td><td class="pos">+0,96%</td><td class="pos">+8,82%</td><td class="pos">+10,02%</td><td class="just">IA/Robotique est le thème dominant : résultats Nvidia exceptionnels (+106% CA, datacenters +117%) déclenche rallye confiance ; investissements hyperscalers +50% prévus en 2026 (~600 Mds$).</td></tr>
+</table>
+<h2>4. Modifications du modèle appliquées à cette exécution</h2>
+<p><span class="badge ok">REJETE_VALIDATION</span></p>
+<div class="calib">Auto-calibration : candidat REJETÉ. L'ajustement proposé (momentum 20 s, -0,0250) améliorait l'échantillon d'apprentissage mais le gain sur l'échantillon de validation (51,0 % → 51,3 % de hit ratio J+1) reste sous le seuil de significativité de 0,3 pt : indiscernable du bruit. Poids inchangés.</div>
+<table>
+<tr><th>Métrique</th><th>Apprentissage (70 % anciens)</th><th>Validation (30 % récents)</th></tr>
+<tr><td>Hit ratio J+1</td><td>52,1%</td><td>51,0%</td></tr>
+<tr><td>Hit ratio J+5</td><td>53,0%</td><td>50,0%</td></tr>
+<tr><td>Observations J+1</td><td>2827</td><td>1227</td></tr>
+</table>
+<p class="small">Hit ratio des prédictions <em>réellement publiées</em> sur les 113 dernières observations : <strong>53,1 %</strong>. Cet indicateur pilote le mécanisme de rollback.</p>
+<p class="small">Garde-fous actifs : seuil de 20 séances évaluées par ticker · pas maximal de 5 % par exécution · borne dure de ±30 % autour des poids v1 · validation walk-forward obligatoire · rollback si le hit ratio live perd plus de 5 pt sur 10 séances.</p>
+<h2>5. Résumé de l'actualité du jour</h2>
+<p><strong>Marché macro US/EUR en tension avant Jackson Hole.</strong> Le discours de Kevin Warsh vendredi 28 août depuis Jackson Hole est attendu comme élément clé pour clarifier la trajectoire des taux de la Fed. <cite index="4-3">Le « Dollar-Index » reste figé à 0,9910 (-0,05%), euro inchangé à 1,1650</cite>, les cambistes ayant mis leurs systèmes de trading sur pause. <cite index="4-5">Les nouvelles inscriptions au chômage US ont baissé de 4 000 à 203 000 contre 208 000 attendu</cite>, signal mineur noyé dans l'attente macro plus large.</p><p><strong>Inflation persistante pénalise le CAC 40, la zone euro reste en retrait.</strong> <cite index="2-1,2-6,2-7">Malgré les excellents résultats de Nvidia (CA +106% a/a, 96,2 Mds$), le CAC 40 recule de 1,68% à 8 320 points</cite>. <cite index="23-1,23-2">L'inflation en Allemagne s'établit à 2,3%, en France 1,8%, mais l'Espagne affiche 3,2% et l'Italie 3%</cite>, illustrant l'hétérogénéité persistante qui crée de l'incertitude pour les banques centrales. <cite index="2-10">Pernod Ricard (-4,6%), Eiffage (-7,4%) et les grandes banques françaises accentuent la pression</cite>.</p><p><strong>Nvidia catapulte les semi-conducteurs et l'IA : choc positif concentré.</strong> <cite index="2-2,2-7">Le géant américain affiche un chiffre d'affaires en hausse de 106% sur un an, à 96,2 milliards de dollars</cite>. <cite index="5-7,5-8">Les revenus des datacenters ont bondi de 117%, les prévisions pour 2028 annoncent une croissance supplémentaire de 70%, l'action Nvidia a réagi avec une hausse de près de 5%, entraînant le S&P 500, Nasdaq 100 et Dow Jones à la hausse</cite>. <cite index="13-3,13-4">Les semi-conducteurs IA devraient représenter 30% du CA du secteur en 2026 et rester la locomotive de croissance ; les investissements des hyperscalers dans l'infrastructure IA devraient progresser de plus de 50%, approchant 600 Mds$</cite>.</p><p><strong>Rallye de la technologie européenne, mais contraste géographique persistant.</strong> <cite index="2-8">Les semi-conducteurs européens en profitent : Soitec (+2,3%) et STMicroelectronics (+3%)</cite>, mais le rebond du secteur ne suffit pas à entraîner le marché global : le CAC 40 demeure en baisse. <cite index="15-2,15-3">Soitec a rehaussé ses prévisions grâce à sa percée en photonique silicium pour datacenters d'IA ; ASML affiche un bénéfice net de 2,9 Mds€ en Q2, en hausse de 5,8%</cite>.</p><footer>Rapport généré par make_report.py · modèle v2.0 · composante quant strictement déterministe et reproductible (mêmes cours ⇒ mêmes valeurs) ; seule l'attribution du score news comporte une part de jugement, bornée. Ce document est un outil de suivi personnel et ne constitue pas un conseil en investissement.</footer>
+</body>
+</html>

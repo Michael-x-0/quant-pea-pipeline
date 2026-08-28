@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 0,
+  "justif": "Indice mondial sans catalyseur spécifique ; divergence entre excellents résultats Nvidia (+106% CA) et recul CAC 40 (-1,68%) reflète l'hétérogénéité des marchés."
+ },
+ "PE500": {
+  "score": 2,
+  "justif": "Nvidia surperforme avec +106% de croissance annuelle de CA et +117% sur les datacenters ; S&P 500 futures en hausse, mais attente du discours de Kevin Warsh vendredi crée une tension de court terme."
+ },
+ "PCEU": {
+  "score": -2,
+  "justif": "CAC 40 recule de 1,68% à 8 320 pts ; préoccupations sur inflation américaine persistante et attente de clarifications sur les taux de la Fed ; banques européennes et Pernod Ricard en baisse significative."
+ },
+ "PAEEM": {
+  "score": 1,
+  "justif": "Émergents tirent profit des tensions sur mémoire DRAM (+125% de prix prévus en 2026 selon Gartner) et forte demande IA ; Asie en rebond, notamment technologie."
+ },
+ "PTPXE": {
+  "score": 0,
+  "justif": "Japon neutre en séance ; TOPIX a gagné 1,6% jeudi précédent, mais absence de catalyseur spécifique au 27 août ; devises figées en attente Jackson Hole."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Small caps américains en retrait ; convergence vers les tech du large cap alimentée par résultats Nvidia, laissant les Russell 2000 en second plan avec volatilité macro en arrière-plan."
+ },
+ "PUST": {
+  "score": 3,
+  "justif": "Nasdaq 100 en hausse suite résultats Nvidia (chiffre d'affaires +106% annuel, revenus datacenters +117%, prévisions 2028 +70%) ; futures nettement redressées."
+ },
+ "EXA1": {
+  "score": -1,
+  "justif": "Banques européennes sous pression avec CAC 40 en baisse de 1,68% ; persistance craintes inflation américaine alimente incertitude sur taux Fed ; secteur bancaire zone euro affecté."
+ },
+ "STEC": {
+  "score": 2,
+  "justif": "Technologie Europe rebondit : Soitec +2,3% sur percée photonique silicium pour datacenters IA ; STMicroelectronics +3% suite résultats de secteur favorables."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Défense Europe neutre ; absence de choc géopolitique majeur ; CAC 40 en baisse reflet général, mais pas d'actualité sectorielle défense spécifique du jour."
+ },
+ "SMH": {
+  "score": 3,
+  "justif": "Semi-conducteurs portés par résultats Nvidia et perspective croissance 2026 à +30% du marché (IA-focused) ; demande infrastructure datacenters IA soutient prix et volumes."
+ },
+ "GOAI": {
+  "score": 4,
+  "justif": "IA/Robotique est le thème dominant : résultats Nvidia exceptionnels (+106% CA, datacenters +117%) déclenche rallye confiance ; investissements hyperscalers +50% prévus en 2026 (~600 Mds$)."
+ }
+}
