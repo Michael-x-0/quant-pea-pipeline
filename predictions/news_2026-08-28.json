@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 0,
+  "justif": "Indice mondial : pas de catalyseur net, marchés mondiaux en attente des signaux de Warsh sur la politique Fed."
+ },
+ "PE500": {
+  "score": 1,
+  "justif": "S&P 500 quasi stable (+0,20% en séance), avance hebdomadaire de +0,5% ; Fed signale préoccupation sur inflation mais pas de direction de taux claire."
+ },
+ "PCEU": {
+  "score": 0,
+  "justif": "Eurostoxx : pas de catalyseur macro identifiable, BCE en attentiste avec taux à 2,4% ; écart divergence Fed/BCE sans impact sectoriel Europe net."
+ },
+ "PAEEM": {
+  "score": -1,
+  "justif": "Marchés émergents Asie fractionnés : Kospi -1,3% après euphorie Nvidia, Samsung et SK Hynix perdent du terrain ; tensions géopolitiques et marge d'erreur calibrage IA."
+ },
+ "PTPXE": {
+  "score": 1,
+  "justif": "Nikkei stable 66,500+, Topix +38 pts à 4,155 en séance japonaise ; indice broad-based en hausse légère, participations élargies reflètent soutien IT services."
+ },
+ "RS2K": {
+  "score": 0,
+  "justif": "Russell 2000 US domestique : pas de nouvelle sectorielle spécifique ; S&P 500 mixte ne crée pas de biais clair pour small-caps."
+ },
+ "PUST": {
+  "score": 1,
+  "justif": "Nasdaq 100 +0,14% en séance ; Nvidia blockbuster + Elastic +18%, Salesforce en rebond IA ; Marvell -7% tempère enthousiasme tech gains."
+ },
+ "EXA1": {
+  "score": -1,
+  "justif": "Banques euro zone : tension obligataire persiste (rendement 10Y +4bp), implication taux directeurs Fed/BCE sur marge crédit écartèles."
+ },
+ "STEC": {
+  "score": 1,
+  "justif": "Technologie Europe : rebond logiciel IA (Elastic earnings), mais semi-conducteurs mémoire en correction post-Nvidia guidance (HBM/GPU prix volatiles)."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Défense Europe : pas de catalyseur géopolitique majeur identifié 28-08, tensions stables sans rupture structurante."
+ },
+ "SMH": {
+  "score": 0,
+  "justif": "Semi-conducteurs mondiaux : Nvidia blockbuster balancé par Marvell -7% ; Gartner prévoit +64% secteur 2026 mais marge prix mémoire volatile, pas de biais net."
+ },
+ "GOAI": {
+  "score": 2,
+  "justif": "IA/Robotique monde : Nvidia guidance solide porté par déploiements datacenter, Elastic +18% earnings beat ; infrastructure IA capex +50% 2026 selon Bloomberg."
+ }
+}
