@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -2,
+  "justif": "Escalating Middle East tensions drove oil above $85 with 10-year yields at 6-month highs; manufacturing PMI fell to 47.1 vs consensus 58, intensifying stagflation concerns."
+ },
+ "PE500": {
+  "score": -2,
+  "justif": "S&P 500 fell 0.33% as geopolitical risks elevated oil prices and revived inflation expectations; US-Iran military engagement weighed on risk appetite."
+ },
+ "PCEU": {
+  "score": -1,
+  "justif": "European equities declined modestly amid broad-based selling pressure; banks remain well-capitalized with record €228B shareholder payouts planned for 2026."
+ },
+ "PAEEM": {
+  "score": -1,
+  "justif": "Emerging markets sentiment mixed; MSCI EM up 10.18% since July 31, but current session weakness reflects risk-off tone from Middle East escalation."
+ },
+ "PTPXE": {
+  "score": -1,
+  "justif": "Nikkei 225 down 0.14% on session as Middle East tensions ripple through global markets; weak yen historically supportive for export-heavy index."
+ },
+ "RS2K": {
+  "score": -2,
+  "justif": "Russell 2000 down 0.86% with only 25% of holdings advancing; small-cap sector particularly exposed to growth concerns from PMI collapse to 47.1."
+ },
+ "PUST": {
+  "score": -1,
+  "justif": "Nasdaq Composite down 0.12% despite tech sector (+3.2%) outperformance; Nasdaq-100 faces headwinds from Fed rate hike probability spikes amid inflation fears."
+ },
+ "EXA1": {
+  "score": 0,
+  "justif": "European banking sector structurally sound with CET1 ratio at 16.27% in March 2026; geopolitical noise temporary against backdrop of strong capital generation and dividend policy."
+ },
+ "STEC": {
+  "score": -1,
+  "justif": "Tech stocks globally under pressure from AI capex repricing; European tech weakness follows US selloff and PMI deterioration, though sector remains essential to supply chain."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "US-Iran military escalation benefits defense equities; Strait of Hormuz tensions and broader Middle East uncertainty support demand outlook for defense contractors."
+ },
+ "SMH": {
+  "score": -1,
+  "justif": "Semiconductor sector remains volatile on AI investment sustainability concerns; recent July selloff of $1 trillion followed by stabilization, current Middle East premium limited."
+ },
+ "GOAI": {
+  "score": 0,
+  "justif": "AI robotics sector neutral despite macro noise; Fed Chair Warsh emphasized secular growth narrative at Jackson Hole; geopolitical tensions do not directly impact AI infrastructure demand cycle."
+ }
+}
