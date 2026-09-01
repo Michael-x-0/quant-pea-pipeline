@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -1,
+  "justif": "CAC 40 -0,39% et taux obligataires en hausse ; inflation zone euro 3,3% en août (+0,4 pts/mois)."
+ },
+ "PE500": {
+  "score": -1,
+  "justif": "Rendements obligataires US en hausse et tensions Iran/États-Unis ravivant craintes inflationnistes."
+ },
+ "PCEU": {
+  "score": -2,
+  "justif": "Inflation zone euro 3,3% en août (plus haut depuis 3 ans) ; BCE communiquée hawkish pour septembre."
+ },
+ "PAEEM": {
+  "score": 0,
+  "justif": "Absence de catalyseur identifiable sur les émergents; marchés asiatiques en léger retrait sans signal net."
+ },
+ "PTPXE": {
+  "score": 0,
+  "justif": "Yen et marchés asiatiques stables ; pas d'actualité macro spécifique au Japon ce jour."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Petites capitalisations US sous pression hausse taux ; tensions geopolitiques Iran freinent risque-off."
+ },
+ "PUST": {
+  "score": -1,
+  "justif": "Nasdaq-100 affecté par tensions taux obligataires et récession IA (commentaires prudence sur tech)."
+ },
+ "EXA1": {
+  "score": -2,
+  "justif": "Banques zone euro pénalisées par hausse taux et compression marges ; tensions sur actifs obligataires."
+ },
+ "STEC": {
+  "score": 0,
+  "justif": "Tech Europe stable malgré IA qui tire semi-conducteurs ; pas de choc spécifique secteur ce jour."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Escalade États-Unis/Iran renforce perception réarmement durable ; budgets défense européens en hausse structurelle."
+ },
+ "SMH": {
+  "score": 1,
+  "justif": "Semiconducteurs portés IA (GPU/HBM) ; marché atteint 88,8 Mds$ février 2026 (+61,8% a/a)."
+ },
+ "GOAI": {
+  "score": 1,
+  "justif": "Robotique et IA en croissance structurelle ; investissements hyperscalers +50% 2026 estimés 600 Mds$."
+ }
+}
