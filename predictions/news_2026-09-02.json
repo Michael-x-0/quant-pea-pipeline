@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 1,
+  "justif": "Marché mondial en léger rebond : S&P 500 +0,6 %, Nasdaq +0,5 % après trois séances de baisse, mais CAC 40 -0,26 % ; tensions géopolitiques Moyen-Orient et taux obligataires multidécennaux tempèrent l'optimisme."
+ },
+ "PE500": {
+  "score": 1,
+  "justif": "S&P 500 gagne 0,6 % après rebond technique de trois jours de baisse, poids limité dans le contexte de hausse des taux à des pics multi-décennies et tensions Iran amplifiées au Moyen-Orient."
+ },
+ "PCEU": {
+  "score": -1,
+  "justif": "CAC 40 recule de 0,26 % ; Europe affectée par tensions géopolitiques Moyen-Orient (pétrole +), dégradation du consensus de croissance (guerre déjà intégrée fin mars), anticipation de stagflation."
+ },
+ "PAEEM": {
+  "score": 0,
+  "justif": "Marchés émergents asymétriques : tensions Iran néfastes, mais aucun catalyst isolable spécifique aux émergents ; équilibrage entre risques géopolitiques et demande d'IA (semi-conducteurs)."
+ },
+ "PTPXE": {
+  "score": -2,
+  "justif": "USD/JPY chute de 0,78 % (159.93), yen en forte pression inversée vs fin août ; TOPIX affecté par risque d'appréciation durable du yen qui éroderait les bénéfices d'exportateurs, même avec demande IA."
+ },
+ "RS2K": {
+  "score": 0,
+  "justif": "Russell 2000 en attente : emploi privé août ralentissant (38k vs 46k), taux obligataires multi-décennies créent headwind sur petites caps, absence de catalyseur net ce jour."
+ },
+ "PUST": {
+  "score": 1,
+  "justif": "Nasdaq-100 rebond technique +0,5 % après trois séances baissières, mais taux obligataires US à records historiques limitent les gains sur technologie ; contexte neutre-léger."
+ },
+ "EXA1": {
+  "score": 0,
+  "justif": "Secteur banques euro en attente : taux obligataires à pics multi-décennies (+spread) mais tensions crédit limites ; pas de catalyseur sectoriel identifié ce 2 septembre."
+ },
+ "STEC": {
+  "score": 2,
+  "justif": "Semi-conducteurs Europe bénéficient de demande IA robuste : marché semi-conducteurs 2026 évalué +64 %, Broadcom/Snowflake/HPE résultats aujourd'hui, mais rebond modéré sur tensions taux."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Défense Europe soutenue par tensions Moyen-Orient persistantes (conflits US-Iran, escalade militaire), mais sans rupture systémique immédiate ; catalyseur géopolitique modéré."
+ },
+ "SMH": {
+  "score": 2,
+  "justif": "Semi-conducteurs monde : demande IA explosive, marchés DRAM/NAND en flambée tarifaire (+125 % et +234 %) en 2026, investissements datacenters hyperscalers ~600 Mds USD, tension d'approvisionnement bénéfique."
+ },
+ "GOAI": {
+  "score": 3,
+  "justif": "IA/robotique monde catalyseur significatif : croissance AI-chips à 30 % du secteur semi-conducteurs 2026, capex hyperscalers +50 %, demande HBM/GPU durable, mais taux obligatoires élevés freinent valorisation."
+ }
+}
