@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 0,
+  "justif": "Marchés mondiaux légèrement positifs (S&P 500 +1,01%), pas de catalyseur macro net malgré tensions Iran-États-Unis."
+ },
+ "PE500": {
+  "score": 1,
+  "justif": "S&P 500 gagne 1,01%, soutenu par optimisme géopolitique relatif mais freiné par débat Fed/inflation et rendements obligataires à 4,72%."
+ },
+ "PCEU": {
+  "score": 2,
+  "justif": "Euro Stoxx grimpe 2,9%, banques zone euro bonifiées par recul des rendements (Santander, UniCredit, BNP +5,5%), ASML +6,1%."
+ },
+ "PAEEM": {
+  "score": 1,
+  "justif": "MSCI EM +19% en 2026 porté par IA et semiconducteurs asiatiques, mais concentration excessive sur Taiwan-Corée crée risques."
+ },
+ "PTPXE": {
+  "score": 2,
+  "justif": "Topix bénéficie de perspectives haussières (BofA cible 3.700 fin 2026) mais menacé par yen fort et resserrement BOJ à moyen terme."
+ },
+ "RS2K": {
+  "score": 1,
+  "justif": "Russell 2000 +2,0% hier, rebond depuis test 20-jour MA, mais reste fragile vs S&P 500 (petites caps sensibles aux taux)."
+ },
+ "PUST": {
+  "score": 1,
+  "justif": "Nasdaq-100 -0,70%, freiné par craintes inflationnistes et rendements obligataires élevés, malgré soutien tech léger."
+ },
+ "EXA1": {
+  "score": 2,
+  "justif": "Banques zone euro renforcées par recul des Bunds (anticipation de baisse BCE), Santander, BNP Paribas, UniCredit +5,5%+."
+ },
+ "STEC": {
+  "score": 0,
+  "justif": "Technologie européenne mixte : Soitec +10,3% (perspectives commerciales), mais secteur global pénalisé par débat taux Fed-inflation."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Défense Europe neutre en biais : tensions Iran-US soulagées (optimisme désescalade), mais industrie dépend de budgets gouvernementaux stables."
+ },
+ "SMH": {
+  "score": -1,
+  "justif": "Semiconducteurs proches bear market (-1,189% prédit), resserrement Fed/inflation pénalise valuations ; cycles baissier auto/industrie normalisé seulement."
+ },
+ "GOAI": {
+  "score": 1,
+  "justif": "IA monde bénéficie de rallye EM et croissance bénéfices (+18%), mais risque valorisation extrême sur Nvidia et américains persiste."
+ }
+}
