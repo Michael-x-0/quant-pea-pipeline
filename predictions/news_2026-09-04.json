@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 1,
+  "justif": "Marché mondial refléchi suite à rapport emploi US+162k, meilleur que consensus; indices généralement stables avec tensions géopolitiques modérées."
+ },
+ "PE500": {
+  "score": 2,
+  "justif": "Créations d'emploi US +162k surpassent consensus 56k nettement; Fed penchée pour hausse taux selon Waller; indices US en pause stratégique après gains."
+ },
+ "PCEU": {
+  "score": 0,
+  "justif": "CAC40 quasi-stable (-0,09%), inflation zone euro 3,3% sans surprise majeure; tensions géopolitiques partiellement compensées par données US rassurantes."
+ },
+ "PAEEM": {
+  "score": 1,
+  "justif": "Yen relâche ses gains (+156,52 vs 155,81), BoJ hausse prévue septembre à 1,25%; émergents secondaires face tensions mais soutien IA."
+ },
+ "PTPXE": {
+  "score": -1,
+  "justif": "Nikkei en baisse, yen se détend vendredi après deux jours de gains; remontée taux BoJ à venir septembre crée incertitude sur rendements."
+ },
+ "RS2K": {
+  "score": 1,
+  "justif": "Russell 2000 bénéficie environnement macro stable; créations emploi fortes mais hausses taux Fed posent questions pour small caps."
+ },
+ "PUST": {
+  "score": 2,
+  "justif": "Nasdaq-100 +1,40%, soutien IA/tech; rapide rebond post-Waller (Microsoft, Meta, Oracle, Palantir +); mais tensions géopolitiques freinent tech cyclique."
+ },
+ "EXA1": {
+  "score": -1,
+  "justif": "Banques zone euro impactées; inflation 3,3% + taux BCE probablement stables septembre freinent rémunération; tensions géopolitiques pèsent."
+ },
+ "STEC": {
+  "score": 2,
+  "justif": "Secteur tech Europe porté par TSMC Q2 revenues +36% et capex 2026 60-64 Mds$; puce IA demande forte, mais Nasdaq ralentit en séance."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Défense Europe soutenue par plans réarmement et tensions géopolitiques Iran; mais marché reprend son souffle vendredi; pas de catalyseur secteur isolable."
+ },
+ "SMH": {
+  "score": 3,
+  "justif": "Mémoire flash SanDisk +7% demande IA infra forte; TSMC Q2 +36% CA et capex relevée 60-64 Mds$ 2026 catalyse secteur semi mondialement."
+ },
+ "GOAI": {
+  "score": 1,
+  "justif": "IA/robotique porté par dynamique quant et reprise post-Waller, mais intégration prévisions reste partielle; contexte macro prudent limite catalyseurs."
+ }
+}
