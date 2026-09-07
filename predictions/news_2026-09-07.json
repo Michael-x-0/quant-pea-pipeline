@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 0,
+  "justif": "Pas de catalyseur net : inflation août +2,4% en France (stable sur consensus), taux Fed/BCE en suspens (10-16 sept), semi-conducteurs boostent l'IA mais contexte tempéré par tensions géopolitiques."
+ },
+ "PE500": {
+  "score": -1,
+  "justif": "NFP août 162k crée ralentissement du marché, probabilité Fed hausse passée de 60% à 50%, pétrole remonté à 94 $/bbl (chocs énergétiques), hausse taux d'intérêt durable pénalise valorisations tech."
+ },
+ "PCEU": {
+  "score": -1,
+  "justif": "Inflation zone euro août +2,7% IPCH (au-dessus des 2,4% en juillet), BCE décision jeudi 10 sept avec risque de hausse surprise, réchauffement géopolitique Moyen-Orient affaiblit demande import/export européenne."
+ },
+ "PAEEM": {
+  "score": 2,
+  "justif": "MSCI Emerging Markets +21% YTD vs S&P 500 +9%, semi-conducteurs Taiwan/Corée du Sud porteurs : TSMC capex et industrie semi-conducteurs taïwanaise +40%, AI locomotive structurelle."
+ },
+ "PTPXE": {
+  "score": -1,
+  "justif": "PIB Japon Q2 déçoit : +1,1% a/a vs 2,0% attendu, investissement chute -1,2% trimestriel, tarifs US automobiles (-11,4% exports), consommation molle malgré tourisme."
+ },
+ "RS2K": {
+  "score": -2,
+  "justif": "Small-cap US exposées au risque de hausse Fed et dégradation macro : dynamique NFP positif contrastant avec détection probable ralentissement second semestre, volatilité VIX rehaussée par géopolitique."
+ },
+ "PUST": {
+  "score": 1,
+  "justif": "Nasdaq-100 porté par semi-conducteurs (SMH +40% structure), AI et data centers contre-balancent risque Fed : inflation modérée ne forçant pas hausse sept, momentum technologique persiste."
+ },
+ "EXA1": {
+  "score": -2,
+  "justif": "Banques européennes : résultats Q2 solides (+33% BNP PNB, +13,9% SG) mais probabilité BCE hausse 10-sept pèse, Net Interest Margin compression attendue 2026, risque dégradation note France 28-août."
+ },
+ "STEC": {
+  "score": 2,
+  "justif": "Tech Europe soutenue par semi-conducteurs (croissance +40% industrie taïwanaise), demande AI/datacenters, ASML/STMicro bénéficiaires, tensions géopolitiques soutiennent budgets défense/technologie critique."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Budgets OTAN 3,5% PIB cible 2035, événement AeroSud 17-sept, contrats défense persistants (Grèce +3Mds€, F-35), mais tension géopolitique Iran-USA reste localisée sans escalade nouvelle."
+ },
+ "SMH": {
+  "score": 3,
+  "justif": "Semi-conducteurs mondiaux +40% croissance 2026 (industrie taïwanaise), AI demand surge, capacités DRAM/HBM sold-out 2026 (SK Hynix), GPU Nvidia Blackwell 1000Mds$ 2025-2027 vs 500Mds$ anticipés."
+ },
+ "GOAI": {
+  "score": 3,
+  "justif": "IA/Robotique : hyperscalers +50% infrastructure IA investment 2026 (~600Mds$), HBM 40% pour inférence, demande semi-conducteurs IA +30% mix secteur, accélération déploiement agents IA.IA et semi-conducteurs dédiés restent les locomotives certaines de 2026."
+ }
+}
