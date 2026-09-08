@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -2,
+  "justif": "Middle East tensions, Iran threats, oil à $98-99, Canadian tariffs retaliatory on US goods, rendez-vous CPI vendredi."
+ },
+ "PE500": {
+  "score": -2,
+  "justif": "S&P 500 -0.43% : tensions géopolitiques, brent crude +2% à $99, hausse rendements, CPI et Fed Sept 16 en focus."
+ },
+ "PCEU": {
+  "score": -1,
+  "justif": "Euro stoxx hésitant, tensions pétrole, inflation énergie +14.3% août, BCE jeudi attend hausse 25bp à 2.50%."
+ },
+ "PAEEM": {
+  "score": 1,
+  "justif": "Chine août exports +25% a/a bois à hausse, MSCI EM flottant, emerging carry trades sous pression taux 3 CBs."
+ },
+ "PTPXE": {
+  "score": 2,
+  "justif": "Yen +1% à 152.89, BOJ hike bets 80%, GDP Q2 revisi haussier, rendez-vous 18 sept majeur, Nikkei +0.2%."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Russell 2000 -0.20%, petites caps sensibles rendements, tensions et inflation pétrole limitent rebond."
+ },
+ "PUST": {
+  "score": -1,
+  "justif": "Nasdaq tech weakness: Apple -2.55%, Alphabet -2.10%, Microsoft -2.05%, Intel +5% prix, oil pressure."
+ },
+ "EXA1": {
+  "score": -1,
+  "justif": "Euro banks sensibles taux : ECB jeudi hausse attente pèse, tensions pétrole énergie, rendements +."
+ },
+ "STEC": {
+  "score": -2,
+  "justif": "Tech Europe -0.77% hier, Nasdaq tech sold, semi weakness, géopolitique pèse secteur cyclique."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Defense secteur : tensions Iran, missile threats, achat défense anticipé, géopolitique soutient."
+ },
+ "SMH": {
+  "score": 0,
+  "justif": "Semi divisés : Intel +5% prix, SK Hynix Samsung Korea +2.4%, AI robotics demand offset tech selloff."
+ },
+ "GOAI": {
+  "score": 1,
+  "justif": "AI robotics marché stratégique : government funding $200M quantum, Semicon summit focus AI chips robotics."
+ }
+}
