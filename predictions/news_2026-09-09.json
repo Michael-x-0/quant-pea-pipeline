@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -1,
+  "justif": "Tensions géopolitiques au Moyen-Orient remontées, Brent à 99,68 $/bbl et inflation énergie +16,7% en France août."
+ },
+ "PE500": {
+  "score": -1,
+  "justif": "Inflation US août 3,4% YoY et tensions Iran-États-Unis, S&P500 -0,58% hier, CPI critique avant Fed 16/9."
+ },
+ "PCEU": {
+  "score": -2,
+  "justif": "Inflation zone euro 2,9% juillet, OAT France 4,88% (plus haut 2008), spread OAT-Bund 86pb, tensions budgétaires BCE 10/9."
+ },
+ "PAEEM": {
+  "score": 2,
+  "justif": "Industrie taïwanaise semi-conducteurs +40% 2026, TSMC capex élevée, IA demande forte portent les actions tech asiatiques."
+ },
+ "PTPXE": {
+  "score": 0,
+  "justif": "Nikkei +2,12% samedi, mais tensions géopolitiques pèsent, pas de catalyseur net aujourd'hui sur Japon."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Marchés US fragilisés par hausse pétrole Brent, incertitude taux Fed, Russell 2000 sensible aux politiques monétaires."
+ },
+ "PUST": {
+  "score": -1,
+  "justif": "Nasdaq -0,32% hier, inflation energie alimente débat Fed hausse/baisse 16/9, valorisations tech vulnerables >100$/bbl Brent."
+ },
+ "EXA1": {
+  "score": -2,
+  "justif": "Banques euro menacées par remontée taux et tensions budgétaires, OAT France 4,88%, BCE décision 10/9 critique pour NIM."
+ },
+ "STEC": {
+  "score": 1,
+  "justif": "Secteur technologie Europe soutenu par dynamique IA malgré tensions géopolitiques, semi-conducteurs taïwanais +40%."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Tensions Iran-États-Unis (frappes, pétroliers), contexte favorable au secteur défense européen à moyen terme."
+ },
+ "SMH": {
+  "score": 2,
+  "justif": "Industrie semi-conducteurs mondiale portée +40% en 2026 par IA, TSMC et acteurs taïwanais en forte croissance."
+ },
+ "GOAI": {
+  "score": 2,
+  "justif": "IA et robotique portées par demande semi-conducteurs (GPU, HBM), investissements colossaux capex 2026 soutiennent valorisations."
+ }
+}
