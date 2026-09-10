@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -2,
+  "justif": "Hausse du Brent au-dessus de 101 $/bbl et tensions au Moyen-Orient ravivant l'inflation, pression baissière sur les marchés mondiaux avec repli de 0,6% en Asie."
+ },
+ "PE500": {
+  "score": -2,
+  "justif": "Inflation à la production supérieure aux attentes (5,4% vs 5,3%), rendements US 10-year à 4,92% (plus haut depuis 2023), probabilité de hausse Fed portée à 70%."
+ },
+ "PCEU": {
+  "score": -2,
+  "justif": "CAC 40 -0,49% après chute 2% veille ; pétrole à 100 $/bbl ravivant craintes inflationnistes en zone euro, spread franco-allemand au plus haut depuis 2012."
+ },
+ "PAEEM": {
+  "score": 1,
+  "justif": "Corée et Taïwan parmi grands gagnants 2026 sur IA/capex tech ; valorisations ME ramenées à 12x BPA, exposition attractive malgré réserves court terme."
+ },
+ "PTPXE": {
+  "score": 2,
+  "justif": "Yen apprécié de ~5% depuis début septembre à 152,89 (plus haut 7 mois), anticip. hausse BoJ à 1,25% le 17-18 sept, soutien structurel sur Topix."
+ },
+ "RS2K": {
+  "score": -2,
+  "justif": "Marché US défensif suite PPI>consensus et rendements obligataires enflammés ; small caps fragilisées par conditions restrictives."
+ },
+ "PUST": {
+  "score": -1,
+  "justif": "Wall Street -0,5% pris en étau inflation/pétrole ; Nasdaq lourd malgré Apple pliable (upside limité), Nasdaq-100 sous pression taux."
+ },
+ "EXA1": {
+  "score": -1,
+  "justif": "Banques euro fragilisées par hausse rendements obligataires (10-year 4,92%) et conditions monétaires restrictives annoncées."
+ },
+ "STEC": {
+  "score": 1,
+  "justif": "TSMC dévoile avancées processus A13 et roadmap semi-conducteurs favorable à l'IA ; secteur tech Europe soutenu par capex IA malgré ambiance macro dégradée."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Tensions géopolitiques Moyen-Orient soutiennent thème défense, but escalade déjà pricerisée et pas de catalyseur sectoriel nouveau ce jour."
+ },
+ "SMH": {
+  "score": 1,
+  "justif": "TSMC annonce A13 et prévoit 30-40% croissance revenue 2026 ; industrie semi-conducteurs croissance 23% vs prévisions 10%, moteurs IA solides."
+ },
+ "GOAI": {
+  "score": 0,
+  "justif": "IA monde soutenu par capex continu (prévisions 45% croissance industrie semi), but valorisations élevées et ambiance risque averse court terme s'équilibrent."
+ }
+}
