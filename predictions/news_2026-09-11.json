@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 1,
+  "justif": "Hausse mondiale modérée : CPI US 3,4% yoy (in line), CAC 40 +0,78%, BCE +25 pb attendus, tensions Moyen-Orient (Brent 107,6$) compensées par accalmie relative des rendements."
+ },
+ "PE500": {
+  "score": 1,
+  "justif": "S&P 500 +0,96%, inflation août stable à 3,4% YoY, core CPI +0,3% MoM vs +0,2% attendu, Fed 16 sept ~50% hausse anticipée, pétrole (-2,92%) soutient legèrement."
+ },
+ "PCEU": {
+  "score": 2,
+  "justif": "BCE +25 pb décidé le 10 sept (taux 2,65%), inflation zone euro 2,9% vs 2% cible, Lagarde discours 19h, tensions géopolitiques (Brent +6,34% jeudi) pèsent sur marges bancaires."
+ },
+ "PAEEM": {
+  "score": -1,
+  "justif": "Émergents sous pression : Chine ralentie (croissance 5,2% attendue vs historique), Taïwan/semi-conducteurs exposés à tensions USA-Chine, TSMC concurrence Intel, diversification EM faible hors Asie."
+ },
+ "PTPXE": {
+  "score": 0,
+  "justif": "Japon neutre malgré tensions Moyen-Orient : Nikkei stable, yen peut bénéficier refuge, mais hausse Fed/BCE le 16 sept menace les rendements bonds JGB, équilibre risques symétriques."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Russell 2000 +1,04% mais vulnérable : 32% petites caps à taux variable (vs 6% S&P 500), Fed +25 pb attendu, risque headwind immédiat, gains 2026 (+20%) pourraient se corriger."
+ },
+ "PUST": {
+  "score": 0,
+  "justif": "Nasdaq-100 +0,88%, tech resilient malgré rendements hauts, mais CPI core +0,3% vs -0,1% surprise négative, Fed 16 sept scrutée, équilibre incertitude monétaire."
+ },
+ "EXA1": {
+  "score": -2,
+  "justif": "Banques zone euro exposées : BCE +25 pb aujourd'hui, marges NII comprimées (1,5% vs 1,6%), tensions géopolitiques (Moyen-Orient Brent 107$) pèsent, stress tests 2026 évaluent résilience."
+ },
+ "STEC": {
+  "score": 1,
+  "justif": "Tech Europe modérément soutenue : TSMC/Intel compétition stimule innovations (TSMC Q1 2026 +45% CA), mais semi-conducteurs asiatiques concentration risque, Oracle guidance relevée hors Europe."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Défense Europe en soutien léger : tensions Moyen-Orient (Brent 107,6$, -1,99% session) et géopolitique favorisent secteur, Allemagne réarmement ambitions (Friedrich Merz), mais volatilité court terme reste."
+ },
+ "SMH": {
+  "score": 0,
+  "justif": "Semi-conducteurs monde neutre : Intel/TSMC bataille technologique (EMIB vs CoWoS), demande IA soutient, mais tensions géopolitiques Taiwan (25% semi-conducteurs EM), Fed 16 sept risque valuation."
+ },
+ "GOAI": {
+  "score": 1,
+  "justif": "IA/Robotique monde soutenue : Oracle +guidance, TSMC mega-trend IA confirmé (capex 60-64 Mds$ 2026), mais valuations élevées vulnérables si Fed resserrement, equivrisk Fed 16 sept."
+ }
+}
