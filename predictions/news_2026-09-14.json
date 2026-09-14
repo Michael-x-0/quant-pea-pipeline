@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -2,
+  "justif": "Monde : CAC 40 -0,76%, choc pétrolier 108$ + débâcle IA ralentissent les marchés développés"
+ },
+ "PE500": {
+  "score": -2,
+  "justif": "S&P 500 sous pression, yield 10Y dépasse 5%, tensions inflationnistes pétrolières, Fed hike prévue 16/9"
+ },
+ "PCEU": {
+  "score": -3,
+  "justif": "Europe/CAC -0,76%, BCE +25bp le 10/9, inflation 3,0% 2026, conflit Moyen-Orient amplifie énergie, croissance 0,9%"
+ },
+ "PAEEM": {
+  "score": -3,
+  "justif": "Émergents : sorties capitaux (-12,4Md$ Asie du SE), Fed hike 90% probable le 16/9, resserrement monétaire 2,3% moyen"
+ },
+ "PTPXE": {
+  "score": -1,
+  "justif": "Yen : appréciation en cours suite débouclage carry trade, BOJ accommodante (-0,75% réel), Topix exposé hausse US rates"
+ },
+ "RS2K": {
+  "score": -2,
+  "justif": "Russell 2000 affecté par risque Fed hike 16/9 à 3,75-4%, rendements obligataires élevés, flux de risque régressif"
+ },
+ "PUST": {
+  "score": -2,
+  "justif": "Nasdaq-100 futures -1,6%, semi ETF -4,6%, freeze développement IA par Anthropic/OpenAI/xAI, yield 10Y >5%"
+ },
+ "EXA1": {
+  "score": -2,
+  "justif": "Banques Europe zone euro : BCE +25bp le 16/9, contexte restrictif, inflation 3,0%, rendements obligataires montants"
+ },
+ "STEC": {
+  "score": -4,
+  "justif": "Tech Europe s/ décrochage massif : appel ralentissement modèles IA (Anthropic, OpenAI, xAI), semi-conducteurs -4,6% monde"
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Défense Europe : géopolitique Moyen-Orient persistante (Ormuz, Bab-el-Mandeb, drones), tensions soutiennent secteur"
+ },
+ "SMH": {
+  "score": -4,
+  "justif": "Semiconducteurs : crise majeure, semi ETF -4,6%, appel ralentissement IA leaders mondiaux, Nasdaq futures -1,6%"
+ },
+ "GOAI": {
+  "score": -4,
+  "justif": "IA/Robotique : choc réputationnel, Anthropic/OpenAI/xAI demandent freiner modèles avancés pour sécurité, réévaluation capex IA"
+ }
+}
