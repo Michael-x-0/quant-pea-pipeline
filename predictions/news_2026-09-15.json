@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 0,
+  "justif": "Marché mondial stable, attente sur Fed mercredi et BoJ vendredi, pas de catalyseur isolable aujourd'hui."
+ },
+ "PE500": {
+  "score": -1,
+  "justif": "S&P 500 -0,48 % ; rendement 10 ans US franchit 5 %, pression accrue avant Fed du 16 septembre."
+ },
+ "PCEU": {
+  "score": -1,
+  "justif": "Europe continue de digérer hausse BCE du 10 septembre (+25 pb) ; contexte de croissance atone (0,9 % prévu 2026)."
+ },
+ "PAEEM": {
+  "score": -1,
+  "justif": "Marchés asiatiques hésitants ; Shanghai +0,33 % mais souffre écart de taux Chine-US à 316 pb (record négatif)."
+ },
+ "PTPXE": {
+  "score": -2,
+  "justif": "BoJ hausse taux à 1,25 % mercredi 17-18 sept ; Nikkei pressé par anticipation resserrement après inflation juillet 1,8 %."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Russell 2000 surperforme depuis début 2026 mais reste sensible aux taux ; hésitation US avant Fed mercredi."
+ },
+ "PUST": {
+  "score": -1,
+  "justif": "Nasdaq -0,56 % ; technologie sous pression, VIX remonte à 17,10 ; risque hausse Fed sur valuations IA."
+ },
+ "EXA1": {
+  "score": -1,
+  "justif": "Banques euro souffrent resserrement BCE en cours ; taux élevés réduisent croissance crédit zone euro."
+ },
+ "STEC": {
+  "score": -1,
+  "justif": "Tech Europe en recul structural ; TSMC accélère A14 1,4 nm (avril 2027) mais délais de production à surveiller."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Tensions géopolitiques durables : Moyen-Orient (Iran-US négociations, Houthis), Ukraine soutenue UK £100M, tensions Taïwan."
+ },
+ "SMH": {
+  "score": 0,
+  "justif": "Semi-conducteurs mixtes ; TSMC innovation positive mais suroffre mémoire, anticipations équilibrées."
+ },
+ "GOAI": {
+  "score": 1,
+  "justif": "IA / robotique dopé par croissance semiconducteur attendue +45 % selon projections TSMC 2026, demande HPC intacte."
+ }
+}
