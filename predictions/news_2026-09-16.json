@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 1,
+  "justif": "Attente Fed 25 pb certaine à 91%, hausse macro confirmée BCE+10 sep, brevets tech forts ; avis neutre."
+ },
+ "PE500": {
+  "score": 1,
+  "justif": "Fed probablement +25 pb auj. mais intégré, rendements 5% pèsent valuations tech, S&P légèrement positif en session."
+ },
+ "PCEU": {
+  "score": 0,
+  "justif": "BCE hausses taux 10 sep déjà réalisée, inflation zone euro 2,9% justifie mesure, pas de catalyseur neuf auj."
+ },
+ "PAEEM": {
+  "score": 1,
+  "justif": "Hausse Fed+5% rendements limite risk appetite EM ; TSMC Aug +53% YoY soutient mais tensions géopolitiques Moyen-Orient."
+ },
+ "PTPXE": {
+  "score": 0,
+  "justif": "Yen sensible Fed hike, croissance Japon 1,1% Q2 faible ; manque catalyseur spécifique Nikkei-TOPIX auj."
+ },
+ "RS2K": {
+  "score": 1,
+  "justif": "Russell 2000 sensible taux US, Fed hike +25pb attendu ; rendements 5% compressent petites caps."
+ },
+ "PUST": {
+  "score": 1,
+  "justif": "Nasdaq +0,78% session grâce baisse pétrole, Fed décision 14h clé ; Nvidia +2%, semis rebondissent."
+ },
+ "EXA1": {
+  "score": -1,
+  "justif": "Banques euro: BCE relève taux 25pb 10 sep favorable NII mais rendements 5% freinent M&A, marge de compression."
+ },
+ "STEC": {
+  "score": 1,
+  "justif": "TSMC Aug +53% YoY, capex 2026 $60-64Mds, demande 2nm steep ramp ; semis tech Europe bénéficient AI momentum."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Tensions Moyen-Orient (Brent 108$, détroits) reconnues mais intégrées; contrats défense déjà reflétés."
+ },
+ "SMH": {
+  "score": 2,
+  "justif": "TSMC Aug +53% YoY, capex relevé à $60-64Mds 2026, ramp 2nm accéléré ; demande IA/datacenter fort continue."
+ },
+ "GOAI": {
+  "score": 1,
+  "justif": "IA durable : Mark Zuckerberg rejette appels ralentissementIA, marché mécanismes sufflent ; Fed+25pb peut freiner valuations."
+ }
+}
