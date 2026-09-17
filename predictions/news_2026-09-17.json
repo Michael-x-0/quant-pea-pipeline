@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 1,
+  "justif": "Marché mondial mixte : Fed +25bp à 3,75%-4% et hausse supplémentaire signalée ; reprise partielle des tech (+1,69% Nasdaq) compensée par pertes bancaires ; sentiment volatil."
+ },
+ "PE500": {
+  "score": 2,
+  "justif": "Fed hike du 16 sept annonçait nouveaux resserrements ; S&P 500 +0,59% le 17 sept puis rallye tech après-midi (+1,14%) mais pression obligataire et craintes inflation persistent."
+ },
+ "PCEU": {
+  "score": 1,
+  "justif": "ECB a relevé taux 10 sept (+25bp) ; Europe anxieuse face à hausses de taux quasi-synchrone US-zone euro ; détente modérée en fin de semaine, pétrole >100$/baril maintient inflation en alerte."
+ },
+ "PAEEM": {
+  "score": 1,
+  "justif": "TSMC revenue août +53% a/a à T$514,8Mds ; fondries mémoires AMD/TSMC solides ; EM partiellement résilientes malgré Fed hawkish mais yen plus fort pèse exportateurs asiatiques."
+ },
+ "PTPXE": {
+  "score": 0,
+  "justif": "Nikkei/TOPIX mixtes : TOPIX +0,8% le 17 sept mais yen plus fort (155,8) détériore profits exportateurs ; BoJ réunion 17-18 sept avec >90% proba hausse taux = vents contraires et favorables se compensent."
+ },
+ "RS2K": {
+  "score": 1,
+  "justif": "Russell 2000 a chuté 0,76% 16 sept après Fed hike ; rally partiel après-midi 17 sept mais exposure taux plus élevée que large-cap ; sentiment risqué-off modéré."
+ },
+ "PUST": {
+  "score": 2,
+  "justif": "Nasdaq-100 reprend +1,69% en après-midi du 17 sept après choc Fed ; rotation agressivo vers tech/IA mais hausse taux (10Y à 5,01%) pèse valuations haute-croissance ; volatilité accrue."
+ },
+ "EXA1": {
+  "score": -1,
+  "justif": "Banques eurozone sous forte pression : Fed +25bp + prochaines hausses ECB + rendement 10Y remonte à 5% ; UniCredit/Deutsche Bank -2% le 15 sept ; marges nettes menacées."
+ },
+ "STEC": {
+  "score": 2,
+  "justif": "Semi/Tech Europe beneficie rallye post-Fed : secteur tech continental dopé par demande IA et relance capex ; mais valuations hautes et volatilité taux encadrent gains."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Défense Europe : tensions Moyen-Orient (Golfe) persistent ; Strait of Hormuz transits =3 navires le 16 sept vs 17 moyenne ; géopolitique soutient demande mais non catalyseur majeur aujourd'hui."
+ },
+ "SMH": {
+  "score": 3,
+  "justif": "Semiconducteurs +3% le 17 sept (indice des chipmakers) ; TSMC revenue +53% août, capex renforcé 2026, consensus 'Strong Buy' ; demande IA soutenue malgré correction brève post-Fed."
+ },
+ "GOAI": {
+  "score": 2,
+  "justif": "IA/Robotique bénéficie redirection flux post-Fed vers croissance ; soft-landing narrative du Fed + fondries solides + financement robotique $10,3Mds 2025 ; hausse taux limite mais demande structurelle."
+ }
+}
