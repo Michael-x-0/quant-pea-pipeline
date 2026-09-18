@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 1,
+  "justif": "BoJ +25pb à 1,25%, Fed +25pb à 3,75%-4%, BCE +25pb (16 sept) : hausse synchronisée des taux supportant les marchés mondiaux, bien qu'anticipée."
+ },
+ "PE500": {
+  "score": 2,
+  "justif": "Fed hausse de 25pb à 3,75%-4% pour contenir inflation PCE 3,7%, mais signale continuation possible du cycle de resserrement, impactant les valuations tech/large cap."
+ },
+ "PCEU": {
+  "score": 2,
+  "justif": "BCE augmente taux de 25pb à 2,50%, inflation zone euro 3,3%, mais banques restreignent crédit et croissance attendue 0,9% en 2026 : environnement restrictif."
+ },
+ "PAEEM": {
+  "score": 1,
+  "justif": "BoJ +25pb et tensions géopolitiques Moyen-Orient pèsent sur devises émergentes, partiellement compensées par demande IA robuste pour semi-conducteurs asiatiques."
+ },
+ "PTPXE": {
+  "score": 0,
+  "justif": "BoJ relève taux à 1,25% comme anticipé, yen faiblit malgré hausse (156,64), contexte neutre entre supports d'une politique plus restrictive et pressions USD."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Petites caps américaines vulnérables aux taux montants (Fed 3,75%-4%) et risque crédit accru, inflation PCE 3,7% justifiant poursuite resserrement."
+ },
+ "PUST": {
+  "score": 2,
+  "justif": "Nasdaq sensible à hausse Fed à 3,75%-4% et signal de continuation du cycle, mais soutien IA prolonge les flux sur technologie malgré valorisations."
+ },
+ "EXA1": {
+  "score": 1,
+  "justif": "Banques euro limitent crédit sur risques géopolitiques ; BCE +25pb pèse sur marges, mais recul partagé avec marchés larges sans catalyseur isolé."
+ },
+ "STEC": {
+  "score": 1,
+  "justif": "Tech européenne impactée par hausse BCE 25pb et resserrement monétaire, partiellement compensée par boom semi-conducteurs IA (+40% CA taïwanais attendu)."
+ },
+ "DEFS": {
+  "score": 2,
+  "justif": "Budgets défense Europe +78,6% 2020-2025, commandes robustes malgré volatilité actions ; géopolitique Moyen-Orient soutient long terme mais momentum court-terme mitigé."
+ },
+ "SMH": {
+  "score": 1,
+  "justif": "Semi-conducteurs portés par explosion IA (40% croissance taïwanaise 2026), mais hausse synchrone taux Fed-BoJ-BCE pèse sur multiples et flux de capital-risque."
+ },
+ "GOAI": {
+  "score": 2,
+  "justif": "IA/robotique bénéficie demande structurelle robuste et expansion TSMC prévue, compensant partiellement impact des taux montants sur rentabilité future de l'IA."
+ }
+}
