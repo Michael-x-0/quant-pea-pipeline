@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 1,
+  "justif": "Marché mondial soutenu par reprise tech et recul du pétrole ; détente géopolitique et espoirs diplomatiques moyen-orient compensent tensions macro."
+ },
+ "PE500": {
+  "score": 2,
+  "justif": "S&P 500 +1.49% lundi, soutenu par tech et semiconducteurs ; rendement 10Y redescend sous 5% après pic Fed ; gestation optimiste Trump-Xi summit jeudi."
+ },
+ "PCEU": {
+  "score": 2,
+  "justif": "Stoxx 600 +1.36% lundi, tech européen (+2.8% pour ASML, Infineon, STMicroelectronics) et banques (+3.6% Société Générale) dopent l'indice."
+ },
+ "PAEEM": {
+  "score": 2,
+  "justif": "MSCI EM +1.1% lundi menés par TSMC, Samsung, MediaTek sur espoirs diplomatiques et discussions trade US-China avant summit Trump-Xi."
+ },
+ "PTPXE": {
+  "score": 1,
+  "justif": "Nikkei +1.4% vendredi post-BoJ hike à 1.25% mais dollar s'apprécie versus yen malgré la hausse ; marché nippon fermé lundi (congé)."
+ },
+ "RS2K": {
+  "score": 1,
+  "justif": "Russell 2000 positif lundi sur sentiments risqués mais petits caps reste volatile ; focus sur tech géante domina flows."
+ },
+ "PUST": {
+  "score": 2,
+  "justif": "Nasdaq-100 +2.5% lundi avec rally chipmakers et Meta +12% ; IA trade regagne pied après volatilité Fed; sentiment soutenu par recul pétrolier."
+ },
+ "EXA1": {
+  "score": 1,
+  "justif": "Secteur banques zone euro bénéficie de profitabilité accrue et attentes 3-4 hausses taux ECB; Société Générale +3.6% relève guidance."
+ },
+ "STEC": {
+  "score": 2,
+  "justif": "Tech Europe +2.8% avec ASML, Infineon, STM ; IA demand et supply chain solides ; data center bottleneck US (45 projets bloqués) rassure compétitivité EU."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Défense Europe soutenue par tensions moyen-orient persistantes et backlog récords (ex: Rheinmetall €80.4B) mais volatilité diplomatie."
+ },
+ "SMH": {
+  "score": 2,
+  "justif": "Semiconducteurs mondiaux +2-3% lundi avec Nvidia, ASML, Infineon; AI infrastructure tailwind (~700B$ capex 2026) contrebalance volatilité d'été."
+ },
+ "GOAI": {
+  "score": 2,
+  "justif": "IA/robotique mondial en rally lundi; fondation Nvidia Isaac GR00T adoptée 1M+, Global Robotics funding $10.3B 2025, humanoid CAGR 39.2%."
+ }
+}
