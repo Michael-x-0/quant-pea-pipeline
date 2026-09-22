@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 1,
+  "justif": "Sentiment positif mondial suite au dégel USA-Chine et données économiques US robustes (PIB +5,1%), contrebalancé par relèvement des taux Fed/BCE."
+ },
+ "PE500": {
+  "score": 1,
+  "justif": "Économie US résiliente (ventes détail +1,2% août, demande emploi stable) supportant le S&P 500, mais Fed resserrée (+25pb le 16/09 à 3,75-4%)."
+ },
+ "PCEU": {
+  "score": 0,
+  "justif": "Eurostoxx rebond >1%, BCE resserrée de 25pb à 2,65% le 16/09 mais catalyseurs macro européens équilibrés entre défense et ralentissement croissance."
+ },
+ "PAEEM": {
+  "score": 2,
+  "justif": "Dégel géopolitique USA-Chine très positif avant sommet Trump-Xi cette semaine, réduction tensions commerciales favorable aux marchés émergents."
+ },
+ "PTPXE": {
+  "score": 1,
+  "justif": "Nikkei +1,38%, yen supporté par différentiel de taux Fed-BoJ, environnement risque-on favorable aux actifs asiatiques suite détente USA-Chine."
+ },
+ "RS2K": {
+  "score": 0,
+  "justif": "Russell 2000 +0,52%, petites caps US moins sensibles au dégel géopolitique, contrebalancé par resserrement Fed à 3,75-4%."
+ },
+ "PUST": {
+  "score": 1,
+  "justif": "Nasdaq +2,26% porté par technologie et IA, confiance hyperscalers, mais Fed resserrée de 25pb limite euphorisme."
+ },
+ "EXA1": {
+  "score": 0,
+  "justif": "Banques eurozone exposées au resserrement BCE (+25pb le 16/09 à 2,65%), dynamique taux à la hausse pressante malgré sentiment de risque améliora."
+ },
+ "STEC": {
+  "score": 2,
+  "justif": "Semi-conducteurs reprennent vigueur le 22/09, IA demande soutenue, Taiwan secteur +40% croissance prévue 2026, technologie européenne bénéficiaire."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Défense européenne soutenue : BPCE déploie financement dédié BITD le 22/09, tensions géopolitiques chroniques, mais catalyseur structurel plutôt que choc."
+ },
+ "SMH": {
+  "score": 2,
+  "justif": "Semiconducteurs monde en reprise le 22/09, IA datacenter demande forte, SK Hynix capacités vendues 2026, boom mémoire HBM/DRAM soutient secteur."
+ },
+ "GOAI": {
+  "score": 2,
+  "justif": "IA et robotique remontent le 22/09, hyperscalers investissements infrastructure IA +50% 2026 (~600 Mds$), innovation puce accélère secteur."
+ }
+}
