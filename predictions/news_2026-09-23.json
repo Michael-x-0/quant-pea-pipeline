@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -1,
+  "justif": "Marché mondial hésitant : S&P 500 et Nasdaq en baisse de 0,5 à 1%, CAC 40 cède 0,39%, résistance européenne nuancée par tensions géopolitiques (pétrole Brent >100$/baril)."
+ },
+ "PE500": {
+  "score": -1,
+  "justif": "S&P 500 recule de 0,5% sur crainte d'une Fed qui maintient pression restrictive, indice composite américain à 58,4 (plus haut 5 ans) mais correction technique attendue."
+ },
+ "PCEU": {
+  "score": 1,
+  "justif": "PMI zone euro bondit à 53,1 (plus haut 41 mois), PMI France 51,2 (44 mois), économie européenne surprend par sa résilience malgré tensions énergétiques."
+ },
+ "PAEEM": {
+  "score": 2,
+  "justif": "Taïwan : industrie semi-conducteurs annonce +40% de CA en 2026 portée par IA, mais préoccupations sur valorisations et tensions géopolitiques limitent upside."
+ },
+ "PTPXE": {
+  "score": 0,
+  "justif": "BoJ a relevé taux (pivot restrictif), mais marché Asie sans catalyseur net ce jour, yen demeure volatile face aux risques macro globaux."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Small caps US sensibles au taux restrictif Fed et révisions d'attentes : PIB US ralentit (acquis +1,8% mi-2026), emploi fragile."
+ },
+ "PUST": {
+  "score": -2,
+  "justif": "Nasdaq recule de 1%, secteur tech pénalisé par hausse taux (Fed maintient 3,50-3,75%) et valorisations élevées, pression sur IA malgré catalyseurs micro positifs."
+ },
+ "EXA1": {
+  "score": 0,
+  "justif": "Banques Europe zone euro : BCE a relevé taux 10/09 à +2,50%, marges potentielles soutenues mais coûts de refinancement renforcent pression sur marges nettes."
+ },
+ "STEC": {
+  "score": 1,
+  "justif": "Technologie Europe : rebond micro (semi-conducteurs +40% TA, ASML bénéfice net +5,8% Q2), mais macro reste restrictive, tension géopolitique sur prix énergie."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Défense Europe : tensions géopolitiques (Moyen-Orient, pétrole Brent >100$/baril) soutiennent, mais pas de catalyseur d'ampleur ce jour, équilibre risques symétrique."
+ },
+ "SMH": {
+  "score": 2,
+  "justif": "Semi-conducteurs mondiaux : Taïwan +40%, ASML Q2 solide, IA continue de pousser demande malgré correction Nasdaq, capacité de production s'améliore."
+ },
+ "GOAI": {
+  "score": 2,
+  "justif": "IA/Robotique : OpenAI révèle GPT-6 Sol/Luna (versions plus rapides/abordables), investissements hyperscalers IA +50% attendus (~600 Mds$), catalyseur secteur positif malgré macro restrictive."
+ }
+}
