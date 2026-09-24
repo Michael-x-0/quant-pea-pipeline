@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -1,
+  "justif": "Bourse mondiale en repli : CAC 40 -0,52%, S&P 500 -0,53% à la clôture du 24/9, tensions Iran-US sans avancée diplomatique nette."
+ },
+ "PE500": {
+  "score": -2,
+  "justif": "S&P 500 -0,53% ce jour, pression accrue sur cours du pétrole (+4,32% Brent à 107,77$ USD) ravivant craintes stagflationnistes, tensions géopolitiques persistantes."
+ },
+ "PCEU": {
+  "score": -2,
+  "justif": "Europe -0,61% (CAC -0,52%, DAX -0,61%), hausse taux BCE et tensions pétrole (-0,20% mercredi à 8430pts), secteur défensif demandé."
+ },
+ "PAEEM": {
+  "score": -1,
+  "justif": "Marchés émergents fragiles sur crise Iran, pétrole fort (+4,32% Brent), PMI manufacturier Japon à 7 mois bas en septembre 2026."
+ },
+ "PTPXE": {
+  "score": -1,
+  "justif": "Yen faible (USD/JPY +0,40% à 158,96 le 24/9, prochain support 160), données faibles PMI Japon septembre, hausse taux Fed pesant."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Small-caps US affectées par tensions géopolitiques et redynamisation des cours de l'énergie, moins exposées que large-caps à IA."
+ },
+ "PUST": {
+  "score": -1,
+  "justif": "Nasdaq -0,78% ce jour, tensions pétrolières et inflation +3,4% YoY août 2026 US, risque stagflation pesant sur tech via taux."
+ },
+ "EXA1": {
+  "score": -2,
+  "justif": "Banques zone euro : hausse taux BCE (2,65% au 16/9, +25bp) comprime marges nettes, inflation 2,9% YoY zone euro au-dessus cible 2%."
+ },
+ "STEC": {
+  "score": 0,
+  "justif": "Tech Europe baisse -0,61% (DAX) mais secteur semi-conducteurs dopé par IA (30% ventes secteur 2026), mouvements contraires s'équilibrant court terme."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Tensions Iran-US durables, accord paix en suspens malgré signaux d'accalmie, menaces militaires ouvertes, demande défense européenne soutenue."
+ },
+ "SMH": {
+  "score": 0,
+  "justif": "Semiconducteurs alignés sur tech US (-0,78% Nasdaq) mais fondamentaux solides (croissance 2 chiffres 2026, GPU/IA moteurs 30% ventes)."
+ },
+ "GOAI": {
+  "score": 1,
+  "justif": "IA/Robotique dopée par capex hyperscalers +50% 2026 (600Mds$), malgré volatilité court terme indices, demande GPU/HBM décorrelée des taux."
+ }
+}
