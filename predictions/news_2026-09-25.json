@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -1,
+  "justif": "Indices mondiaux sous tension : rendements US à 5,21% (plus haut depuis 2007) pèsent sur valorisations croissance, malgré rebond technique du Nikkei."
+ },
+ "PE500": {
+  "score": -1,
+  "justif": "S&P 500 futures en hausse modérée mais poids des taux longs 5,21% et pression énergétique limitent gains ; choc macro asymétrique."
+ },
+ "PCEU": {
+  "score": -1,
+  "justif": "Europe (Stoxx 600, DAX) en repli (-0,43% à -0,61%) ; taux longs élevés et incertitude géopolitique (Ukraine) pèsent sur sentiment."
+ },
+ "PAEEM": {
+  "score": -1,
+  "justif": "Hang Seng -1,0% malgré sommet Trump-Xi (pas de percée majeure) ; marché chinois affaibli par hausse rendements obligataires globaux."
+ },
+ "PTPXE": {
+  "score": 1,
+  "justif": "Nikkei +1,30% et TOPIX +1,31%, cinq séances de hausse consécutives ; yen bénéficie des rendements longs élevés (30Y à 5,49%)."
+ },
+ "RS2K": {
+  "score": 0,
+  "justif": "Petites caps US mitigées ; futures modérément positives mais hausse taux et pétrole volatile créent catalyseurs asymétriques."
+ },
+ "PUST": {
+  "score": -1,
+  "justif": "Nasdaq-100 futures +0,48% mais pressions sur valorisations croissance par taux 5,21% limite gains ; technologie sous pression."
+ },
+ "EXA1": {
+  "score": 1,
+  "justif": "Banques zone euro soutenues par rendements longs élevés (5,1751%) malgré CAC repli ; marges de crédit s'améliorent en environnement resserré."
+ },
+ "STEC": {
+  "score": -1,
+  "justif": "Tech Europe face à double pression : taux longs 5,21% et valorisations fragilisées ; rebond technique limité à Stoxx 600."
+ },
+ "DEFS": {
+  "score": 2,
+  "justif": "Défense Europe catalyseur significatif : tensions Ukraine (ArcelorMittal charge 1Mds$), demande accrue pour secteur défense confirmée par Alten."
+ },
+ "SMH": {
+  "score": 0,
+  "justif": "Semiconducteurs monde mixtes : AI/GPU porteurs structurels mais taux longs 5,21% pèsent sur croissance tech ; IA ne suffit pas à compenser presssions valuations."
+ },
+ "GOAI": {
+  "score": -1,
+  "justif": "IA/Robotique monde soumise aux mêmes pressions valuations que croissance : taux 5,21% et pétrole ~106$ créent headwinds malgré catalyseurs structurels IA."
+ }
+}
