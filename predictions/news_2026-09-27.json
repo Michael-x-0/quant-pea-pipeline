@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 1,
+  "justif": "Marchés mondiaux stables cette semaine; Nasdaq +2%, S&P 500 +1,2%, soutenus par optimisme IA mais sans choc nouveau."
+ },
+ "PE500": {
+  "score": 2,
+  "justif": "Semaine positive aux États-Unis (S&P 500 +1,2%), Microsoft +3,7% sur nouveaux agents Copilot, technologie soutenue mais tensions obligataires."
+ },
+ "PCEU": {
+  "score": 0,
+  "justif": "Europe en légère hausse, catalyseurs mixtes : incertitudes géopolitiques et énergie contrebalancées par rebond manufacturier et baisse pétrole."
+ },
+ "PAEEM": {
+  "score": 1,
+  "justif": "Marchés émergents affectés par hausse taux Fed du 16 septembre (+25 pb), dollar renforcé, mais soutien structurel IA et affaiblissement dollar attendu."
+ },
+ "PTPXE": {
+  "score": 2,
+  "justif": "Topix +20% YTD 2026, forte performance boostée par tech et gouvernance; BOJ hausse taux à 1,25% anticipée, impact limité selon analyse."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Russell 2000 sous-performant; prévisions optimistes contredites, poids cyclique américain pénalisé par tensions géopolitiques et inflation persistante."
+ },
+ "PUST": {
+  "score": 1,
+  "justif": "Nasdaq +2% cette semaine, soutenu IA et Copilot, mais taux américains en hausse (2Y à 4,74%) limitent les gains technologiques."
+ },
+ "EXA1": {
+  "score": -1,
+  "justif": "Banques euro face à taux élevés et incertitudes; BCE attendue en septembre dans contexte inflation 2,9%, tensions obligataires persistantes."
+ },
+ "STEC": {
+  "score": 1,
+  "justif": "Technologie européenne bénéficie de momentum IA global; ASML +5,8% au T2 2026, semi-conducteurs européens accélèrent."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Défense Europe : tensions géopolitiques stables (Iran-USA avec sursis au 10 janv), absence de choc systémique net."
+ },
+ "SMH": {
+  "score": 2,
+  "justif": "Semi-conducteurs mondiaux dynamiques; AMD dépasse 1000 Mds$ capitalisation, ARM +17% semaine, secteur +4% malgré volatilité taux."
+ },
+ "GOAI": {
+  "score": 2,
+  "justif": "Robotique-IA porté par croissance structurelle; Broadcom AI revenues vers $16 Mds Q3 FY2026 (+200% YoY), momentum soutenu."
+ }
+}
