@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -1,
+  "justif": "Repli modéré du MSCI World (-0,35% lundi) face à la remontée du Brent (106$/baril) et des rendements US (5,3%), sans catalyseur macro isolable mais ton global baissier."
+ },
+ "PE500": {
+  "score": -1,
+  "justif": "S&P 500 recule après rejet par Trump du plan iranien pour rouvrir le détroit d'Ormuz; tensions géopolitiques persistantes, pétrole en hausse, confiance consommateurs US en baisse (81,9 vs 88,6)."
+ },
+ "PCEU": {
+  "score": -2,
+  "justif": "CAC 40 cède 0,53%, Indice Stoxx Europe sous pression géopolitique Moyen-Orient; inflation zone euro 3,2% août, BCE a relevé taux 16 sept (2,65%), pression persistante sur obligataires."
+ },
+ "PAEEM": {
+  "score": 1,
+  "justif": "Marchés émergents bénéficient du rebond technologique IA et de l'appétit pour croissance malgré tensions; situation mixte mais léger biais positif vs DM."
+ },
+ "PTPXE": {
+  "score": 0,
+  "justif": "Japon peu affecté directement par crise Moyen-Orient; yen stable, pas de catalyseur spécifique déclaré aujourd'hui, profil neutre sur la journée."
+ },
+ "RS2K": {
+  "score": -2,
+  "justif": "Russell 2000 sensible aux taux US (5,3%), pétrole élevé renchérit énergie; PME US plus exposées que large-cap au durcissement monétaire et tensions géopolitiques."
+ },
+ "PUST": {
+  "score": -1,
+  "justif": "Nasdaq-100 subit correction après euphorie IA (Meta Muse à 3,4M téléchargements), rebond en clôture de séance mais freiné par rendements Trésor 5,3% et risques Moyen-Orient."
+ },
+ "EXA1": {
+  "score": -2,
+  "justif": "Banques euro-zone pénalisées par hausse taux BCE (2,65% depuis 16 sept) et attentes de marché +100 pb resserrement d'ici fin 2027; environnement disinflationniste affecte NIM potentiel."
+ },
+ "STEC": {
+  "score": 1,
+  "justif": "Tech Europe rebondit avec IA (Soitec +9,1%), mais freiné par taux longs élevés (5,3% US) et incertitude géopolitique; bilan mitigé, léger biais à l'optimisme IA."
+ },
+ "DEFS": {
+  "score": 2,
+  "justif": "Tensions Moyen-Orient (blocus Ormuz, rejeu conflit Iran) soutiennent demande défense Europe; géopolitique de premier ordre alimente repositionnement vers secteur défense."
+ },
+ "SMH": {
+  "score": 1,
+  "justif": "Semi-conducteurs mondiaux bénéficient demande IA (TSMC prévoit capex 52-56 Mds$, croissance 30-40%), mais atténué par craintes bulle et taux US supérieurs."
+ },
+ "GOAI": {
+  "score": 2,
+  "justif": "IA/robotique en hausse (Meta Muse succès fulgurant 3,4M DL), intégrations multiples annoncées; catalyseur secteur significatif malgré volatilité macro, momentum IA positif."
+ }
+}

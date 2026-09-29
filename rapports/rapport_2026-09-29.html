@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Rapport PEA — 2026-09-29</title>
+<style>
+  body { font-family: -apple-system, Segoe UI, Arial, sans-serif; max-width: 1060px; margin: 30px auto; padding: 0 20px; color: #1a1a1a; line-height: 1.5; }
+  h1 { font-size: 1.5em; border-bottom: 3px solid #1a4d8f; padding-bottom: 10px; }
+  h2 { font-size: 1.15em; color: #1a4d8f; margin-top: 34px; border-bottom: 1px solid #ddd; padding-bottom: 6px; }
+  h3 { font-size: 1.0em; color: #333; margin-top: 22px; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 0.92em; }
+  th, td { border: 1px solid #ddd; padding: 6px 9px; text-align: right; }
+  th { background: #1a4d8f; color: #fff; text-align: center; }
+  td:first-child, th:first-child { text-align: left; font-weight: 600; }
+  tr:nth-child(even) { background: #f6f8fb; }
+  .pos { color: #0a7a2f; font-weight: 600; }
+  .neg { color: #b3221e; font-weight: 600; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 0.85em; font-weight: 600; }
+  .ok { background: #dff3e3; color: #0a7a2f; }
+  .nok { background: #fbe0df; color: #b3221e; }
+  .note { background: #fff8e1; border-left: 4px solid #f0ad4e; padding: 10px 14px; margin: 14px 0; font-size: 0.93em; }
+  .reserve { background: #fdeceb; border-left: 4px solid #b3221e; padding: 10px 14px; margin: 14px 0; font-size: 0.93em; }
+  .calib { background: #eef4fb; border-left: 4px solid #1a4d8f; padding: 10px 14px; margin: 14px 0; font-size: 0.93em; }
+  .sect th { background: #6b4d8f; }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #ddd; font-size: 0.85em; color: #555; }
+  .small { font-size: 0.85em; color: #555; }
+  td.just { text-align: left; font-weight: 400; font-size: 0.9em; }
+</style>
+</head>
+<body>
+<h1>📊 Rapport PEA — 2026-09-29</h1>
+<p class="small">Analyste quotidien automatisé — modèle <strong>v2.0</strong>. Univers : 7 ETF socle (éligibles PEA, hors scope PAD) + 5 ETF sectoriels <strong>en suivi seul</strong>. Données Boursorama EOD, clôture Euronext définitive.</p>
+<div class="reserve"><strong>Statut PAD des lignes sectorielles.</strong> Les cinq ETF sectoriels (EXA1, STEC, DEFS, SMH, HLT) sont des fonds sectoriels au sens des critères PAD : ils sont <strong>en scope</strong> et ne sont pas investissables par Michael sans autorisation préalable. Ils figurent ici à titre de suivi de marché uniquement — aucun avis d'investissement personnel n'est formulé sur ces lignes.</div>
+<h2>1. Cours et variations exactes (source : dataset local)</h2>
+<h3>Socle — investissable</h3>
+<table>
+<tr><th>Ticker</th><th>Close</th><th>Var 1J</th><th>Var 5J</th><th>YTD</th><th>Var 1 an</th><th>RSI14</th><th>Z20</th><th>Vol. 20j ann.</th></tr>
+<tr><td>WPEA</td><td>7,055</td><td class="pos">+0,10%</td><td class="neg">-0,34%</td><td class="pos">+15,27%</td><td class="pos">+16,83%</td><td>57,8</td><td>0,93</td><td>8,6%</td></tr>
+<tr><td>PE500</td><td>56,060</td><td class="pos">+0,32%</td><td class="pos">+0,45%</td><td class="pos">+15,71%</td><td class="pos">+18,41%</td><td>62,9</td><td>1,39</td><td>8,9%</td></tr>
+<tr><td>PCEU</td><td>39,410</td><td class="neg">-0,03%</td><td class="neg">-0,29%</td><td class="pos">+10,15%</td><td class="pos">+14,40%</td><td>44,4</td><td>-0,32</td><td>10,0%</td></tr>
+<tr><td>PAEEM</td><td>36,830</td><td class="pos">+1,00%</td><td class="neg">-0,54%</td><td class="pos">+28,46%</td><td class="pos">+29,65%</td><td>56,2</td><td>0,71</td><td>18,6%</td></tr>
+<tr><td>PTPXE</td><td>39,780</td><td class="pos">+0,06%</td><td class="neg">-0,15%</td><td class="pos">+24,27%</td><td class="pos">+25,92%</td><td>53,8</td><td>0,36</td><td>16,4%</td></tr>
+<tr><td>RS2K</td><td>371,330</td><td class="neg">-0,07%</td><td class="neg">-1,44%</td><td class="pos">+16,71%</td><td class="pos">+16,40%</td><td>36,8</td><td>-1,38</td><td>11,3%</td></tr>
+<tr><td>PUST</td><td>107,380</td><td class="pos">+0,66%</td><td class="pos">+0,00%</td><td class="pos">+23,74%</td><td class="pos">+23,62%</td><td>67,7</td><td>1,23</td><td>14,1%</td></tr>
+</table>
+<h3>Sectoriels — suivi seul</h3>
+<table class="sect">
+<tr><th>Ticker</th><th>Close</th><th>Var 1J</th><th>Var 5J</th><th>YTD</th><th>Var 1 an</th><th>RSI14</th><th>Z20</th><th>Vol. 20j ann.</th></tr>
+<tr><td>EXA1</td><td>20,970</td><td class="neg">-0,55%</td><td class="neg">-0,05%</td><td class="pos">+22,99%</td><td class="pos">+41,87%</td><td>46,8</td><td>-1,07</td><td>15,5%</td></tr>
+<tr><td>STEC</td><td>7,927</td><td class="pos">+2,46%</td><td class="pos">+1,62%</td><td class="pos">+24,48%</td><td class="pos">+21,49%</td><td>62,7</td><td>1,88</td><td>19,0%</td></tr>
+<tr><td>DEFS</td><td>5,791</td><td class="neg">-0,07%</td><td class="neg">-2,66%</td><td class="pos">+2,97%</td><td class="neg">-7,43%</td><td>41,5</td><td>-0,37</td><td>16,9%</td></tr>
+<tr><td>SMH</td><td>101,009</td><td class="pos">+2,75%</td><td class="pos">+1,69%</td><td class="pos">+90,66%</td><td class="pos">+99,06%</td><td>66,4</td><td>1,49</td><td>31,8%</td></tr>
+<tr><td>GOAI</td><td>150,850</td><td class="pos">+0,87%</td><td class="neg">-0,36%</td><td class="pos">+33,84%</td><td class="pos">+29,99%</td><td>66,9</td><td>1,18</td><td>14,5%</td></tr>
+</table>
+<h2>2. Bilan des prédictions passées (auto-évaluation)</h2>
+<p class="small">Comparaison des prédictions J+1 faites le 2026-09-27 vs réalisé exact du dataset. Univers évalué : 12 tickers (socle + sectoriel).</p>
+<table>
+<tr><th>Ticker</th><th>Prédit %</th><th>Réalisé %</th><th>Erreur (pts)</th><th>Direction</th></tr>
+<tr><td>WPEA</td><td>-0,01</td><td>+0,10</td><td>+0,10</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>PE500</td><td>+0,00</td><td>+0,32</td><td>+0,32</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>PCEU</td><td>-0,01</td><td>-0,03</td><td>-0,02</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>PAEEM</td><td>+0,03</td><td>+1,00</td><td>+0,97</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>PTPXE</td><td>+0,07</td><td>+0,06</td><td>-0,01</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>RS2K</td><td>+0,01</td><td>-0,07</td><td>-0,08</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>PUST</td><td>+0,00</td><td>+0,66</td><td>+0,66</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>EXA1</td><td>+0,04</td><td>-0,55</td><td>-0,58</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>STEC</td><td>-0,08</td><td>+2,46</td><td>+2,53</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>DEFS</td><td>+0,06</td><td>-0,07</td><td>-0,13</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>SMH</td><td>-0,07</td><td>+2,75</td><td>+2,81</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>GOAI</td><td>+0,14</td><td>+0,87</td><td>+0,73</td><td><span class="badge ok">OUI</span></td></tr>
+</table>
+<p><strong>6/12 directions correctes</strong> &middot; erreur moyenne signée <strong>+0,61 pt</strong> &middot; erreur absolue moyenne <strong>0,74 pt</strong>.</p><h2>3. Prédictions — J+1 / J+5 / fin d'année</h2>
+<p class="small">Valeur unique = signal quant déterministe + overlay news borné. Échelle news <strong>[-5, +5]</strong> (élargie le 11/08/2026) · J+1 : quant + score×0,04 · J+5 : quant + score×0,10 · EOY : quant + score×0,30. Influence maximale des news : ±0,20 pt (J+1), ±0,50 pt (J+5), ±1,50 pt (EOY) — identique à la v1 malgré l'échelle élargie. Barème : config/news_scale.md</p>
+<h3>Socle</h3>
+<table>
+<tr><th>Ticker</th><th>Quant J+1</th><th>News</th><th>Préd. J+1</th><th>Quant J+5</th><th>Préd. J+5</th><th>Quant EOY</th><th>Préd. EOY</th><th>Justification du score news</th></tr>
+<tr><td>WPEA</td><td class="neg">-0,04%</td><td>-1</td><td class="neg">-0,08%</td><td class="pos">+0,04%</td><td class="neg">-0,06%</td><td class="pos">+2,21%</td><td class="pos">+1,91%</td><td class="just">Repli modéré du MSCI World (-0,35% lundi) face à la remontée du Brent (106$/baril) et des rendements US (5,3%), sans catalyseur macro isolable mais ton global baissier.</td></tr>
+<tr><td>PE500</td><td class="neg">-0,07%</td><td>-1</td><td class="neg">-0,11%</td><td class="pos">+0,00%</td><td class="neg">-0,10%</td><td class="pos">+2,59%</td><td class="pos">+2,29%</td><td class="just">S&P 500 recule après rejet par Trump du plan iranien pour rouvrir le détroit d'Ormuz; tensions géopolitiques persistantes, pétrole en hausse, confiance consommateurs US en baisse (81,9 vs 88,6).</td></tr>
+<tr><td>PCEU</td><td class="neg">-0,01%</td><td>-2</td><td class="neg">-0,09%</td><td class="neg">-0,15%</td><td class="neg">-0,35%</td><td class="neg">-0,96%</td><td class="neg">-1,56%</td><td class="just">CAC 40 cède 0,53%, Indice Stoxx Europe sous pression géopolitique Moyen-Orient; inflation zone euro 3,2% août, BCE a relevé taux 16 sept (2,65%), pression persistante sur obligataires.</td></tr>
+<tr><td>PAEEM</td><td class="neg">-0,09%</td><td>+1</td><td class="neg">-0,05%</td><td class="neg">-0,08%</td><td class="pos">+0,02%</td><td class="pos">+2,03%</td><td class="pos">+2,33%</td><td class="just">Marchés émergents bénéficient du rebond technologique IA et de l'appétit pour croissance malgré tensions; situation mixte mais léger biais positif vs DM.</td></tr>
+<tr><td>PTPXE</td><td class="neg">-0,03%</td><td>+0</td><td class="neg">-0,03%</td><td class="pos">+0,04%</td><td class="pos">+0,04%</td><td class="pos">+1,97%</td><td class="pos">+1,97%</td><td class="just">Japon peu affecté directement par crise Moyen-Orient; yen stable, pas de catalyseur spécifique déclaré aujourd'hui, profil neutre sur la journée.</td></tr>
+<tr><td>RS2K</td><td class="pos">+0,05%</td><td>-2</td><td class="neg">-0,03%</td><td class="neg">-0,22%</td><td class="neg">-0,42%</td><td class="neg">-3,31%</td><td class="neg">-3,91%</td><td class="just">Russell 2000 sensible aux taux US (5,3%), pétrole élevé renchérit énergie; PME US plus exposées que large-cap au durcissement monétaire et tensions géopolitiques.</td></tr>
+<tr><td>PUST</td><td class="neg">-0,04%</td><td>-1</td><td class="neg">-0,08%</td><td class="pos">+0,36%</td><td class="pos">+0,26%</td><td class="pos">+6,36%</td><td class="pos">+6,06%</td><td class="just">Nasdaq-100 subit correction après euphorie IA (Meta Muse à 3,4M téléchargements), rebond en clôture de séance mais freiné par rendements Trésor 5,3% et risques Moyen-Orient.</td></tr>
+</table>
+<h3>Sectoriels — suivi seul</h3>
+<table class="sect">
+<tr><th>Ticker</th><th>Quant J+1</th><th>News</th><th>Préd. J+1</th><th>Quant J+5</th><th>Préd. J+5</th><th>Quant EOY</th><th>Préd. EOY</th><th>Justification du score news</th></tr>
+<tr><td>EXA1</td><td class="pos">+0,15%</td><td>-2</td><td class="pos">+0,07%</td><td class="pos">+0,28%</td><td class="pos">+0,08%</td><td class="pos">+0,73%</td><td class="pos">+0,13%</td><td class="just">Banques euro-zone pénalisées par hausse taux BCE (2,65% depuis 16 sept) et attentes de marché +100 pb resserrement d'ici fin 2027; environnement disinflationniste affecte NIM potentiel.</td></tr>
+<tr><td>STEC</td><td class="neg">-0,30%</td><td>+1</td><td class="neg">-0,26%</td><td class="neg">-0,50%</td><td class="neg">-0,40%</td><td class="pos">+1,84%</td><td class="pos">+2,14%</td><td class="just">Tech Europe rebondit avec IA (Soitec +9,1%), mais freiné par taux longs élevés (5,3% US) et incertitude géopolitique; bilan mitigé, léger biais à l'optimisme IA.</td></tr>
+<tr><td>DEFS</td><td class="pos">+0,07%</td><td>+2</td><td class="pos">+0,15%</td><td class="pos">+0,15%</td><td class="pos">+0,35%</td><td class="pos">+0,93%</td><td class="pos">+1,53%</td><td class="just">Tensions Moyen-Orient (blocus Ormuz, rejeu conflit Iran) soutiennent demande défense Europe; géopolitique de premier ordre alimente repositionnement vers secteur défense.</td></tr>
+<tr><td>SMH</td><td class="neg">-0,26%</td><td>+1</td><td class="neg">-0,22%</td><td class="pos">+0,13%</td><td class="pos">+0,23%</td><td class="pos">+8,94%</td><td class="pos">+9,24%</td><td class="just">Semi-conducteurs mondiaux bénéficient demande IA (TSMC prévoit capex 52-56 Mds$, croissance 30-40%), mais atténué par craintes bulle et taux US supérieurs.</td></tr>
+<tr><td>GOAI</td><td class="pos">+0,05%</td><td>+2</td><td class="pos">+0,13%</td><td class="pos">+0,80%</td><td class="pos">+1,00%</td><td class="pos">+9,81%</td><td class="pos">+10,41%</td><td class="just">IA/robotique en hausse (Meta Muse succès fulgurant 3,4M DL), intégrations multiples annoncées; catalyseur secteur significatif malgré volatilité macro, momentum IA positif.</td></tr>
+</table>
+<h2>4. Modifications du modèle appliquées à cette exécution</h2>
+<p><span class="badge ok">REJETE_VALIDATION</span></p>
+<div class="calib">Auto-calibration : candidat REJETÉ. L'ajustement proposé (momentum 20 s, -0,0250) améliorait l'échantillon d'apprentissage mais le gain sur l'échantillon de validation (52,1 % → 52,6 % de hit ratio J+1) reste sous le seuil de significativité de 0,3 pt : indiscernable du bruit. Poids inchangés.</div>
+<table>
+<tr><th>Métrique</th><th>Apprentissage (70 % anciens)</th><th>Validation (30 % récents)</th></tr>
+<tr><td>Hit ratio J+1</td><td>51,7%</td><td>52,1%</td></tr>
+<tr><td>Hit ratio J+5</td><td>51,5%</td><td>54,0%</td></tr>
+<tr><td>Observations J+1</td><td>3066</td><td>1324</td></tr>
+</table>
+<p class="small">Hit ratio des prédictions <em>réellement publiées</em> sur les 120 dernières observations : <strong>56,7 %</strong>. Cet indicateur pilote le mécanisme de rollback.</p>
+<p class="small">Garde-fous actifs : seuil de 20 séances évaluées par ticker · pas maximal de 5 % par exécution · borne dure de ±30 % autour des poids v1 · validation walk-forward obligatoire · rollback si le hit ratio live perd plus de 5 pt sur 10 séances.</p>
+<h2>5. Résumé de l'actualité du jour</h2>
+<p><strong>Macro et Géopolitique dominantes du 29 septembre 2026</strong><br/>Les marchés mondiaux cèdent face à une montée des tensions au Moyen-Orient. Le rejet par le président Trump du plan iranien de réouverture du détroit d'Ormuz ravive les craintes de pénurie énergétique. Le Brent s'envole à 106 $/baril, tandis que <strong>les rendements US à 10 ans atteindent 5,3%, des niveaux inédits depuis près de 20 ans</strong>. Cette dynamique de taux durcit les conditions financières globales.</p><p><strong>États-Unis : Consommation fléchit, taux dominent</strong><br/>La confiance des consommateurs américains s'effondre à 81,9 (vs 88,6 en août). <cite index="6-8,6-9">L'indice de confiance du Conference Board a chuté de 6,7 points, reflétant un déclin des perceptions commerciales et du marché du travail.</cite> Le S&P 500 recule sous le poids conjugué de la tensions géopolitiques et du durcissement obligataire. L'indice Nasdaq, dopé par l'euphorie IA (Meta Muse atteint la 1ère place de l'App Store avec 3,4 millions de téléchargements), rebondit en fin de séance mais reste fragile.</p><p><strong>Zone Euro : Inflation persistante, taux relevés</strong><br/><cite index="26-4,26-9">L'inflation annuelle de la zone euro s'est établie à 3,2% en août 2026, en hausse par rapport aux 2,9% de juillet</cite>, largement alimentée par la flambée des prix énergétiques. <cite index="2-1">Christine Lagarde a indiqué que les prévisions d'inflation pour 2027 et 2028 ont été relevées en raison de l'énergie.</cite> <cite index="40-1,40-2">La BCE a relevé ses trois taux directeurs de 0,25% le 10 septembre, la deuxième hausse depuis le début de 2026.</cite> <cite index="2-2">Les marchés anticipent environ 100 points de base de resserrement supplémentaire d'ici fin 2027.</cite> Le CAC 40 cède 0,53% malgré quelques relèvements sectoriels (Legrand +6,1%).</p><p><strong>Secteur Semi-conducteurs : IA soutient, mais risques de bulle</strong><br/>La demande de fabrication demeure robuste. TSMC anticipe des investissements capitaux de 52 à 56 milliards de dollars en 2026, bien au-dessus du consensus, tirant profit de la vague IA. <cite index="32-13">TSMC devrait enregistrer une croissance de 30-40% en 2026.</cite> Cependant, <cite index="30-4">certains analystes jugent que l'engouement pour l'IA pourrait créer une bulle spéculative dont les effets pourraient se faire sentir dès 2026 si la demande finale ne suit pas.</cite></p><p><strong>Technologie Europe et Défense : Contraste saisissant</strong><br/>Le secteur tech européen (Soitec +9,1%) bénéficie de l'optimisme IA persistant, malgré les vents contraires des taux longs. À l'inverse, la défense (aérien, naval, électronique) profite directement des tensions géopolitiques non-résolues au Moyen-Orient, positionnant ce secteur comme valeur refuge.</p><footer>Rapport généré par make_report.py · modèle v2.0 · composante quant strictement déterministe et reproductible (mêmes cours ⇒ mêmes valeurs) ; seule l'attribution du score news comporte une part de jugement, bornée. Ce document est un outil de suivi personnel et ne constitue pas un conseil en investissement.</footer>
+</body>
+</html>
