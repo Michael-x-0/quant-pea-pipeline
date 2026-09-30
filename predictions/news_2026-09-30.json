@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 0,
+  "justif": "Inflation US PCE août mois/mois +0,2% (consensus +0,3%) et glissement annuel 3,0% (consensus 3,3%) : données conforme soutient les marchés mais sans choc directionnel."
+ },
+ "PE500": {
+  "score": 1,
+  "justif": "Rendement Treasury 10Y à 5,24% soutenu par taux Fed 3,75-4,00% depuis le 16 septembre, commentaires dovish de Williams plafonnent la hausse : impact mitigé en latence."
+ },
+ "PCEU": {
+  "score": 2,
+  "justif": "Inflation zone euro septembre estimée à 3,7% YoY (vs 3,2% août), énergies +14,3% ; BCE a relevé ses taux à 2,50% le 10 septembre et maintient resserrement : pression notable sur indices européens."
+ },
+ "PAEEM": {
+  "score": 0,
+  "justif": "Pas de catalyseur macro majeur identifié pour les émergents ; tensions géopolitiques moyen-orient et yen en flux mélangés sans signal net."
+ },
+ "PTPXE": {
+  "score": 2,
+  "justif": "Nikkei +2,0% ; yen apprécié à 157,14 USD/JPY après hausse BoJ +25 bps le 18 septembre et débouclage carry trade : soutien techno mais pression devise negative pour exportateurs."
+ },
+ "RS2K": {
+  "score": 0,
+  "justif": "Small caps US affectées par hausse des taux (Treasury 5,24%) sans événement sectoriel distinct ; pression des rendements obligataires reste dominante."
+ },
+ "PUST": {
+  "score": 1,
+  "justif": "Nasdaq +1,0% soutenu par tech/IA malgré PCE cooler que prévu ; Micron earnings après clôture ce jour serve de catalyseur mais impact limité avant annonce."
+ },
+ "EXA1": {
+  "score": -1,
+  "justif": "Banques euro-zone sous pression : hausse BCE à 2,50% comprime les NIM et rendements obligataires; indice Treasury 10Y à 5,24% pénalise valuations."
+ },
+ "STEC": {
+  "score": 1,
+  "justif": "Tech Europe bénéficie du momentum IA global et rebond semi-conducteurs (Intel +39% septembre, AMD +35%) ; résistance à la baisse macro grâce à facteurs de croissance."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Tensions géopolitiques persistantes (Iran, Strait of Hormuz) supportent le secteur défense ; aucun désescalade majeure rapportée, pression énergétique soutient demande."
+ },
+ "SMH": {
+  "score": 2,
+  "justif": "Semi-conducteurs mondiaux rebondissent fortement : ARM +41,9% septembre, Intel +39,2%, AMD +35,7% sur demande IA record et contrats à plusieurs milliards$."
+ },
+ "GOAI": {
+  "score": 2,
+  "justif": "IA/Robotique porté par contrats capex hyperscalers (520 Mds$ non-annulables chez Google/Amazon/Microsoft) et GPT-6.1 Sol en production ; dynamique fondamentale structurellement positive."
+ }
+}
