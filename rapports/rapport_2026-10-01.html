@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Rapport PEA — 2026-10-01</title>
+<style>
+  body { font-family: -apple-system, Segoe UI, Arial, sans-serif; max-width: 1060px; margin: 30px auto; padding: 0 20px; color: #1a1a1a; line-height: 1.5; }
+  h1 { font-size: 1.5em; border-bottom: 3px solid #1a4d8f; padding-bottom: 10px; }
+  h2 { font-size: 1.15em; color: #1a4d8f; margin-top: 34px; border-bottom: 1px solid #ddd; padding-bottom: 6px; }
+  h3 { font-size: 1.0em; color: #333; margin-top: 22px; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 0.92em; }
+  th, td { border: 1px solid #ddd; padding: 6px 9px; text-align: right; }
+  th { background: #1a4d8f; color: #fff; text-align: center; }
+  td:first-child, th:first-child { text-align: left; font-weight: 600; }
+  tr:nth-child(even) { background: #f6f8fb; }
+  .pos { color: #0a7a2f; font-weight: 600; }
+  .neg { color: #b3221e; font-weight: 600; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 0.85em; font-weight: 600; }
+  .ok { background: #dff3e3; color: #0a7a2f; }
+  .nok { background: #fbe0df; color: #b3221e; }
+  .note { background: #fff8e1; border-left: 4px solid #f0ad4e; padding: 10px 14px; margin: 14px 0; font-size: 0.93em; }
+  .reserve { background: #fdeceb; border-left: 4px solid #b3221e; padding: 10px 14px; margin: 14px 0; font-size: 0.93em; }
+  .calib { background: #eef4fb; border-left: 4px solid #1a4d8f; padding: 10px 14px; margin: 14px 0; font-size: 0.93em; }
+  .sect th { background: #6b4d8f; }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #ddd; font-size: 0.85em; color: #555; }
+  .small { font-size: 0.85em; color: #555; }
+  td.just { text-align: left; font-weight: 400; font-size: 0.9em; }
+</style>
+</head>
+<body>
+<h1>📊 Rapport PEA — 2026-10-01</h1>
+<p class="small">Analyste quotidien automatisé — modèle <strong>v2.0</strong>. Univers : 7 ETF socle (éligibles PEA, hors scope PAD) + 5 ETF sectoriels <strong>en suivi seul</strong>. Données Boursorama EOD, clôture Euronext définitive.</p>
+<div class="reserve"><strong>Statut PAD des lignes sectorielles.</strong> Les cinq ETF sectoriels (EXA1, STEC, DEFS, SMH, HLT) sont des fonds sectoriels au sens des critères PAD : ils sont <strong>en scope</strong> et ne sont pas investissables par Michael sans autorisation préalable. Ils figurent ici à titre de suivi de marché uniquement — aucun avis d'investissement personnel n'est formulé sur ces lignes.</div>
+<h2>1. Cours et variations exactes (source : dataset local)</h2>
+<h3>Socle — investissable</h3>
+<table>
+<tr><th>Ticker</th><th>Close</th><th>Var 1J</th><th>Var 5J</th><th>YTD</th><th>Var 1 an</th><th>RSI14</th><th>Z20</th><th>Vol. 20j ann.</th></tr>
+<tr><td>WPEA</td><td>7,062</td><td class="neg">-0,25%</td><td class="neg">-0,08%</td><td class="pos">+15,39%</td><td class="pos">+18,33%</td><td>57,6</td><td>0,85</td><td>8,7%</td></tr>
+<tr><td>PE500</td><td>56,260</td><td class="neg">-0,05%</td><td class="pos">+0,63%</td><td class="pos">+16,12%</td><td class="pos">+20,48%</td><td>65,0</td><td>1,36</td><td>8,8%</td></tr>
+<tr><td>PCEU</td><td>38,720</td><td class="neg">-1,20%</td><td class="neg">-1,91%</td><td class="pos">+8,22%</td><td class="pos">+13,28%</td><td>32,2</td><td>-2,95</td><td>10,8%</td></tr>
+<tr><td>PAEEM</td><td>36,665</td><td class="pos">+0,22%</td><td class="neg">-0,65%</td><td class="pos">+27,89%</td><td class="pos">+30,29%</td><td>53,9</td><td>0,43</td><td>18,7%</td></tr>
+<tr><td>PTPXE</td><td>40,335</td><td class="neg">-0,59%</td><td class="pos">+0,76%</td><td class="pos">+26,01%</td><td class="pos">+31,28%</td><td>58,5</td><td>1,45</td><td>17,8%</td></tr>
+<tr><td>RS2K</td><td>371,930</td><td class="neg">-0,28%</td><td class="neg">-0,52%</td><td class="pos">+16,90%</td><td class="pos">+17,49%</td><td>39,1</td><td>-1,20</td><td>11,4%</td></tr>
+<tr><td>PUST</td><td>108,280</td><td class="pos">+0,15%</td><td class="pos">+0,69%</td><td class="pos">+24,78%</td><td class="pos">+26,36%</td><td>70,7</td><td>1,26</td><td>14,1%</td></tr>
+</table>
+<h3>Sectoriels — suivi seul</h3>
+<table class="sect">
+<tr><th>Ticker</th><th>Close</th><th>Var 1J</th><th>Var 5J</th><th>YTD</th><th>Var 1 an</th><th>RSI14</th><th>Z20</th><th>Vol. 20j ann.</th></tr>
+<tr><td>EXA1</td><td>19,932</td><td class="neg">-4,03%</td><td class="neg">-5,69%</td><td class="pos">+16,90%</td><td class="pos">+36,00%</td><td>29,7</td><td>-3,58</td><td>20,9%</td></tr>
+<tr><td>STEC</td><td>7,954</td><td class="pos">+0,20%</td><td class="pos">+2,71%</td><td class="pos">+24,90%</td><td class="pos">+23,69%</td><td>63,9</td><td>1,71</td><td>18,8%</td></tr>
+<tr><td>DEFS</td><td>5,733</td><td class="neg">-0,92%</td><td class="neg">-1,78%</td><td class="pos">+1,94%</td><td class="neg">-5,69%</td><td>37,4</td><td>-1,04</td><td>16,9%</td></tr>
+<tr><td>SMH</td><td>101,733</td><td class="pos">+0,90%</td><td class="pos">+1,61%</td><td class="pos">+92,03%</td><td class="pos">+105,52%</td><td>67,5</td><td>1,33</td><td>31,7%</td></tr>
+<tr><td>GOAI</td><td>153,590</td><td class="pos">+0,65%</td><td class="pos">+1,48%</td><td class="pos">+36,27%</td><td class="pos">+34,25%</td><td>72,2</td><td>1,46</td><td>14,7%</td></tr>
+</table>
+<h2>2. Bilan des prédictions passées (auto-évaluation)</h2>
+<p class="small">Comparaison des prédictions J+1 faites le 2026-09-30 vs réalisé exact du dataset. Univers évalué : 12 tickers (socle + sectoriel).</p>
+<table>
+<tr><th>Ticker</th><th>Prédit %</th><th>Réalisé %</th><th>Erreur (pts)</th><th>Direction</th></tr>
+<tr><td>WPEA</td><td>-0,05</td><td>-0,25</td><td>-0,20</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>PE500</td><td>-0,04</td><td>-0,05</td><td>-0,02</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>PCEU</td><td>+0,14</td><td>-1,20</td><td>-1,34</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>PAEEM</td><td>-0,03</td><td>+0,22</td><td>+0,25</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>PTPXE</td><td>-0,21</td><td>-0,59</td><td>-0,38</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>RS2K</td><td>-0,00</td><td>-0,28</td><td>-0,28</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>PUST</td><td>+0,01</td><td>+0,15</td><td>+0,13</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>EXA1</td><td>+0,22</td><td>-4,03</td><td>-4,25</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>STEC</td><td>-0,25</td><td>+0,20</td><td>+0,45</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>DEFS</td><td>+0,12</td><td>-0,92</td><td>-1,03</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>SMH</td><td>-0,09</td><td>+0,90</td><td>+0,99</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>GOAI</td><td>+0,15</td><td>+0,65</td><td>+0,50</td><td><span class="badge ok">OUI</span></td></tr>
+</table>
+<p><strong>6/12 directions correctes</strong> &middot; erreur moyenne signée <strong>-0,43 pt</strong> &middot; erreur absolue moyenne <strong>0,82 pt</strong>.</p><h2>3. Prédictions — J+1 / J+5 / fin d'année</h2>
+<p class="small">Valeur unique = signal quant déterministe + overlay news borné. Échelle news <strong>[-5, +5]</strong> (élargie le 11/08/2026) · J+1 : quant + score×0,04 · J+5 : quant + score×0,10 · EOY : quant + score×0,30. Influence maximale des news : ±0,20 pt (J+1), ±0,50 pt (J+5), ±1,50 pt (EOY) — identique à la v1 malgré l'échelle élargie. Barème : config/news_scale.md</p>
+<h3>Socle</h3>
+<table>
+<tr><th>Ticker</th><th>Quant J+1</th><th>News</th><th>Préd. J+1</th><th>Quant J+5</th><th>Préd. J+5</th><th>Quant EOY</th><th>Préd. EOY</th><th>Justification du score news</th></tr>
+<tr><td>WPEA</td><td class="neg">-0,03%</td><td>-1</td><td class="neg">-0,07%</td><td class="pos">+0,07%</td><td class="neg">-0,03%</td><td class="pos">+2,32%</td><td class="pos">+2,02%</td><td class="just">Marché mondial en baisse, Europe -1,3% (STOXX 600), tensions obligataires persistantes : rendement OAT 10ans à 4,1%, niveau plus haut depuis 2002.</td></tr>
+<tr><td>PE500</td><td class="neg">-0,05%</td><td>+1</td><td class="neg">-0,01%</td><td class="pos">+0,12%</td><td class="pos">+0,22%</td><td class="pos">+3,39%</td><td class="pos">+3,69%</td><td class="just">S&P 500 +0,19% à l'ouverture US, soutenu par gains en IA et semi-conducteurs malgré tensions obligataires ; rendement T-Bonds 10ans à 5,3-5,35%.</td></tr>
+<tr><td>PCEU</td><td class="pos">+0,22%</td><td>-2</td><td class="pos">+0,14%</td><td class="pos">+0,19%</td><td class="neg">-0,01%</td><td class="neg">-2,13%</td><td class="neg">-2,73%</td><td class="just">Europe pénalisée : STOXX 600 -1,3%, CAC 40 -1,62%, banques -3,74% ; inflation persistante et flambée obligataire inquiètent avant décision BCE 29 octobre.</td></tr>
+<tr><td>PAEEM</td><td class="neg">-0,05%</td><td>+2</td><td class="pos">+0,03%</td><td class="neg">-0,00%</td><td class="pos">+0,20%</td><td class="pos">+1,84%</td><td class="pos">+2,44%</td><td class="just">Micron earnings stimulent semi-conducteurs Asie : Nikkei +3,3%, Topix +0,57% ; TSMC et équipementiers soutiennent marchés émergents Tech.</td></tr>
+<tr><td>PTPXE</td><td class="neg">-0,15%</td><td>+1</td><td class="neg">-0,11%</td><td class="neg">-0,02%</td><td class="pos">+0,08%</td><td class="pos">+4,12%</td><td class="pos">+4,42%</td><td class="just">Topix +0,57% porté par Micron et semis, yen +1,5% en septembre mais cède 0,2% mercredi à 157,82 ; BoJ maintient débat sur hausse des taux.</td></tr>
+<tr><td>RS2K</td><td class="pos">+0,03%</td><td>-1</td><td class="neg">-0,01%</td><td class="neg">-0,28%</td><td class="neg">-0,38%</td><td class="neg">-3,38%</td><td class="neg">-3,68%</td><td class="just">Russell petites caps impactée par inquiétude macro US : rendements obligataires à 24 ans, inflation PCE 3,4%, probabilité hausse Fed en octobre à 37%.</td></tr>
+<tr><td>PUST</td><td class="neg">-0,01%</td><td>+1</td><td class="pos">+0,03%</td><td class="pos">+0,53%</td><td class="pos">+0,63%</td><td class="pos">+7,62%</td><td class="pos">+7,92%</td><td class="just">Nasdaq-100 +0,6% attendu à l'ouverture US ; gains AI et semi-conducteurs (Micron, Broadcom) compensent tensions obligataires de court terme.</td></tr>
+</table>
+<h3>Sectoriels — suivi seul</h3>
+<table class="sect">
+<tr><th>Ticker</th><th>Quant J+1</th><th>News</th><th>Préd. J+1</th><th>Quant J+5</th><th>Préd. J+5</th><th>Quant EOY</th><th>Préd. EOY</th><th>Justification du score news</th></tr>
+<tr><td>EXA1</td><td class="pos">+0,58%</td><td>-3</td><td class="pos">+0,46%</td><td class="pos">+0,81%</td><td class="pos">+0,51%</td><td class="neg">-3,20%</td><td class="neg">-4,10%</td><td class="just">STOXX Europe Banks -3,74%, réaction majeure négative aux rendements obligataires records (OAT 4,1%) et risque de stagnation des marges bancaires zone euro.</td></tr>
+<tr><td>STEC</td><td class="neg">-0,24%</td><td>+0</td><td class="neg">-0,24%</td><td class="neg">-0,25%</td><td class="neg">-0,25%</td><td class="pos">+3,28%</td><td class="pos">+3,28%</td><td class="just">Technologie Europe mixte : gains IA/semis mondiaux contrebalancés par baisse STOXX 600 Tech et tensions obligataires européennes, bilan neutre.</td></tr>
+<tr><td>DEFS</td><td class="pos">+0,15%</td><td>-1</td><td class="pos">+0,11%</td><td class="pos">+0,20%</td><td class="pos">+0,10%</td><td class="neg">-0,32%</td><td class="neg">-0,62%</td><td class="just">Défense Europe légèrement pénalisée par recul STOXX 600 général, tensions géopolitiques (Moyen-Orient) atténuées, pas de catalyseur de défense spécifique.</td></tr>
+<tr><td>SMH</td><td class="neg">-0,18%</td><td>+3</td><td class="neg">-0,06%</td><td class="pos">+0,39%</td><td class="pos">+0,69%</td><td class="pos">+10,01%</td><td class="pos">+10,91%</td><td class="just">Semiconduteurs monde catalyseur majeur : Micron Q4 solides, Advantest +9,14%, Murata +8,28% au Japon ; capex IA continue, attentes revenues soutenues.</td></tr>
+<tr><td>GOAI</td><td class="pos">+0,08%</td><td>+2</td><td class="pos">+0,16%</td><td class="pos">+1,09%</td><td class="pos">+1,29%</td><td class="pos">+12,52%</td><td class="pos">+13,12%</td><td class="just">IA/Robotique monde significatif : Micron guidance IA capex 60-64Mds$, Anthropic annonce 518Mds$ infrastructure IA, demande robuste pour racks/serveurs.</td></tr>
+</table>
+<h2>4. Modifications du modèle appliquées à cette exécution</h2>
+<p><span class="badge ok">REJETE_VALIDATION</span></p>
+<div class="calib">Auto-calibration : candidat REJETÉ. L'ajustement proposé (momentum 20 s, -0,0250) améliorait l'échantillon d'apprentissage mais le gain sur l'échantillon de validation (52,1 % → 52,3 % de hit ratio J+1) reste sous le seuil de significativité de 0,3 pt : indiscernable du bruit. Poids inchangés.</div>
+<table>
+<tr><th>Métrique</th><th>Apprentissage (70 % anciens)</th><th>Validation (30 % récents)</th></tr>
+<tr><td>Hit ratio J+1</td><td>51,6%</td><td>52,1%</td></tr>
+<tr><td>Hit ratio J+5</td><td>51,6%</td><td>54,1%</td></tr>
+<tr><td>Observations J+1</td><td>3088</td><td>1326</td></tr>
+</table>
+<p class="small">Hit ratio des prédictions <em>réellement publiées</em> sur les 120 dernières observations : <strong>52,5 %</strong>. Cet indicateur pilote le mécanisme de rollback.</p>
+<p class="small">Garde-fous actifs : seuil de 20 séances évaluées par ticker · pas maximal de 5 % par exécution · borne dure de ±30 % autour des poids v1 · validation walk-forward obligatoire · rollback si le hit ratio live perd plus de 5 pt sur 10 séances.</p>
+<h2>5. Résumé de l'actualité du jour</h2>
+<p><strong>Atmosphère globale</strong> : Premier jour du trimestre marqué par divergence géographique majeure. Europe pénalisée par bond des rendements obligataires à niveaux 24 ans (OAT 10ans 4,1%, T-Bonds 5,3%) suite à craintes inflationnistes durables (gaz, pétrole, Moyen-Orient). Wall Street résiste grâce à résilience technologique.</p><p><strong>États-Unis</strong> : Inflation PCE août à 3,4% réduit anticipations hausse Fed octobre (37% vs 51% jour précédent), mais rendements restent élevés. Nasdaq et semis porteurs ; S&P 500 +0,19%. Agenda du jour : ISM manufacturier, chômage hebdomadaire, discours Fed.</p><p><strong>Europe</strong> : STOXX 600 -1,3%, banques -3,74%. Flambée obligataire maîtresse crainte avant décision BCE 29 octobre : scénario hausse des taux sur table si inflation se confirme. Zone euro inflation persistante (gaz/pétrole).</p><p><strong>Asie</strong> : Nikkei +3,3%, Topix +0,57% grâce à Micron earnings et prévisions capex IA. Yen +1,5% en septembre mais recule légèrement. BoJ débat hausse taux. Japon croissance stable mais inflation hors contrôle pour l'instant.</p><p><strong>Catalyseurs clés semaine</strong> : NFP US vendredi, décision Fed 28 octobre, décision BCE 29 octobre. Semi-conducteurs et infrastructure IA restent moteurs haussiers malgré headwinds obligataires.</p><footer>Rapport généré par make_report.py · modèle v2.0 · composante quant strictement déterministe et reproductible (mêmes cours ⇒ mêmes valeurs) ; seule l'attribution du score news comporte une part de jugement, bornée. Ce document est un outil de suivi personnel et ne constitue pas un conseil en investissement.</footer>
+</body>
+</html>

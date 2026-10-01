@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -1,
+  "justif": "Marché mondial en baisse, Europe -1,3% (STOXX 600), tensions obligataires persistantes : rendement OAT 10ans à 4,1%, niveau plus haut depuis 2002."
+ },
+ "PE500": {
+  "score": 1,
+  "justif": "S&P 500 +0,19% à l'ouverture US, soutenu par gains en IA et semi-conducteurs malgré tensions obligataires ; rendement T-Bonds 10ans à 5,3-5,35%."
+ },
+ "PCEU": {
+  "score": -2,
+  "justif": "Europe pénalisée : STOXX 600 -1,3%, CAC 40 -1,62%, banques -3,74% ; inflation persistante et flambée obligataire inquiètent avant décision BCE 29 octobre."
+ },
+ "PAEEM": {
+  "score": 2,
+  "justif": "Micron earnings stimulent semi-conducteurs Asie : Nikkei +3,3%, Topix +0,57% ; TSMC et équipementiers soutiennent marchés émergents Tech."
+ },
+ "PTPXE": {
+  "score": 1,
+  "justif": "Topix +0,57% porté par Micron et semis, yen +1,5% en septembre mais cède 0,2% mercredi à 157,82 ; BoJ maintient débat sur hausse des taux."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Russell petites caps impactée par inquiétude macro US : rendements obligataires à 24 ans, inflation PCE 3,4%, probabilité hausse Fed en octobre à 37%."
+ },
+ "PUST": {
+  "score": 1,
+  "justif": "Nasdaq-100 +0,6% attendu à l'ouverture US ; gains AI et semi-conducteurs (Micron, Broadcom) compensent tensions obligataires de court terme."
+ },
+ "EXA1": {
+  "score": -3,
+  "justif": "STOXX Europe Banks -3,74%, réaction majeure négative aux rendements obligataires records (OAT 4,1%) et risque de stagnation des marges bancaires zone euro."
+ },
+ "STEC": {
+  "score": 0,
+  "justif": "Technologie Europe mixte : gains IA/semis mondiaux contrebalancés par baisse STOXX 600 Tech et tensions obligataires européennes, bilan neutre."
+ },
+ "DEFS": {
+  "score": -1,
+  "justif": "Défense Europe légèrement pénalisée par recul STOXX 600 général, tensions géopolitiques (Moyen-Orient) atténuées, pas de catalyseur de défense spécifique."
+ },
+ "SMH": {
+  "score": 3,
+  "justif": "Semiconduteurs monde catalyseur majeur : Micron Q4 solides, Advantest +9,14%, Murata +8,28% au Japon ; capex IA continue, attentes revenues soutenues."
+ },
+ "GOAI": {
+  "score": 2,
+  "justif": "IA/Robotique monde significatif : Micron guidance IA capex 60-64Mds$, Anthropic annonce 518Mds$ infrastructure IA, demande robuste pour racks/serveurs."
+ }
+}
