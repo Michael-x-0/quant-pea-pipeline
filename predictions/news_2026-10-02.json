@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 1,
+  "justif": "S&P 500 +0,73% et indices mondiaux en hausse sur l'emploi US moins robuste, calmant les craintes de resserrement monétaire Fed."
+ },
+ "PE500": {
+  "score": 1,
+  "justif": "S&P 500 +0,73% porté par Tesla (+4,7%), Nvidia (+1,3%) et large hausse secteurs ; rapport emploi US allège risque hausse taux."
+ },
+ "PCEU": {
+  "score": 1,
+  "justif": "CAC 40 +0,79%, Stoxx 600 +0,69% ; données inflation zone euro modérées et emploi US faible détendent obligataires, taux français toujours sous pression."
+ },
+ "PAEEM": {
+  "score": 1,
+  "justif": "Nikkei +3,3% jeudi relayé par optimisme IA (Micron), puis -0,94% vendredi sur prise de profits et tensions obligataires ; flux US positif."
+ },
+ "PTPXE": {
+  "score": 0,
+  "justif": "Nikkei +3,3% jeudi (semi-conducteurs surges), -0,94% vendredi sur profit-taking et rendements obligataires ; bilan mitigé sur la semaine."
+ },
+ "RS2K": {
+  "score": 1,
+  "justif": "Wall Street soulagée par chiffres emploi faibles réduisant probabilité hausse Fed octobre à 20% ; Russell 2000 sensible à perspective taux."
+ },
+ "PUST": {
+  "score": 1,
+  "justif": "Nasdaq-100 +1,19% vendredi ; Tesla +4,7% et Nvidia +1,3% moteurs ; gains tech solides post-délivraisons Tesla Q3 meilleures qu'attendu."
+ },
+ "EXA1": {
+  "score": -2,
+  "justif": "Banques euro en baisse : rendements OAT français frôlent 5%, écart France-Allemagne 140 bps record depuis 2011/2012, pression marge crédit."
+ },
+ "STEC": {
+  "score": 2,
+  "justif": "Semi-conducteurs et technologie très dynamiques : Nvidia +1,3%, Advantest +9,78%, Lasertec +11,14% ; optimisme IA et capex soutient secteur."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Défense stable ; contrat Raytheon $24 Mds positif mais sans catalyseur spécifique dans la journée pour mouvements marqués."
+ },
+ "SMH": {
+  "score": 2,
+  "justif": "Micron earnings boost optimisme IA ; semi-conducteurs leaders Nikkei jeudi (+11% Lasertec) ; RTX Spark launch proche (7 oct) soutient sentiment."
+ },
+ "GOAI": {
+  "score": 2,
+  "justif": "IA/robotique en momentum : annonces Infineon IA physique et robotique, SINTRONES vision IA industrielle au VISION 2026, Nvidia RTX Spark imminent."
+ }
+}
