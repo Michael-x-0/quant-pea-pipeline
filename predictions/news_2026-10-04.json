@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 0,
+  "justif": "Indice mondial sans catalyseur identifiable : S&P 500 +0,73%, DAX +1,17%, divergence Europe-US habituelle."
+ },
+ "PE500": {
+  "score": 1,
+  "justif": "S&P 500 +0,73% vendredi, soutien légèrement positif ; mais NFP septembre faible (29k vs 84k attendus) réduit les risques de hausse Fed en octobre."
+ },
+ "PCEU": {
+  "score": 0,
+  "justif": "Banques européennes en repli lundi matin ; tensions sur les spreads français (déficit) et tarification des taux à 2,65%."
+ },
+ "PAEEM": {
+  "score": 2,
+  "justif": "TSMC Q3 2026 attendu le 15 octobre déclenche scrutin sur demande IA ; leadership semi-conducteurs renforcé après Q2 surperformant."
+ },
+ "PTPXE": {
+  "score": 0,
+  "justif": "Indice Japon +2,45% samedi mais sans nouvelle spécifique ; confiance consommateurs nippons publiée lundi."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Russell 2000 +0,94% mais taux Fed à 3,75-4% depuis septembre pèse sur small caps ; probable nouveau resserrement fin octobre."
+ },
+ "PUST": {
+  "score": 1,
+  "justif": "Nasdaq +1,00% lundi ; secteur tech soutenu par euphorie IA/TSMC malgré environnement de taux élevés."
+ },
+ "EXA1": {
+  "score": 0,
+  "justif": "Banques zone euro : spreads français s'écartent sur craintes budgétaires ; rendements obligataires en hausse (10 ans à 4,96%)."
+ },
+ "STEC": {
+  "score": 1,
+  "justif": "Technologie européenne dopée par anticipation de résultats TSMC et rallye semi-conducteurs mondiaux envisagé."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Risque géopolitique élevé au Moyen-Orient (déploiement US, Houthis, Brent +100$) ; allocations défense soutenables court terme."
+ },
+ "SMH": {
+  "score": 2,
+  "justif": "VanEck Semi-conducteurs : TSMC raise 2026 cap ex à 18,75-20 Mds$ pour AI chip demand ; prochain rapport 15 octobre très attendu."
+ },
+ "GOAI": {
+  "score": 1,
+  "justif": "IA/Robotique soutenue par demande robuste TSMC Q2 (40,2 Mds$ revenus, marge brute 67,7%) et optimisme sur ramp-up 2nm."
+ }
+}
