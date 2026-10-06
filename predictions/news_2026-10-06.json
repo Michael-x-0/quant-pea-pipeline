@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 1,
+  "justif": "Nasdaq et S&P 500 à nouveaux records (+1% à +0,7%), portés par l'IA, malgré tensions obligataires. Ton positif modéré."
+ },
+ "PE500": {
+  "score": 1,
+  "justif": "S&P 500 en hausse +0,7% à niveaux historiques grâce au secteur technologique. Catalyseur léger positif."
+ },
+ "PCEU": {
+  "score": -1,
+  "justif": "CAC 40 +0,4% mais OAT 10y à 4,87%, Bund à 3,45% : spread France-Allemagne à 150 pb, plus haut depuis 2011. Risque souverain français."
+ },
+ "PAEEM": {
+  "score": 0,
+  "justif": "Pas de catalyseur identifiable aujourd'hui pour les marchés émergents. Attente des décisions de taux Fed et BCE fin octobre."
+ },
+ "PTPXE": {
+  "score": 1,
+  "justif": "Nikkei +1,05% en nouvelle hausse ; yen se renforce progressivement depuis interventions juillet, portage positif sur indices japonais."
+ },
+ "RS2K": {
+  "score": 0,
+  "justif": "Russell 2000 +0,57% dans contexte US neutre. Pas de catalyseur sectoriel small cap identifiable."
+ },
+ "PUST": {
+  "score": 1,
+  "justif": "Nasdaq 100 +0,68%, proximité nouveaux records sur dynamique IA. Nvidia approche 6 Mds$ de capitalisation, leadership tech intact."
+ },
+ "EXA1": {
+  "score": -2,
+  "justif": "Banques euro sous pression : hausse OAT limite les marges, tensions budgétaires France, spread France-Allemagne à +150 pb. Environnement adverse taux."
+ },
+ "STEC": {
+  "score": 0,
+  "justif": "Tech Europe en attente. Nvidia fort aux US +0,77%, mais tensions obligataires et incertitudes BCE limitent gains européens."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Pas de catalyseur défense identifié. Tensions géopolitiques Moyen-Orient omniprésentes mais sans rupture nouvelle significative."
+ },
+ "SMH": {
+  "score": 1,
+  "justif": "Semi-conducteurs : Nvidia revenue 96,2 Mds$ en Q2 FY2027 (+106% a/a), Blackwell et Vera Rubin en prod. Secteur en plein essor, momentum fort."
+ },
+ "GOAI": {
+  "score": 1,
+  "justif": "IA/Robotique : Nvidia Q2 FY2027 revenue +106% a/a, data center +117%, dynamique agentic AI accelerating. Tailwind structurel intact."
+ }
+}
