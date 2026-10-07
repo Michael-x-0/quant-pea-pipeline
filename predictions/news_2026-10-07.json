@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -1,
+  "justif": "Marché mondial en consolidation : S&P 500 et Nasdaq ont reculé (-0,56% et -0,85%) suite à la remontée des taux obligataires, tandis que CAC 40 cède -1,22% en ce jour."
+ },
+ "PE500": {
+  "score": -1,
+  "justif": "S&P 500 en baisse de 0,56% en séance du 7 octobre, repli suite aux tensions géopolitiques (Iran) et aux rendements obligataires à 5,29%, impactant les attentes de taux de la Fed."
+ },
+ "PCEU": {
+  "score": -1,
+  "justif": "CAC 40 recule de 1,22%, DAX de 1,41%, reflétant les craintes sur les budgets français (élection présidentielle 2027) et la hausse des rendements obligataires européens (+3,2% inflation en septembre)."
+ },
+ "PAEEM": {
+  "score": 1,
+  "justif": "Économie émergente soutenue : marché des semiconductors asiatiques dynamisé par l'IA (Taïwan +40% chiffre d'affaires 2026), TSMC en ordre de marche."
+ },
+ "PTPXE": {
+  "score": 1,
+  "justif": "TOPIX +1,33% le 5 octobre et +0,92% le 6 octobre, portée par le rebond technologique post-Nasdaq et des données de consommation japonaises encourageantes."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Russell 2000 en repli de 0,55% après sommets, sensible aux taux : remontée des rendements obligataires US (5,29%) pénalise ses constituants très endettés."
+ },
+ "PUST": {
+  "score": -1,
+  "justif": "Nasdaq-100 replie de 0,52% en séance du 7 octobre, pression des taux obligataires et consolidation post-records malgré l'IA dominante (Nvidia, Microsoft)."
+ },
+ "EXA1": {
+  "score": -1,
+  "justif": "Banques euro sous pression : les trois principales banques françaises (CA, BNP, SG) ont perdu 18-23% depuis août sur craintes budgétaires et hausse des rendements obligataires FR10Y."
+ },
+ "STEC": {
+  "score": 1,
+  "justif": "Technologie Europe tirant profit du cycle semiconducteur : marché mondial des puces à +64% croissance attendue en 2026 avec demande d'IA-specific (GPU, HBM)."
+ },
+ "DEFS": {
+  "score": 2,
+  "justif": "Défense Europe en dynamique soutenue : budget France 2026 à 57,1 Md€ (+6,7 Md€ a/a), commandes record, BofA anticipe 15% croissance annuelle des revenus 2026-2030."
+ },
+ "SMH": {
+  "score": 2,
+  "justif": "Secteur semiconducteurs alimenté par demande d'IA : Gartner projette marché >1 300 Md$ 2026 (+64%), demande en mémoire HBM et GPU avancés en tension."
+ },
+ "GOAI": {
+  "score": 1,
+  "justif": "IA et robotique en phase d'expansion durable : investissements publics et privés en IA redessinent l'électronique et les datacenters, demande structurelle soutenue."
+ }
+}
