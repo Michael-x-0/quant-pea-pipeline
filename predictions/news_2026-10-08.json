@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -1,
+  "justif": "Indice monde légèrement freiné par baisse S&P 500 (-0,22%), tensions géopolitiques au Moyen-Orient et hausse des rendements obligataires (+rendement US 10Y proche 5,3%)."
+ },
+ "PE500": {
+  "score": -2,
+  "justif": "S&P 500 reculé 0,22% mercredi ; rendements obligataires à sommets 24 ans et minutes Fed révèlent consensus haussier, pesant sur valorisations technologiques."
+ },
+ "PCEU": {
+  "score": -2,
+  "justif": "Europe STOXX 50 -1,47% ; CAC 40 -1,22% ; écarts souverains français élargis, tensions géopolitiques Moyen-Orient et craintes budgétaires en zone euro."
+ },
+ "PAEEM": {
+  "score": 2,
+  "justif": "TSMC CA T3 +50% a/a porté par demande IA ; Samsung bénéfice T3 +783% a/a ; semi-conducteurs asiatiques moteurs forts de la journée malgré légers reculs fermetures."
+ },
+ "PTPXE": {
+  "score": -1,
+  "justif": "Nikkei -0,95% sur inquiétudes coûts d'emprunt élevés et tensions géopolitiques ; yen sous pression du dollar fort dans contexte Fed restrictive."
+ },
+ "RS2K": {
+  "score": -2,
+  "justif": "Russell 2000 -0,77% en contrats futures ; small caps US pénalisées par environnement taux hauts et rotation vers mega-caps tech refuge."
+ },
+ "PUST": {
+  "score": -2,
+  "justif": "Nasdaq 100 -0,52% ; semi-conducteurs et technologie affectés par rendements obligataires en hausse malgré résultats IA positifs (TSMC, Samsung)."
+ },
+ "EXA1": {
+  "score": -2,
+  "justif": "STOXX Europe Banks -3% mercredi ; indices régionaux bancaires reculent brutalement malgré perspectives de taux hauts ; stress obligataire français."
+ },
+ "STEC": {
+  "score": 1,
+  "justif": "Technologie Europe soutenue par nouvelles TSMC/Samsung IA (+50% CA, +783% profit), compensant partiellement pression taux et géopolitique."
+ },
+ "DEFS": {
+  "score": 2,
+  "justif": "Tensions géopolitiques Iran confirmées (Pentagone préparations combat potentiel) ; pétrole Brent 102,5$ soutient demande défense ; budgets militaires structurellement haussiers."
+ },
+ "SMH": {
+  "score": 2,
+  "justif": "VanEck Semiconductors soutenu par résultats semaine Samsung (+783% profit) et TSMC (+50% CA) annonçant boom durable de l'IA et capex record."
+ },
+ "GOAI": {
+  "score": 2,
+  "justif": "Robotique et IA monde portées par nouvelle TSMC/Samsung : capacités IA explosent, TSMC capex 52-56 Mds$ en 2026 (+40%), affirmant leadership technologique."
+ }
+}
