@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -1,
+  "justif": "Repli mondial vendredi : Nasdaq -1,3%, S&P 500 -0,5%, doutes sur la rentabilité de l'IA et choc pétrolier à 105$ contrent avancées technologiques."
+ },
+ "PE500": {
+  "score": -1,
+  "justif": "S&P 500 a reculé -0,5% vendredi en raison de doutes OpenAI sur l'IA et hausse pétrolière, dépit rebond vendredi en clôture."
+ },
+ "PCEU": {
+  "score": -1,
+  "justif": "CAC 40 -0,51%, Europe sous pression : incertitudes budgétaires France, spread France-Allemagne 141 bp, tensions géopolitiques pèsent."
+ },
+ "PAEEM": {
+  "score": -1,
+  "justif": "Marchés émergents Asie volatiles : Nikkei -0,02%, TOPIX +0,33%, doutes IA et inflation générale pèsent, hausse pétrolière incertaine."
+ },
+ "PTPXE": {
+  "score": 0,
+  "justif": "Japon: TOPIX +0,33%, Nikkei quasi stable -0,02%, salaires réels 8e mois de hausse, réforme TOPIX annoncée supportent à long terme, court terme neutre."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Russell 2000 -0,43%, marché US sous pression IA et obligations, petites caps moins résilientes face au doute technologique."
+ },
+ "PUST": {
+  "score": -2,
+  "justif": "Nasdaq-100 -1,3%, Nasdaq -1,28% vendredi : chute semiconducteurs -3,4%, doutes OpenAI rentabilité IA, concentration NVDA-AAPL-MSFT risquée."
+ },
+ "EXA1": {
+  "score": -1,
+  "justif": "Banques zone euro sous pression : Société Générale -5,01%, tensions budgétaires France, spreads souverains élevés (10y Germany 3,48%), taux obligataires volatiles."
+ },
+ "STEC": {
+  "score": -2,
+  "justif": "Technologie Europe recule avec STEC : semiconducteurs -3,4% suite doutes IA OpenAI, STMicroelectronics -3%, rotation risk-off vers valeurs défensives."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Défense Europe secteur structurellement soutenu : carnets robustes, dépenses NATO croissantes (+16% annuel 2026-2030), mais +4% pétrole modère court terme."
+ },
+ "SMH": {
+  "score": -3,
+  "justif": "VanEck Semi -3,4% vendredi : DRAM +125%, NAND +234% yoy création panique IA, Apple réduit production iPhones, supply-demand choc majeur chips."
+ },
+ "GOAI": {
+  "score": -3,
+  "justif": "IA/Robotique monde pénalisés : OpenAI doutes rentabilité FT, Nvidia-AMD volatiles, concentration IA excessive marché S&P 500, correction séance significative."
+ }
+}
