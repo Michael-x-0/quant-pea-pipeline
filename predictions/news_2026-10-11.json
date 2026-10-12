@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 0,
+  "justif": "Marché mondial mixte : Wall Street en légère baisse après un rallye technologique, Europe positive, Asie décalée; pas de choc directionnel net."
+ },
+ "PE500": {
+  "score": -1,
+  "justif": "S&P 500 reculé -0,06% aujourd'hui; secteur semi-conducteurs en baisse (-2,7%), craintes concurrence CXMT; rendements obligataires proches de 5,25% pèsent sur valuations tech."
+ },
+ "PCEU": {
+  "score": 1,
+  "justif": "Stoxx 600 Europe +0,6% porté par banques (+1,17%) rebond après recul de 8% sur 2 semaines, accord EU-Chine sur hybrides automobiles stimule carmakers."
+ },
+ "PAEEM": {
+  "score": -2,
+  "justif": "Asie faible : KOSPI Corée -3% post-weekend, MSCI Asie -0,2%; tensions géopolitiques Moyen-Orient pèsent sur marchés émergents, inquiétudes inflationnistes réduisent appétit pour risque."
+ },
+ "PTPXE": {
+  "score": 0,
+  "justif": "Topix Japon +0,33% légèrement positive; pas de catalyseur spécifique, marché japonais stable malgré contexte macro affaibli en Asie."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Russell 2000 segments en retrait léger (-0,45%) aujourd'hui; marché orienté vers value et défense en rotation hors tech, petites caps sensibles aux incertitudes taux."
+ },
+ "PUST": {
+  "score": -2,
+  "justif": "Nasdaq-100 en baisse -0,44% : semi-conducteurs (-2,7%), craintes sur marges AI après profit-taking, craintes inflationnistes mercredi pèsent sur technologie croissance."
+ },
+ "EXA1": {
+  "score": 1,
+  "justif": "Stoxx 600 Banques Europe +1,17% aujourd'hui après recul de 2 semaines, rebond sur stabilité capitalisation et marges nettes intérêts solides."
+ },
+ "STEC": {
+  "score": -2,
+  "justif": "Technologie Europe en retrait; secteur semi-conducteurs mondiale en difficulté (-2,7% SOX), craintes concurrence CXMT mémoire, profit-taking après rallye."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Pas de catalyseur défense identifié aujourd'hui ; tensions géopolitiques Moyen-Orient restent contenus malgré attaques aéroport Riyad."
+ },
+ "SMH": {
+  "score": -3,
+  "justif": "Semi-conducteurs (SOX -2,7%) pressurisés : CXMT lance mémoire 4F avant fin 2026 menaçant Micron (-3,9%), SanDisk (-5,7%), SK Hynix (-3,6%), craintes marges industrie."
+ },
+ "GOAI": {
+  "score": -1,
+  "justif": "IA/robotique affectée par volatilité technologie; Nasdaq baisse -0,44%, profit-taking post-rallye, rendements obligataires élevés réduisent valorisations croissance."
+ }
+}
