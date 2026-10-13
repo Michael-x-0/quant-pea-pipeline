@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -2,
+  "justif": "Dépression mondiale accentuée par panique IA en Asie (Nikkei -1,8%, Kospi -5,5%), crise mémoire chinoise et tensions géopolitiques au Moyen-Orient."
+ },
+ "PE500": {
+  "score": -3,
+  "justif": "Nasdaq baisse 0,15%, panique sur IA réfrène les technos malgré bons résultats bancaires : inquiétude sur rentabilité capex IA vs taux hauts."
+ },
+ "PCEU": {
+  "score": -1,
+  "justif": "Europe résiste mieux (-0,1% Stoxx 600), banques soutiennent, mais tech pénalisée (-1,39%) et tensions géopolitiques pèsent."
+ },
+ "PAEEM": {
+  "score": -2,
+  "justif": "Asie-Pacifique hors Japon -2%, crash semiconducteurs asiatiques (SK Hynix -10%, Samsung -7%), émergents fragilisés par fuite vers obligataires."
+ },
+ "PTPXE": {
+  "score": -3,
+  "justif": "Nikkei -1,8% : repli technologique majeur, craintes IA affectent constructeurs japonais, contexte de baisse régionale."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Small caps US affectées indirectement par baisse Nasdaq (-0,15%), mais moins exposées à choc semiconducteurs mémoire."
+ },
+ "PUST": {
+  "score": -2,
+  "justif": "Nasdaq-100 plombé par débâcle IA et semi-conducteurs, tensions sur valuations technologiques fondamentales en question."
+ },
+ "EXA1": {
+  "score": 1,
+  "justif": "Banques européennes bénéficient résultats Q3 solides (JP Morgan mixte mais Goldman bon), support CAC/banking moindre baisse que tech."
+ },
+ "STEC": {
+  "score": -3,
+  "justif": "Tech Europe plonge (-1,39%), STMicroelectronics -3,8% pénalisé par concurrence CXMT chinoise et doutes IA généralisés."
+ },
+ "DEFS": {
+  "score": -1,
+  "justif": "Défense Europe moins affectée directement par choc IA, mais contexte macro négatif (tensions Moyen-Orient soutiennent quelque peu) mitigé."
+ },
+ "SMH": {
+  "score": -4,
+  "justif": "Semiconducteurs mondiaux -1,39% en Europe, Asie catastrophique (SK Hynix -10%, Samsung -7%, Kioxia -13%), Micron -5% : choc structurel mémoire."
+ },
+ "GOAI": {
+  "score": -3,
+  "justif": "IA/robotique pénalisée par prise de profits massive, inquiétude croissance IA vs coûts emprunt élevés, Amazon/Alphabet capex remis en question."
+ }
+}
