@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -2,
+  "justif": "Inflation CPI septembre 3.7% vs. 3.4% attendu; Nasdaq -2.2% dragging global stocks, préoccupations IA persistent."
+ },
+ "PE500": {
+  "score": -3,
+  "justif": "S&P 500 -1.08%, CPI surprise à 3.7% relançant anticipations hausses Fed; semi-conducteurs -4.5%."
+ },
+ "PCEU": {
+  "score": 0,
+  "justif": "Stoxx 600 +0.4% défensif ; résultats bancaires mitigés équilibrés par relief sur obligations et énergie."
+ },
+ "PAEEM": {
+  "score": -4,
+  "justif": "Asie -2% en deux jours ; Kospi -5.5% choc semi-conducteurs (Samsung/SK Hynix -7 à -10% concurrence CXMT)."
+ },
+ "PTPXE": {
+  "score": -3,
+  "justif": "Nikkei léger +0.1% après rebond, mais correction sous-jacente -1.8% hier dans choc semi-conducteurs IA."
+ },
+ "RS2K": {
+  "score": -3,
+  "justif": "Russell 2000 -2.2% CPI-driven ; relève taux ralentit appétit risque PME-croissance en inflation sticky."
+ },
+ "PUST": {
+  "score": -3,
+  "justif": "Nasdaq 100 -2.2%, semi-conducteurs -4.5% suite craintes dépenses IA et inflation CPI surprise."
+ },
+ "EXA1": {
+  "score": -2,
+  "justif": "Banques zone euro mitigées ; résultats BAC/JPM moyen/raté, taux directeurs menacent NII."
+ },
+ "STEC": {
+  "score": -3,
+  "justif": "Tech Europe -correction avec semi-conducteurs ; ASML +1.2% mais contrebalancé par Infineon -1.16%, Broadcom -3.73%."
+ },
+ "DEFS": {
+  "score": 3,
+  "justif": "Rheinmetall +3.14%, défense Europe catalyseur géopolitique persistant Moyen-Orient et escalade tensions."
+ },
+ "SMH": {
+  "score": -4,
+  "justif": "Semi-conducteurs global -4.5% choc IA ; Micron -4%, AMD -5.1%, SanDisk -5.1% malgré ASML beat."
+ },
+ "GOAI": {
+  "score": -4,
+  "justif": "IA/robots correction nette, CoreWeave distressed bonds, OpenAI revenue doubts rompent rally AI spending."
+ }
+}
