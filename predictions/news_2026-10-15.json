@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -3,
+  "justif": "CPI US septembre 3,7% vs 3,6% consensus, taux core 2,6% ; rout technologique mondiale et pivotement vers actifs défensifs pénalisent indice diversifié."
+ },
+ "PE500": {
+  "score": -3,
+  "justif": "S&P 500 impacté par CPI surchauffé et débâcle des semi-conducteurs (-4,5%) ; craintes d'une hausse Fed fin octobre ravivées malgré détente obligataire intraday."
+ },
+ "PCEU": {
+  "score": -2,
+  "justif": "Indices européens attendus en repli ; technologie STOXX baisse sur craintes IA/financement, bien que certains secteurs défensifs héritent des flux."
+ },
+ "PAEEM": {
+  "score": -3,
+  "justif": "Inde +19% en ventes mais Chine -25%, MSCI Asie-Pacifique recule 1,2% ; KOSPI -8%, risques géopolitiques et hausse des taux affectent emergents."
+ },
+ "PTPXE": {
+  "score": -4,
+  "justif": "Nikkei -4,8%, TOPIX -2,5% ; fabricants d'équipements semi (Advantest -13,9%, Tokyo Electron -7,3%), SoftBank -9,4% en raison des inquiétudes financement IA et taux."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Russell 2000 moins exposée tech qu'indices large-cap ; marché flux vers défense mais petites caps restent affectées par environnement taux élevés."
+ },
+ "PUST": {
+  "score": -3,
+  "justif": "Nasdaq-100 très sensible : semi-conducteurs -4,5%, CoreWeave -15%, craintes endettement IA ; CDS Oracle +26 bps, SoftBank +24 bps signal de stress."
+ },
+ "EXA1": {
+  "score": -2,
+  "justif": "Banques euro impactées par détente obligataire (10Y euro à 5,29%) et volatilité marchés ; Stoxx 600 attendu baisse légère, craintes RoE sur financement IA."
+ },
+ "STEC": {
+  "score": -4,
+  "justif": "Technologie Europe en première ligne : indices SOX -2,5%, ASML initialement en hausse (guidance FY26 relevée) mais gains effacés ; craintes financement IA dominent."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Secteur défense hors cible principal du rout technologique ; tensions géopolitiques (Moyen-Orient, Chine-Japon) neutres à légèrement favorables mais secondaires."
+ },
+ "SMH": {
+  "score": -5,
+  "justif": "Semiconducteurs mondiaux en débâcle systémique : Philadelphia Index -4,5%, SK Hynix -10%, chipmakers asiatiques double-digit ; CoreWeave CDS >1000 bps crystallise crise financement IA."
+ },
+ "GOAI": {
+  "score": -4,
+  "justif": "IA/Robotique mondial directement exposée aux craintes endettement IA, taux de financement élevés et corrections CoreWeave ; reversal brutal des valuations hyperboliques."
+ }
+}
