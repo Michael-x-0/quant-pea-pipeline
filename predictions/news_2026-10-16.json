@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 0,
+  "justif": "Marché mondial en séance mixte sans catalyseur net, Fed Warsh apaise inquiétudes sur taux."
+ },
+ "PE500": {
+  "score": 0,
+  "justif": "S&P 500 +0,33% hier, futures dispersées vendredi matin malgré CPI 3,7% vs 3,6% attendu."
+ },
+ "PCEU": {
+  "score": 1,
+  "justif": "Stoxx 600 +0,38% hier, tension énergétique perdure mais détente obligataire aide rotation."
+ },
+ "PAEEM": {
+  "score": -1,
+  "justif": "Nikkei +1,8% hier, Hang Seng +1,2%, mais Kospi -5,6% mercredi sur craintes IA affectent EM."
+ },
+ "PTPXE": {
+  "score": 1,
+  "justif": "Nikkei +1,75% vendredi, rebond après 6 séances baisse, mais prudemment avant résultats US."
+ },
+ "RS2K": {
+  "score": 0,
+  "justif": "Russell 2000 sans mouvement significatif, pas de catalyseur spécifique small caps."
+ },
+ "PUST": {
+  "score": -2,
+  "justif": "Nasdaq -0,65% hier, 9e jour baisse semi-conducteurs, craintes AI financing CoreWeave -15% semaine."
+ },
+ "EXA1": {
+  "score": -1,
+  "justif": "Banques euro en reprise vendredi mais tensions géopolitiques persistantes pèsent marges."
+ },
+ "STEC": {
+  "score": -2,
+  "justif": "Tech Europe -4% jeudi, SMH 9e jour baisse, ASML -4%, rotation vers santé/finance."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Défense en range, tensions Moyen-Orient stable malgré pics pétroliers."
+ },
+ "SMH": {
+  "score": -3,
+  "justif": "Semi-conducteurs en effondrement, 9e jour baisse (-12,6% depuis 2 oct), CoreWeave crisis ravive inquiétudes."
+ },
+ "GOAI": {
+  "score": -3,
+  "justif": "IA/robotique pénalisées, financement défiants CoreWeave ($50Mds dettes) déstabilisent conviction achats."
+ }
+}
