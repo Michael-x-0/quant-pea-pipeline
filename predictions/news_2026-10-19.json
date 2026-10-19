@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -1,
+  "justif": "Indices mondiaux mitigés : rebond tech malgré tensions géopolitiques persistantes (Moyen-Orient), CAC 40 recule de 1,1 %, asymétrie US/Europe."
+ },
+ "PE500": {
+  "score": 1,
+  "justif": "S&P 500 +0,45 % en rebond suite aux craintes d'endettement IA levées partiellement, mais poids grandissant des doutes sur rentabilité des investissements infrastructure IA."
+ },
+ "PCEU": {
+  "score": -2,
+  "justif": "Stoxx Europe 600 -0,87 %, tensions France (spreads 10y dépassent 145 pb avec l'Allemagne) et craintes bancaires ; secteur tech européen sous pression (-7,77 % pour ASML cette semaine)."
+ },
+ "PAEEM": {
+  "score": 0,
+  "justif": "Risques équilibrés : rebond espérés sur IA tempéré par inquiétudes de concurrence chinoise et valuations excessives ; pas de catalyseur net identifié."
+ },
+ "PTPXE": {
+  "score": -1,
+  "justif": "Topix +0,04 %, Nikkei -0,62 % ; préoccupations récentes sur valuations technologiques persistantes, sentiment international dégradé par tensions US/tech."
+ },
+ "RS2K": {
+  "score": 0,
+  "justif": "Pas de nouvelle spécifique aux small caps ; bilan sectoriel US mixte, rotation attendue mais non encore cristallisée."
+ },
+ "PUST": {
+  "score": 1,
+  "justif": "Nasdaq-100 +0,95 % en rebond tech, semi-conducteurs (SOX) +2,5 % fin de séquence baissière de 8 jours, mais interrogations sur durabilité levées partiellement."
+ },
+ "EXA1": {
+  "score": -2,
+  "justif": "Banques zone euro pénalisées, BNP Paribas -3,41 %, Société Générale -3,41 % ; tensions budgétaires France, spreads souverains français en hausse."
+ },
+ "STEC": {
+  "score": -1,
+  "justif": "Stoxx Tech Europe impacté par débâcle hebdomadaire des semi (Soitec -19,63 %, ASM -14,78 %), bien que rebond partiel lundi ; momentum reste négatif."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Tensions géopolitiques stables (Houthis, Moyen-Orient), soutien défense sans choc nouveau ; allocation defensive bénéficiant des flux refuges obligataires."
+ },
+ "SMH": {
+  "score": -1,
+  "justif": "Semi-conducteurs en rebond lundi (+2,5 % indice SOX) mais décroissance de -11,4 % la semaine précédente ; craintes endettement IA et hausse taux non levées, Nvidia +1,38 % timide."
+ },
+ "GOAI": {
+  "score": 0,
+  "justif": "Risques symétriques IA : rebond sur rachats d'opportunité vs. inquiétudes non-rentabilité capex infrastructure ; leadership étroit, opinions polarisées."
+ }
+}
