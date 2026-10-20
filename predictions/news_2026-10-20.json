@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -2,
+  "justif": "Bourses européennes en baisse (-0.75% CAC40, -0.67% Stoxx600) sur craintes de financement IA et tensions géopolitiques ; MSCI World affecté par aversion au risque généralisée."
+ },
+ "PE500": {
+  "score": -2,
+  "justif": "S&P 500 attendu dispersé : CPI septembre à 3.7% vs consensus 3.6% ravive perspectives de hausse Fed, contrebalancé par rebond léger du Nasdaq en fin de semaine."
+ },
+ "PCEU": {
+  "score": -1,
+  "justif": "Europe pénalisée par inflation France à 3.1% et craintes sur taux français à 4.99% (proches des pics juillet 2002) ; réunion BCE 29 oct en statu quo probable (97%)."
+ },
+ "PAEEM": {
+  "score": -3,
+  "justif": "Marchés asiatiques en chute : Kospi -4.2%, SK Hynix revenu aux bas du printemps sur inquiétudes financement IA ; inflation US ravive risques de hausse taux impactant dépenses IA."
+ },
+ "PTPXE": {
+  "score": -1,
+  "justif": "Japon touché par repli semi-conducteurs asiatiques et craintes macro globales ; BoJ 30 oct attendue sans changement dans contexte inflationniste."
+ },
+ "RS2K": {
+  "score": 0,
+  "justif": "Russell 2000 stable à fin de semaine (+0.25% samedi) ; CPI plus chaud complique perspectives mais petit-cap offre alternative en dispersions sectorielles."
+ },
+ "PUST": {
+  "score": -2,
+  "justif": "Nasdaq-100 volatil : rebond +1.11% samedi mais semaine -4.5%, victime chute semi-conducteurs (NVDA -2.6%) sur craintes dette IA et hausse des taux."
+ },
+ "EXA1": {
+  "score": -2,
+  "justif": "Banques euro pénalisées par hausse taux français à 4.99% (compression marges) et aversion au risque ; secteur bancaire zone euro souffre des perspectives restrictives BCE."
+ },
+ "STEC": {
+  "score": -2,
+  "justif": "Technologie europe déprimée par ventes semi-conducteurs globales et inquiétudes financement IA ; reprise fin semaine modérée ne compense pas débâcle."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Défense Europe quasi stable malgré turbulences ; pas de catalyseur géopolitique majeur en nouveau aujourd'hui, tensions Moyen-Orient (Ormuz) soutiennent structurellement."
+ },
+ "SMH": {
+  "score": -3,
+  "justif": "Semi-conducteurs monde dévastés : craintes endettement CoreWeave + CPI élevé ravivant perspectives hausse Fed débouchent sur rotation forte depuis lundi."
+ },
+ "GOAI": {
+  "score": -2,
+  "justif": "IA/Robotique sous pression : inquiétudes critiques sur financement centres données IA (47 cancellations/suspensions US) pèsent sur valorisations croissance long-terme."
+ }
+}
