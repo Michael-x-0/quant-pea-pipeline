@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 1,
+  "justif": "Rotation mondiale vers la tech après choc CPI ; exportations japonnaises +16,7% /an ; marché remain sélectif, pas de catalyseur systémique."
+ },
+ "PE500": {
+  "score": 1,
+  "justif": "S&P 500 +0,59% ; rebond tech post-CPI de mercredi ; rendements Treasuries 5,13% ; risque taux en décembre maintenu mais marché digère l'inflation de septembre."
+ },
+ "PCEU": {
+  "score": 2,
+  "justif": "EU50 +1,34% ; spread France-Allemagne à 153 pbs (tensions politiques) ; BCE attendue 30 oct., rendements allemands -6 pbs en rallye obligataire."
+ },
+ "PAEEM": {
+  "score": -1,
+  "justif": "Jakarta -11,3% (MSCI downgrade risk) ; émergents asiatiques mitigés après semi-conducteurs volatiles ; tensions géopolitiques Middle-East pèsent."
+ },
+ "PTPXE": {
+  "score": 2,
+  "justif": "Nikkei stabilisé après correction ; exportations japonnaises solides (+16,7% /an 13 mois d'affilée) ; BoJ relèvement probable décembre (90% proba)."
+ },
+ "RS2K": {
+  "score": 1,
+  "justif": "Russell 2000 +0,27% ; rendements obligataires reculent (+petit-cap), rotation défensive apaisée ; Fed blackout pré-FOMC."
+ },
+ "PUST": {
+  "score": 1,
+  "justif": "Nasdaq +1,05% ; rebond tech/IA après choc, SMCI +10% et SpaceX +8% guident le secteur ; focus sur l'IA infrastructure malgré tensions valuations."
+ },
+ "EXA1": {
+  "score": 0,
+  "justif": "Banques euro en hausse légère ; spread France-Allemagne crée bruit sectoriel ; taux élevés balancent gains revenus d'intérêts."
+ },
+ "STEC": {
+  "score": 2,
+  "justif": "Semi-conducteurs européens profitent du rebond tech global et rotation IA ; demand pour puces HBM/GPU intense, ASML en retard de livraison."
+ },
+ "DEFS": {
+  "score": 3,
+  "justif": "Tensions Moyen-Orient escaladent (Iran/Israël/Houthis, Brent >106$/bl, Theodore Roosevelt deploiement) ; défense européenne politiquement mobilisée (Arctique)."
+ },
+ "SMH": {
+  "score": 2,
+  "justif": "Semi-conducteurs mondiaux en hausse ; demande IA massive (30% revenue mix 2026), malgré craintes budgétaires infra-IA et pression valuations résorption."
+ },
+ "GOAI": {
+  "score": 1,
+  "justif": "IA/robotique rebondissent mais Ken Griffin (Citadel) met en garde bulle 'quasi-certaine' ; capex infra hyperscalers +50% /an mais financement durcit."
+ }
+}
