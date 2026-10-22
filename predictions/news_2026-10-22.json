@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -3,
+  "justif": "Monde en repli : CAC 40 -1,39%, Stoxx 600 -1,01%, Nikkei -2,65%, Nasdaq -2,15% sur fond de craintes IA, pétroléré +110$ et crise budgétaire française à 174 pdb."
+ },
+ "PE500": {
+  "score": -2,
+  "justif": "S&P 500 futures -1% à l'ouverture et contrats Nasdaq -1,6% ; résultats Tesla contrastés (ventes capex -25%), pétrole volatil (-110$+), tensions moyen-orientales."
+ },
+ "PCEU": {
+  "score": -2,
+  "justif": "Europe en baisse : CAC -1,39%, EuroStoxx 50 -1,89% sur inquiétudes dépenses IA et rendements français OAT à 5,08% (24 ans record), spread France-Allemagne à 174 pdb."
+ },
+ "PAEEM": {
+  "score": -3,
+  "justif": "Hong Kong -3%, Shanghai -1,5%, Kospi -3,7% ; Asie déçue par Tesla et choc pétrolier ; doutes croissants investisseurs sur ROI dépenses IA à long terme."
+ },
+ "PTPXE": {
+  "score": -2,
+  "justif": "Nikkei -2,65% sur repli semi-conducteurs et prise profits IA ; yen gagne à 157,1/$ malgré BOJ normalisation décembre, non simple fuite risque."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Russell 2000 contrats futures -0,4% ; marché largement baissier, toutefois small cap américain plus résilientes face aux craintes macro US vs monde."
+ },
+ "PUST": {
+  "score": -3,
+  "justif": "Nasdaq -2,15% sur craintes IA et révisions baisse Tesla capex, Meta dilution actions, IBM -5,4%, Lam Research -8,5% ; technologie monde sous pression."
+ },
+ "EXA1": {
+  "score": -4,
+  "justif": "Banques euro -3,49% ; rendements français record 5,08% compriment marges, spread 174 pdb, inquiétudes budgétaires France enrayent secteur financier européen."
+ },
+ "STEC": {
+  "score": -3,
+  "justif": "Technologie Europe -3,49% composante Stoxx 600 ; ASML -2,7%, doutes durabilité capex IA en 2027 après TSMC marge 65-67% Q4 vs 67,7% Q3."
+ },
+ "DEFS": {
+  "score": -1,
+  "justif": "Défense Europe stable ; tensions géo Moyen-Orient (+pétroléré +110$) contrebalancées par repli macro générale et craintes IA éclipsent thesis défense."
+ },
+ "SMH": {
+  "score": -4,
+  "justif": "Semiconducteurs monde -3,49% Europe et volatilité Asie ; TSMC record T3 mais marges s'érodent 66,4% vs 67,7%, Q4 2026 margin 65-67%, capex IA incertitude."
+ },
+ "GOAI": {
+  "score": -3,
+  "justif": "IA/Robotique monde pénalisé : révisions baisse capex Tesla, Meta dilution actions, doutes profitabilité investissements IA 2027, crise budgétaire France pèse tech."
+ }
+}
