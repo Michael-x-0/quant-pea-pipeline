@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -1,
+  "justif": "Marché mondial déstabilisé par tensions géopolitiques autour de l'Iran et doutes persistants sur la rentabilité des investissements en IA ; risques macroéconomiques symétriques."
+ },
+ "PE500": {
+  "score": -2,
+  "justif": "S&P 500 recule de 1,21% hier (fermeture 7.657 pts), préoccupations sur l'endettement des acteurs IA et rotation vers obligations ; accélération inflation CPI septembre à 3,7% vs consensus 3,6%."
+ },
+ "PCEU": {
+  "score": -2,
+  "justif": "CAC 40 chute 1,39% à 7.811 pts ; rendements OAT dix ans atteignent 5,08%, écart France-Allemagne dépasse 160 pb ; Hermès déçoit (-4,94%), prix énergie en hausse."
+ },
+ "PAEEM": {
+  "score": 0,
+  "justif": "Marchés émergents sans catalyseur net ; Chine Shanghai +0,9% et Hang Seng +0,7% hier, mais tensions géopolitiques créent risques équilibrés ; demande chinoise softwares de luxe résiste."
+ },
+ "PTPXE": {
+  "score": -1,
+  "justif": "Nikkei 225 perd 0,3% hier ; marché japonais pâtit du repli global ; yen se renforce sur flux de sécurité (rendements US/allemands baissent 15 pb+), sans nouvelles spécifiques Japon."
+ },
+ "RS2K": {
+  "score": -2,
+  "justif": "Russell 2000 sous pression rotation croissance/valeur ; résultats trimestriels décalés attendus accompagnant inquiétudes IA ; sentiment risque-off affecte les petites caps américaines."
+ },
+ "PUST": {
+  "score": -2,
+  "justif": "Nasdaq chute 2,60%, fermeture -1,21% hier ; Meta plonge 6% après explosion investissements IA ; technologie en correction suite débats durabilité dépenses capex IA."
+ },
+ "EXA1": {
+  "score": -1,
+  "justif": "Banques zone euro : OAT France remonte à 5,08%, tensions sur solvabilité ; secteur bancaire recule mais bénéficiaires de taux élevés (dépôt BCE 2,50%) pour 2026-2028."
+ },
+ "STEC": {
+  "score": -3,
+  "justif": "Technologie Europe exposée au rééquilibrage IA ; Samsung recours à TSMC pour puces Nvidia (signal faiblesse interne production) ; concentration risque capex IA sur quelques leaders."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Secteur Défense Europe : tensions géopolitiques (Iran/Moyen-Orient) soutiennent demande, contrebalancées par repli général bourses européennes ; catalyseurs équilibrés court terme."
+ },
+ "SMH": {
+  "score": -1,
+  "justif": "Semi-conducteurs mondiaux : TSMC relève guidance 2026 à 44% croissance (moteur IA positif), mais action recule 7,14% depuis pic octobre ; Nvidia inquiétudes capex ralentissent secteur."
+ },
+ "GOAI": {
+  "score": -1,
+  "justif": "IA/Robotique monde : doutes croissants sur rentabilité capex IA limitent euphorie ; Meta -6% sur investissements IA excessifs ; bifurcation NVDA-leaders vs autres concernants."
+ }
+}
