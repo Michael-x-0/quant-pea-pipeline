@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 1,
+  "justif": "Marché mondial en légère hausse : indices européens +0,8%, US tech en hausse, attente de maintien des banques centrales."
+ },
+ "PE500": {
+  "score": 1,
+  "justif": "S&P 500 et Nasdaq en hausse modérée (respectivement +0,7% et +0,8%), Fed attendue en maintien mercredi, supporté par tech."
+ },
+ "PCEU": {
+  "score": 1,
+  "justif": "Stoxx 600 et Eurostoxx 50 progressent (+0,8% et +0,9%), spread France resserré post-Moody's, mais PMI français affaibli à 48,7."
+ },
+ "PAEEM": {
+  "score": 0,
+  "justif": "Marchés émergents neutres : Hang Seng +0,5%, Shanghai +0,2%, données macroéconomiques mitigées sans catalyseur net."
+ },
+ "PTPXE": {
+  "score": 0,
+  "justif": "Nikkei -0,8% en séance, BoJ réunion le 30 octobre avec maintien attendu, pas de catalyseur macro spécifique aujourd'hui."
+ },
+ "RS2K": {
+  "score": 0,
+  "justif": "Russell 2000 sans direction spécifique en attente de Fed, ambiance générale prudente sur petites caps."
+ },
+ "PUST": {
+  "score": 1,
+  "justif": "Nasdaq-100 +0,8%, momentum tech soutenu, rendements longs US à ~5%, Fed statu quo attendu sans choc."
+ },
+ "EXA1": {
+  "score": 0,
+  "justif": "Banques euro en attente : spread France resserré (bon signal), mais données activité privée euro à 51,9 peu dynamiques."
+ },
+ "STEC": {
+  "score": 1,
+  "justif": "Tech Europe intégrée à la hausse générale (+0,8% Stoxx), NXP et STM publient demain, TSMC beat précédent redynamise le secteur."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Tensions géopolitiques persistantes (Moyen-Orient, Iran, Israël), soutiennent les valeurs défense sans choc systémique."
+ },
+ "SMH": {
+  "score": 2,
+  "justif": "Semis en rebond : TSMC Q3 beat (+41% CA yoy, cap relevé), NXP et STM earnings demain, dynamique constructive pour secteur."
+ },
+ "GOAI": {
+  "score": 1,
+  "justif": "IA/Robotics soutenu par rebond tech, Meta et géants tech attendus en séance, marché focus IA hardware vs dépenses."
+ }
+}
