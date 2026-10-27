@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 1,
+  "justif": "Regain de confiance dans l'IA et semi-conducteurs stimule les marchés mondiaux ; technologie +2% et Nasdaq +1,18%, offset partiellement par stabilité macro attendue."
+ },
+ "PE500": {
+  "score": 2,
+  "justif": "S&P 500 +0,60% porté par rebond technologique majeur (+2%) et recul du pétrole de 1,8% ; Fed maintient taux mercredi comme attendu, Nasdaq +1,18%."
+ },
+ "PCEU": {
+  "score": 1,
+  "justif": "Europe +0,2-0,5% (CAC40 +0,51%, DAX +0,77%) sur détente énergétique et rebond tech ; mais tensions françaises et débat budgétaire freinent les gains."
+ },
+ "PAEEM": {
+  "score": 2,
+  "justif": "Asie rebondit fortement : KOSPI +4% en séance, Nikkei +1,9%, MSCI Asie hors Japon +1,2% ; regain d'appétit pour IA et semiconducteurs après ventes massives."
+ },
+ "PTPXE": {
+  "score": 2,
+  "justif": "Nikkei +1,9% et yen à 157,72/USD en attente de BoJ vendredi ; Japon bénéficie rebond tech et cautèle monétaire régionale face à Fed."
+ },
+ "RS2K": {
+  "score": 1,
+  "justif": "Russell 2000 +1,16% porté par retour des growth stocks et regain IA ; plus résistant que macro attendue mercredi, mais volatilité petite cap reste élevée."
+ },
+ "PUST": {
+  "score": 3,
+  "justif": "Nasdaq-100 +1,18% sur concentration tech majeure ; rebond IA très marqué avec opérations stratégiques (Anthropic IPO, Meta share buyback) redynamisant les mégacaps."
+ },
+ "EXA1": {
+  "score": 1,
+  "justif": "Banques euro stables en contexte d'accalmie taux obligataires et pétrole ; tensions budgétaires françaises limitent les gains du secteur bancaire continental."
+ },
+ "STEC": {
+  "score": 3,
+  "justif": "Technologie européenne +2,5% minimum (STMicro +7,06%, Infineon +4,86%) ; leadership des semis européens dans rebond IA généralisé suite à ventes excessives."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Défense europe stable ; contexte Moyen-Orient en détente relative (pourparlers paix), pressioni géopolitiques inchangées sans nouveau catalyseur aigu."
+ },
+ "SMH": {
+  "score": 3,
+  "justif": "Semiconducteurs mondiaux rebondissent fortement (+2-5% en Asie, STMicro +7%) ; SK Hynix dividends $12Mds, KOSPI +4% sur pénuries DRAM et confiance IA retrouvée."
+ },
+ "GOAI": {
+  "score": 3,
+  "justif": "IA/Robotique en apogée : Anthropic IPO, Meta capex announce, Nvidia $1T Blackwell orders déjà priced ; regain majeur d'appétit après semaines ventes massives."
+ }
+}
