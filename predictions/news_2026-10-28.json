@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 0,
+  "justif": "Marché mondial stable, Fed maintient les taux inchangés, IA retrouve faveur mais tensions persistent sur l'inflation (3.7% en septembre)."
+ },
+ "PE500": {
+  "score": 1,
+  "justif": "S&P 500 +0.28%, Nasdaq +0.27%, Fed pause confirmée ; secteur technologique rebondit sur IA mais inflation core PCE attendue à 3.6%, freinant optimisme."
+ },
+ "PCEU": {
+  "score": 0,
+  "justif": "Stoxx 600 -0.16%, CAC 40 stable, DAX +0.42% ; BCE décision attendue demain, résultats bancaires solides (BNP +14% bénéfice T3) contrebalancés par tensions sur le crédit."
+ },
+ "PAEEM": {
+  "score": 2,
+  "justif": "Nikkei +1.08%, Topix -0.14% ; SK Hynix blowout results (+3% prix), IA optimisme revient, mais divergence boursière dénote concentration sectorielle et tensions sur valuations."
+ },
+ "PTPXE": {
+  "score": -1,
+  "justif": "Topix -0.14% sur divergence de prix ; yen affaibli (157-158 vs USD) crée headwind pour exportateurs, concentration extrême sur 4 mega-cap (Advantest, Tokyo Electron, SoftBank, Kioxia) fausse le contexte."
+ },
+ "RS2K": {
+  "score": 0,
+  "justif": "Small-caps US sans catalyseur spécifique visible ; S&P 500 core gain bénéficie aux large-caps, Fed patience maintenait attentes favorables mais CPI/PCE élevés limitent expansion multiple."
+ },
+ "PUST": {
+  "score": 1,
+  "justif": "Nasdaq +0.27%, semi-conducteurs +3.6% (SOX), Broadcom +4%, Micron +2.8%, AMD +5.5% ; SK Hynix résultats exceptionnels dopent sentiment IA mais inflation réduit embrayage."
+ },
+ "EXA1": {
+  "score": 1,
+  "justif": "Banques européennes : BNP net +14% à 3.46 Mds€, dépassant attentes 3.23 Mds€ ; mais BCE enquête T3 montre durcissement crédit (taux +55% net grandes entreprises) freinant perspective."
+ },
+ "STEC": {
+  "score": 2,
+  "justif": "STMicroelectronics +7.06% au CAC, puissante rallye IA semi-conducteurs ; Nasdaq tech +1.2%, SK Hynix excellence, but European tech-heavy STOXX 600 reste mitigé (-0.16% global) sur doutes rentabilité IA."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Défense européenne sans catalyseur spécifique du jour ; tensions géopolitiques persistantes (Middle East oil tensions +3% WTI) offrent soutien structurel neutre court-terme."
+ },
+ "SMH": {
+  "score": 3,
+  "justif": "SK Hynix exceptional earnings, sentiment AI renaissance vif, PHLX SOX +3.6%, iShares SOXX +3.9%, Broadcom +4%, AMD +5.5%, Micron +2.8% ; catalyst majeur réduction doutes rentabilité capex IA."
+ },
+ "GOAI": {
+  "score": 1,
+  "justif": "Robotique IA Europe : Neura RoboGym inauguration 22-oct (Berlin), innovation européenne active ; Meta $95 Mds levée IA positive, mais Anthropic IPO guidance mi-novembre encore incertaine."
+ }
+}
