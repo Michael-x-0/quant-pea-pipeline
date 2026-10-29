@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 0,
+  "justif": "Semaine des banques centrales (Fed et BCE statu quo, BoJ demain), données PCE 3,6% et GDP Q3 3,0% US stabilisent les anticipations macros sans catalyseur net global."
+ },
+ "PE500": {
+  "score": -2,
+  "justif": "Nasdaq-100 -1,38%, pertes technologiques (Alphabet -10%, MSFT +3,6% isolé) après earnings, inflation PCE 3,6% ravive craintes de hausse décembriste."
+ },
+ "PCEU": {
+  "score": 1,
+  "justif": "Europe +0,5 à +1%, BCE statu quo à 2,50%, CAC 40 +1,05%, attentes de baisse en 2026 contrebalancent tensions inflationnistes."
+ },
+ "PAEEM": {
+  "score": -1,
+  "justif": "Marchés asiatiques mitigés, Nikkei +1,1% (chips) mais Shanghai -0,8%, Hang Seng -0,6%, Kospi -1,2%, tensions commerciales persistantes sur l'IA."
+ },
+ "PTPXE": {
+  "score": 1,
+  "justif": "Nikkei 225 +1,1% porté par secteur des semi-conducteurs et hausse de l'emploi japonais, yen stable face au statu quo monétaire."
+ },
+ "RS2K": {
+  "score": 2,
+  "justif": "Russell 2000 +1,01% à trois semaines de high, bénéficie de rotation small-cap et rendements obligataires souples post-PCE."
+ },
+ "PUST": {
+  "score": -2,
+  "justif": "Nasdaq Composite -1,38%, pression technologique (QQQ -1,10% futures), craintes profit d'IA et hawkishness Fed pour décembre resurgissent."
+ },
+ "EXA1": {
+  "score": 0,
+  "justif": "Banques euro stable, BCE taux inchangés, attentes décembristes tempérées, pas de catalyseur sectoriel isolable."
+ },
+ "STEC": {
+  "score": 1,
+  "justif": "Technologie Europe +1,80% (NQEU), bénéfice TSMC Q3 révisons positives mi-octobre et sentiment semi-conducteurs supporté malgré Nasdaq faiblesse US."
+ },
+ "DEFS": {
+  "score": 2,
+  "justif": "Défense Europe en hausse structurelle, tensions géopolitiques persistantes (Iran, risques commerciaux), demande soutenue."
+ },
+ "SMH": {
+  "score": -1,
+  "justif": "VanEck Semi -0,701%, SK Hynix +11,99% mais TSMC record 15/10 suivi de prises de bénéfices, pression générale chips sur craintes IA profitabilité."
+ },
+ "GOAI": {
+  "score": -3,
+  "justif": "IA/robotique monde -2,787% vs pred, correction importante après rallye pré-earnings, révisions baissières MSFT Azure et doutes ROI investissements géants tech."
+ }
+}
