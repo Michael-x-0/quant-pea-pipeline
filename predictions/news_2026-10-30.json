@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -2,
+  "justif": "Marché mondial pénalisé par recul technologie et inquiétudes IA ; Nasdaq -2,86%, Nikkei -2,1%, Shanghai -1,4%."
+ },
+ "PE500": {
+  "score": -3,
+  "justif": "S&P 500 -0,30% ; Amazon -6,3% avant bourse, Intel prévisions décevantes Q4 ; doutes sur ROI IA structurants."
+ },
+ "PCEU": {
+  "score": 0,
+  "justif": "CAC 40 quasi stable +0,26%, Europe mixte ; BCE maintient taux inchangés 29 oct, inflation zone euro 3,2%."
+ },
+ "PAEEM": {
+  "score": -2,
+  "justif": "Kospi -3,5% Séoul ; repli actions asiatiques après révision IA ; marchés chinois volatiles -1,4% Shanghai."
+ },
+ "PTPXE": {
+  "score": -2,
+  "justif": "Nikkei 225 -2,1% ; BoJ laisse taux inchangés 30 oct ; technologie asiatique pénalisée par doutes capex IA."
+ },
+ "RS2K": {
+  "score": -2,
+  "justif": "Russell 2000 -1,66% ; petites caps américaines souffrent du pivot tech et inquiétudes coûts IA."
+ },
+ "PUST": {
+  "score": -3,
+  "justif": "Nasdaq -2,86% ; Alphabet -12% résultats décevants ; Amazon capex IA 220 Mds$ pèse sur confiance."
+ },
+ "EXA1": {
+  "score": -1,
+  "justif": "Banques euro exposées hausse taux obligataires français ; OAT 10ans >5%, BCE pause temporaire octobre."
+ },
+ "STEC": {
+  "score": -3,
+  "justif": "ASML -5,21%, chipmakers monde -8,2% AMD, -2,9% Nvidia après Intel warning ; Soitec -5,49%."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Défense europe stable ; tensions moyen-orient persistantes mais prévention contre hausse catalyseur majeur."
+ },
+ "SMH": {
+  "score": -4,
+  "justif": "Semiconducteurs chutent mondialement ; inquiétudes capex hyperscalers IA, Amazon/Intel guidance faibles."
+ },
+ "GOAI": {
+  "score": -3,
+  "justif": "IA/robotique pénalisés ; Nvidia -2,9%, doutes ROI IA massif, appétit investisseurs refroidi par révisions."
+ }
+}
