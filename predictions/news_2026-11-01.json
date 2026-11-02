@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -1,
+  "justif": "Indice monde en retrait : S&P 500 -0,51%, Nasdaq -1,07%, fragilité du secteur tech pesant sur la performance globale."
+ },
+ "PE500": {
+  "score": -1,
+  "justif": "S&P 500 -0,51% le 2 novembre ; performance affectée par chute semiconducteurs et déceptions de guidance d'Intel (-30%), Amazon et Alphabet."
+ },
+ "PCEU": {
+  "score": 0,
+  "justif": "Europe : STOXX 600 +0,42%, contraste marqué avec US ; performances sectoriales divergentes au sein de la zone euro malgré tensions géopolitiques."
+ },
+ "PAEEM": {
+  "score": 1,
+  "justif": "Annonce majeure Marvell-Lumentum (115 Mds$) et contrats IA augmentent exposition des EM aux chaînes d'approvisionnement semi-conducteurs."
+ },
+ "PTPXE": {
+  "score": 0,
+  "justif": "Nikkei -0,82% ; Banque du Japon maintient taux à 1,25%, pas de surprise directionnelle ; yen légèrement variable à 157,93."
+ },
+ "RS2K": {
+  "score": 1,
+  "justif": "Small-caps US outperforment : Russell 2000 surpasse large-cap malgré chute tech, flux de réallocation vers value."
+ },
+ "PUST": {
+  "score": -2,
+  "justif": "Nasdaq-100 -3,46% ; concentration tech massive pénalisée par débâcle Intel, doutes IA durables, Alphabet -13% chute brutale."
+ },
+ "EXA1": {
+  "score": 0,
+  "justif": "Banques zone euro : aucune nouvelle structurante le 2 novembre ; BCE maintient taux inchangés 29 octobre, marché en attente."
+ },
+ "STEC": {
+  "score": -2,
+  "justif": "Tech Europe affectée par contagion américaine : Intel -30% et doutes IA globaux pèsent sur semiconducteurs et composants européens."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Défense Europe : pas de catalyseur macro ou géopolitique aigu le 2 novembre ; positionnement neutre sans news précise du jour."
+ },
+ "SMH": {
+  "score": -3,
+  "justif": "Semiconducteurs mondiaux en crise : Intel -30% (pire jour 52 ans), Marvell-Lumentum deal révèle consolidation brutale post-IA, SOX -7,2%."
+ },
+ "GOAI": {
+  "score": 0,
+  "justif": "IA/Robotique : Microsoft Azure +48% Y/Y mais Alphabet -13% et débâcles IA freinent élan ; guidance Marvell future et doutes ROIC laissent équilibre."
+ }
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Rapport PEA — 2026-11-01</title>
+<style>
+  body { font-family: -apple-system, Segoe UI, Arial, sans-serif; max-width: 1060px; margin: 30px auto; padding: 0 20px; color: #1a1a1a; line-height: 1.5; }
+  h1 { font-size: 1.5em; border-bottom: 3px solid #1a4d8f; padding-bottom: 10px; }
+  h2 { font-size: 1.15em; color: #1a4d8f; margin-top: 34px; border-bottom: 1px solid #ddd; padding-bottom: 6px; }
+  h3 { font-size: 1.0em; color: #333; margin-top: 22px; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 0.92em; }
+  th, td { border: 1px solid #ddd; padding: 6px 9px; text-align: right; }
+  th { background: #1a4d8f; color: #fff; text-align: center; }
+  td:first-child, th:first-child { text-align: left; font-weight: 600; }
+  tr:nth-child(even) { background: #f6f8fb; }
+  .pos { color: #0a7a2f; font-weight: 600; }
+  .neg { color: #b3221e; font-weight: 600; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 0.85em; font-weight: 600; }
+  .ok { background: #dff3e3; color: #0a7a2f; }
+  .nok { background: #fbe0df; color: #b3221e; }
+  .note { background: #fff8e1; border-left: 4px solid #f0ad4e; padding: 10px 14px; margin: 14px 0; font-size: 0.93em; }
+  .reserve { background: #fdeceb; border-left: 4px solid #b3221e; padding: 10px 14px; margin: 14px 0; font-size: 0.93em; }
+  .calib { background: #eef4fb; border-left: 4px solid #1a4d8f; padding: 10px 14px; margin: 14px 0; font-size: 0.93em; }
+  .sect th { background: #6b4d8f; }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #ddd; font-size: 0.85em; color: #555; }
+  .small { font-size: 0.85em; color: #555; }
+  td.just { text-align: left; font-weight: 400; font-size: 0.9em; }
+</style>
+</head>
+<body>
+<h1>📊 Rapport PEA — 2026-11-01</h1>
+<p class="small">Analyste quotidien automatisé — modèle <strong>v2.0</strong>. Univers : 7 ETF socle (éligibles PEA, hors scope PAD) + 5 ETF sectoriels <strong>en suivi seul</strong>. Données Boursorama EOD, clôture Euronext définitive.</p>
+<div class="reserve"><strong>Statut PAD des lignes sectorielles.</strong> Les cinq ETF sectoriels (EXA1, STEC, DEFS, SMH, HLT) sont des fonds sectoriels au sens des critères PAD : ils sont <strong>en scope</strong> et ne sont pas investissables par Michael sans autorisation préalable. Ils figurent ici à titre de suivi de marché uniquement — aucun avis d'investissement personnel n'est formulé sur ces lignes.</div>
+<h2>1. Cours et variations exactes (source : dataset local)</h2>
+<h3>Socle — investissable</h3>
+<table>
+<tr><th>Ticker</th><th>Close</th><th>Var 1J</th><th>Var 5J</th><th>YTD</th><th>Var 1 an</th><th>RSI14</th><th>Z20</th><th>Vol. 20j ann.</th></tr>
+<tr><td>WPEA</td><td>7,119</td><td class="pos">+0,21%</td><td class="neg">-1,26%</td><td class="pos">+16,32%</td><td class="pos">+19,81%</td><td>47,2</td><td>-1,06</td><td>8,4%</td></tr>
+<tr><td>PE500</td><td>55,940</td><td class="pos">+0,29%</td><td class="neg">-1,86%</td><td class="pos">+15,46%</td><td class="pos">+18,81%</td><td>41,9</td><td>-1,42</td><td>8,5%</td></tr>
+<tr><td>PCEU</td><td>40,245</td><td class="pos">+0,54%</td><td class="pos">+1,08%</td><td class="pos">+12,48%</td><td class="pos">+18,45%</td><td>62,3</td><td>1,77</td><td>8,4%</td></tr>
+<tr><td>PAEEM</td><td>34,380</td><td class="pos">+1,22%</td><td class="neg">-1,36%</td><td class="pos">+19,92%</td><td class="pos">+22,38%</td><td>40,5</td><td>-0,81</td><td>19,9%</td></tr>
+<tr><td>PTPXE</td><td>39,400</td><td class="pos">+0,82%</td><td class="neg">-2,06%</td><td class="pos">+23,09%</td><td class="pos">+26,56%</td><td>43,4</td><td>-1,14</td><td>13,0%</td></tr>
+<tr><td>RS2K</td><td>381,840</td><td class="pos">+0,78%</td><td class="pos">+0,50%</td><td class="pos">+20,01%</td><td class="pos">+26,12%</td><td>58,0</td><td>1,36</td><td>12,4%</td></tr>
+<tr><td>PUST</td><td>102,300</td><td class="neg">-0,02%</td><td class="neg">-4,23%</td><td class="pos">+17,88%</td><td class="pos">+20,27%</td><td>35,2</td><td>-1,52</td><td>18,6%</td></tr>
+</table>
+<h3>Sectoriels — suivi seul</h3>
+<table class="sect">
+<tr><th>Ticker</th><th>Close</th><th>Var 1J</th><th>Var 5J</th><th>YTD</th><th>Var 1 an</th><th>RSI14</th><th>Z20</th><th>Vol. 20j ann.</th></tr>
+<tr><td>EXA1</td><td>18,614</td><td class="pos">+1,39%</td><td class="neg">-1,62%</td><td class="pos">+9,17%</td><td class="pos">+24,25%</td><td>37,7</td><td>-0,84</td><td>22,1%</td></tr>
+<tr><td>STEC</td><td>7,842</td><td class="pos">+0,75%</td><td class="neg">-1,46%</td><td class="pos">+23,15%</td><td class="pos">+27,30%</td><td>49,1</td><td>-0,21</td><td>18,9%</td></tr>
+<tr><td>DEFS</td><td>5,834</td><td class="pos">+0,26%</td><td class="pos">+1,50%</td><td class="pos">+3,73%</td><td class="pos">+2,03%</td><td>54,4</td><td>0,74</td><td>22,7%</td></tr>
+<tr><td>SMH</td><td>86,000</td><td class="neg">-0,21%</td><td class="neg">-6,79%</td><td class="pos">+62,33%</td><td class="pos">+76,20%</td><td>36,7</td><td>-1,21</td><td>43,5%</td></tr>
+<tr><td>GOAI</td><td>139,700</td><td class="neg">-0,46%</td><td class="neg">-8,47%</td><td class="pos">+23,94%</td><td class="pos">+25,60%</td><td>35,1</td><td>-1,62</td><td>28,6%</td></tr>
+</table>
+<h2>2. Bilan des prédictions passées (auto-évaluation)</h2>
+<p class="small">Comparaison des prédictions J+1 faites le 2026-10-30 vs réalisé exact du dataset. Univers évalué : 12 tickers (socle + sectoriel).</p>
+<table>
+<tr><th>Ticker</th><th>Prédit %</th><th>Réalisé %</th><th>Erreur (pts)</th><th>Direction</th></tr>
+<tr><td>WPEA</td><td>+0,07</td><td>+0,21</td><td>+0,14</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>PE500</td><td>+0,02</td><td>+0,29</td><td>+0,27</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>PCEU</td><td>-0,09</td><td>+0,54</td><td>+0,63</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>PAEEM</td><td>-0,06</td><td>+1,22</td><td>+1,28</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>PTPXE</td><td>+0,09</td><td>+0,82</td><td>+0,73</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>RS2K</td><td>-0,24</td><td>+0,78</td><td>+1,02</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>PUST</td><td>+0,06</td><td>-0,02</td><td>-0,08</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>EXA1</td><td>+0,08</td><td>+1,39</td><td>+1,32</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>STEC</td><td>-0,04</td><td>+0,75</td><td>+0,78</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>DEFS</td><td>-0,32</td><td>+0,26</td><td>+0,58</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>SMH</td><td>-0,03</td><td>-0,21</td><td>-0,18</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>GOAI</td><td>+0,19</td><td>-0,46</td><td>-0,64</td><td><span class="badge nok">NON</span></td></tr>
+</table>
+<p><strong>5/12 directions correctes</strong> &middot; erreur moyenne signée <strong>+0,49 pt</strong> &middot; erreur absolue moyenne <strong>0,64 pt</strong>.</p><h2>3. Prédictions — J+1 / J+5 / fin d'année</h2>
+<p class="small">Valeur unique = signal quant déterministe + overlay news borné. Échelle news <strong>[-5, +5]</strong> (élargie le 11/08/2026) · J+1 : quant + score×0,04 · J+5 : quant + score×0,10 · EOY : quant + score×0,30. Influence maximale des news : ±0,20 pt (J+1), ±0,50 pt (J+5), ±1,50 pt (EOY) — identique à la v1 malgré l'échelle élargie. Barème : config/news_scale.md</p>
+<h3>Socle</h3>
+<table>
+<tr><th>Ticker</th><th>Quant J+1</th><th>News</th><th>Préd. J+1</th><th>Quant J+5</th><th>Préd. J+5</th><th>Quant EOY</th><th>Préd. EOY</th><th>Justification du score news</th></tr>
+<tr><td>WPEA</td><td class="pos">+0,08%</td><td>-1</td><td class="pos">+0,04%</td><td class="pos">+0,14%</td><td class="pos">+0,04%</td><td class="pos">+0,50%</td><td class="pos">+0,20%</td><td class="just">Indice monde en retrait : S&P 500 -0,51%, Nasdaq -1,07%, fragilité du secteur tech pesant sur la performance globale.</td></tr>
+<tr><td>PE500</td><td class="pos">+0,07%</td><td>-1</td><td class="pos">+0,03%</td><td class="neg">-0,00%</td><td class="neg">-0,10%</td><td class="neg">-0,57%</td><td class="neg">-0,87%</td><td class="just">S&P 500 -0,51% le 2 novembre ; performance affectée par chute semiconducteurs et déceptions de guidance d'Intel (-30%), Amazon et Alphabet.</td></tr>
+<tr><td>PCEU</td><td class="neg">-0,08%</td><td>+0</td><td class="neg">-0,08%</td><td class="pos">+0,02%</td><td class="pos">+0,02%</td><td class="pos">+1,89%</td><td class="pos">+1,89%</td><td class="just">Europe : STOXX 600 +0,42%, contraste marqué avec US ; performances sectoriales divergentes au sein de la zone euro malgré tensions géopolitiques.</td></tr>
+<tr><td>PAEEM</td><td class="neg">-0,04%</td><td>+1</td><td class="pos">+0,00%</td><td class="neg">-0,67%</td><td class="neg">-0,56%</td><td class="neg">-4,52%</td><td class="neg">-4,22%</td><td class="just">Annonce majeure Marvell-Lumentum (115 Mds$) et contrats IA augmentent exposition des EM aux chaînes d'approvisionnement semi-conducteurs.</td></tr>
+<tr><td>PTPXE</td><td class="pos">+0,10%</td><td>+0</td><td class="pos">+0,10%</td><td class="pos">+0,07%</td><td class="pos">+0,07%</td><td class="neg">-0,43%</td><td class="neg">-0,43%</td><td class="just">Nikkei -0,82% ; Banque du Japon maintient taux à 1,25%, pas de surprise directionnelle ; yen légèrement variable à 157,93.</td></tr>
+<tr><td>RS2K</td><td class="neg">-0,15%</td><td>+1</td><td class="neg">-0,11%</td><td class="neg">-0,28%</td><td class="neg">-0,18%</td><td class="pos">+0,46%</td><td class="pos">+0,76%</td><td class="just">Small-caps US outperforment : Russell 2000 surpasse large-cap malgré chute tech, flux de réallocation vers value.</td></tr>
+<tr><td>PUST</td><td class="pos">+0,13%</td><td>-2</td><td class="pos">+0,05%</td><td class="neg">-0,18%</td><td class="neg">-0,38%</td><td class="neg">-3,04%</td><td class="neg">-3,64%</td><td class="just">Nasdaq-100 -3,46% ; concentration tech massive pénalisée par débâcle Intel, doutes IA durables, Alphabet -13% chute brutale.</td></tr>
+</table>
+<h3>Sectoriels — suivi seul</h3>
+<table class="sect">
+<tr><th>Ticker</th><th>Quant J+1</th><th>News</th><th>Préd. J+1</th><th>Quant J+5</th><th>Préd. J+5</th><th>Quant EOY</th><th>Préd. EOY</th><th>Justification du score news</th></tr>
+<tr><td>EXA1</td><td class="pos">+0,01%</td><td>+0</td><td class="pos">+0,01%</td><td class="neg">-0,53%</td><td class="neg">-0,53%</td><td class="neg">-4,08%</td><td class="neg">-4,08%</td><td class="just">Banques zone euro : aucune nouvelle structurante le 2 novembre ; BCE maintient taux inchangés 29 octobre, marché en attente.</td></tr>
+<tr><td>STEC</td><td class="neg">-0,03%</td><td>-2</td><td class="neg">-0,11%</td><td class="neg">-0,25%</td><td class="neg">-0,45%</td><td class="neg">-1,18%</td><td class="neg">-1,78%</td><td class="just">Tech Europe affectée par contagion américaine : Intel -30% et doutes IA globaux pèsent sur semiconducteurs et composants européens.</td></tr>
+<tr><td>DEFS</td><td class="neg">-0,11%</td><td>+0</td><td class="neg">-0,11%</td><td class="neg">-0,09%</td><td class="neg">-0,09%</td><td class="pos">+1,48%</td><td class="pos">+1,48%</td><td class="just">Défense Europe : pas de catalyseur macro ou géopolitique aigu le 2 novembre ; positionnement neutre sans news précise du jour.</td></tr>
+<tr><td>SMH</td><td class="pos">+0,17%</td><td>-3</td><td class="pos">+0,05%</td><td class="neg">-0,71%</td><td class="neg">-1,01%</td><td class="neg">-8,11%</td><td class="neg">-9,01%</td><td class="just">Semiconducteurs mondiaux en crise : Intel -30% (pire jour 52 ans), Marvell-Lumentum deal révèle consolidation brutale post-IA, SOX -7,2%.</td></tr>
+<tr><td>GOAI</td><td class="pos">+0,21%</td><td>+0</td><td class="pos">+0,21%</td><td class="neg">-0,29%</td><td class="neg">-0,29%</td><td class="neg">-5,20%</td><td class="neg">-5,20%</td><td class="just">IA/Robotique : Microsoft Azure +48% Y/Y mais Alphabet -13% et débâcles IA freinent élan ; guidance Marvell future et doutes ROIC laissent équilibre.</td></tr>
+</table>
+<h2>4. Modifications du modèle appliquées à cette exécution</h2>
+<p><span class="badge ok">REJETE_VALIDATION</span></p>
+<div class="calib">Auto-calibration : candidat REJETÉ. L'ajustement proposé (momentum 20 s, -0,0250) améliorait l'échantillon d'apprentissage mais le gain sur l'échantillon de validation (52,2 % → 52,4 % de hit ratio J+1) reste sous le seuil de significativité de 0,3 pt : indiscernable du bruit. Poids inchangés.</div>
+<table>
+<tr><th>Métrique</th><th>Apprentissage (70 % anciens)</th><th>Validation (30 % récents)</th></tr>
+<tr><td>Hit ratio J+1</td><td>52,0%</td><td>52,2%</td></tr>
+<tr><td>Hit ratio J+5</td><td>52,8%</td><td>48,8%</td></tr>
+<tr><td>Observations J+1</td><td>3305</td><td>1421</td></tr>
+</table>
+<p class="small">Hit ratio des prédictions <em>réellement publiées</em> sur les 120 dernières observations : <strong>56,7 %</strong>. Cet indicateur pilote le mécanisme de rollback.</p>
+<p class="small">Garde-fous actifs : seuil de 20 séances évaluées par ticker · pas maximal de 5 % par exécution · borne dure de ±30 % autour des poids v1 · validation walk-forward obligatoire · rollback si le hit ratio live perd plus de 5 pt sur 10 séances.</p>
+<h2>5. Résumé de l'actualité du jour</h2>
+<p><strong>Lundi 2 novembre 2026 : Marché résumé par deux chocs contradictoires.</strong></p><p>Les États-Unis entament novembre sous tension : le <strong>Nasdaq Composite recule de 1,07%</strong>, le <strong>S&P 500 de 0,51%</strong>, mais le <strong>Dow Jones gagne 0,41%</strong>. La dynamique reste mitigée. Côté macro, l'ISM manufacturier US ressort à 55,5 (surprise haussière), tandis que le pétrole brut plonge de 6,5% à 96,90$ sur les <strong>espoirs de négociation USA-Iran</strong> qui apaisent les primes géopolitiques. Le rendement américain 10 ans recule à 4,90%.</p><p><strong>Le grand événement : implosion de la confiance IA.</strong> <strong>Intel s'effondre de 30%</strong> (pire jour en 52 ans) après une guidance Q4 décevante (15–16 Mds$ vs 17,07 Mds attendu), révélant un marché PC en crise chronique. Cette sanction se propage : <strong>Alphabet chute de 13%</strong> après dépenses IA massives et perte comptable de 8,7 Mds$ sur SpaceX ; <strong>Amazon recule de 2%</strong> pour les mêmes raisons d'investissement. En parallèle, <strong>Microsoft rassure</strong> : Azure croît de 48% Y/Y à 33,2 Mds$, cash libre de 18,6 Mds$. Message du marché : seul Microsoft démontre un ROIC positif sur l'IA massive. Le doute s'étend aux puces : le <strong>SOX (Philadelphia Semiconductor) chute de 7,2%</strong>.</p><p><strong>Consolid ation stratégique : Marvell rachète Lumentum pour 115 Mds$.</strong> Opération entièrement en actions. Marvell élargit son TAM (marché adressable) à 550 Mds$, combinant électronique et photonique optique pour les data centers IA. Cela signale une réaction constructive du secteur : face aux doutes de rentabilité, les fournisseurs fusionnent pour réduire coûts et fragmenttion du secteur. Nvidia avait investi 2 Mds$ dans chacun avant le deal.</p><p><strong>Zones moins affectées : Europe surperforme légèrement.</strong> STOXX Europe 600 +0,42%. France et Allemagne restent près de l'équilibre (CAC 40 quasi-stable). La BCE a tenu ses taux le 29 octobre (2,65% taux principal). Stabilité tacite avant novembre.</p><p><strong>Japon stagnant.</strong> Nikkei -0,82%, TOPIX quasi-stable. Banque du Japon maintient 1,25% (en ligne). Le yen fluctue autour de 157,93/USD (+0,24%). Aucune surprise directionnelle.</p><p><strong>Synthèse générale :</strong> Bifurcation claire. Tech americana en crise de confiance (sauf Microsoft) ; Small-caps US reçoivent flux de reallocation ; semiconducteurs mondiaux subissent une recalibration structurelle (consolidation + révision des cash flows IA) ; Europe et Japon restent en mode attentiste.</p><footer>Rapport généré par make_report.py · modèle v2.0 · composante quant strictement déterministe et reproductible (mêmes cours ⇒ mêmes valeurs) ; seule l'attribution du score news comporte une part de jugement, bornée. Ce document est un outil de suivi personnel et ne constitue pas un conseil en investissement.</footer>
+</body>
+</html>
