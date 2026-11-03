@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 1,
+  "justif": "Légère amélioration du sentiment mondial sur espoir de désescalade Iran-USA (-8,8% pétrole) et taux obligataires stables, malgré tensions persistantes."
+ },
+ "PE500": {
+  "score": 1,
+  "justif": "Rebond technologique (+1,3%) compensé par doutes sur rentabilité IA ; Nasdaq +0,8% sur résilience semi-conducteurs mais élections US pesent sur flux."
+ },
+ "PCEU": {
+  "score": 0,
+  "justif": "Bourses européennes en hausse modérée lundi (+0,73% EURO STOXX 50), mais PMI manufacturier et données économiques attendues mercredi ; baisse pétrole soutient équilibre."
+ },
+ "PAEEM": {
+  "score": -1,
+  "justif": "Marchés émergents vulnérables : Kospi -4%, Shanghai -0,8% ; tensions géopolitiques et inquiétudes IA pèsent sur semi-conducteurs asiatiques."
+ },
+ "PTPXE": {
+  "score": 0,
+  "justif": "Tokyo fermé pour fête nationale ce 3 novembre ; Nikkei -0,95% en séance précédente, yen stable autour 157-158, malgré volatilité macro-IA."
+ },
+ "RS2K": {
+  "score": 1,
+  "justif": "Russell 2000 +0,24% lundi ; rotation vers small-caps et value stocks soutenue, élections US à l'ordre du jour (midterms)."
+ },
+ "PUST": {
+  "score": 1,
+  "justif": "Nasdaq +0,8% sur rebond semi-conducteurs (SOX +3%) et retour sélectif en tech, malgré doutes persistants sur CapEx IA et Apple -6,3%."
+ },
+ "EXA1": {
+  "score": -1,
+  "justif": "Banques zone euro sous pression géopolitique ; rendement obligataire français ~4,94%, taux de dépôt BCE 2,5%, marges comprimées."
+ },
+ "STEC": {
+  "score": 1,
+  "justif": "Technologie européenne rebond : SOX +3% et semi-conducteurs marché +102,5% YoY en Europe Q3 ; retour après purge capitulation technologique."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Défense européenne marquage du pas depuis années ; malgré carnets 2032 pleins, midterms USA et tensions géopolitiques créent volatilité sans catalyseur clair."
+ },
+ "SMH": {
+  "score": 2,
+  "justif": "Semi-conducteurs rebondissent : marché mondial 146,8% YoY Q3, AMD +4%, Nvidia +2%, Micron +2% malgré IA spending concerns encore vifs."
+ },
+ "GOAI": {
+  "score": 1,
+  "justif": "IA et robotique marché 28,25 Mds$ 2026, croissance 13-28% TCAC ; doutes rentabilité IA tempèrent mais innovations cobots et humanoïdes en accélération."
+ }
+}
