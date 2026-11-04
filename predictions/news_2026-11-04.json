@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 2,
+  "justif": "Monde en hausse, démocrates USA remportent midterms déclenchant rallye +1,6% S&P500 et +1,9% CAC40, taux obligataires reculent."
+ },
+ "PE500": {
+  "score": 2,
+  "justif": "S&P 500 gagne +1,4% à +1,6%, soutenu par rallye post-élections midterms, baisse taux Trésor 10Y à 4,89%, dollar faiblit -0,4%."
+ },
+ "PCEU": {
+  "score": 3,
+  "justif": "Europe +1,9% CAC, +2,2% DAX post-midterms mais contrebalancé par inflation zone euro à 4,0% en octobre vs 3,8%, doublement du seuil BCE."
+ },
+ "PAEEM": {
+  "score": 1,
+  "justif": "Émergents stabilisés (Asie mixte : Shanghai +2,2%, Nikkei avant-séance +1,4%), dollar faible soutient valuations, mais craintes régulation IA."
+ },
+ "PTPXE": {
+  "score": 1,
+  "justif": "Nikkei 225 avant-séance +1,4%, yen faiblit (USD/JPY -0,1%), détente géopolitique Iran allège risques, mais données macro US en focus."
+ },
+ "RS2K": {
+  "score": 1,
+  "justif": "Russell 2000 +1,58% après midterms, gridlock legislative supporté historiquement, mais profite moins du rally tech/IA que S&P500."
+ },
+ "PUST": {
+  "score": 2,
+  "justif": "Nasdaq +2,0% à +1,4%, techno rebondit post-élections (Microsoft, Amazon +5%), semi-conducteurs (+AMD +7% données centres données), yields reculent."
+ },
+ "EXA1": {
+  "score": 2,
+  "justif": "Banques euro +3-4,7% (BNP +4,7%, Société Générale +3,8%), taux souverains français/italiens reculent fortement, capital allègement risques zone."
+ },
+ "STEC": {
+  "score": 1,
+  "justif": "Technologie Europe stabilisée, amélioration sentiment post-midterms limité par craintes régulation IA sous majorité démocrate, résultats TSMC attendus."
+ },
+ "DEFS": {
+  "score": -2,
+  "justif": "Défense Europe en repli (-2,36% Thales), démocrates élues freinent tensions Iran (pétrole -8,5%), dollar faible pénalise devises défense, craintes budgétaires."
+ },
+ "SMH": {
+  "score": 2,
+  "justif": "Semi-conducteurs monde bénéficient rebound IA post-midterms, AMD +7% données centres, TSMC technologie stables, mais regulatory risk persiste sous Dems."
+ },
+ "GOAI": {
+  "score": 1,
+  "justif": "IA/robotique monde stable, rebound IA post-élections mais équilibrée par craintes régulation démocrate sur dépenses IA/infrastructure, yields reculent."
+ }
+}
