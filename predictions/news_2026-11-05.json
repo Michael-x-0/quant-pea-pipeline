@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -4,
+  "justif": "Choc de révision à la baisse sur les semi-conducteurs et l'IA mondiaux : Nasdaq -5%, SMH -8,7%, PHLX SOX -10-12% sur craintes réglementaires post-élections."
+ },
+ "PE500": {
+  "score": -4,
+  "justif": "S&P 500 -4,3% en clôture, perte généralisée sur tous les secteurs menée par technologie et semi-conducteurs malgré rebond post-élections."
+ },
+ "PCEU": {
+  "score": -2,
+  "justif": "Europe divisée : CAC +0,34% soutenu par banques, mais Stoxx 600 -0,45%, secteur défense -3% avec Rheinmetall -16%."
+ },
+ "PAEEM": {
+  "score": -5,
+  "justif": "Emerging markets touchés : Samsung et SK Hynix -7%, Kospi recule fortement sur craintes IA/data centers, réaction asiatique sévère."
+ },
+ "PTPXE": {
+  "score": -3,
+  "justif": "Japon affecté par choc semi-conducteurs régional, Nikkei en territoire négatif suite à rotation hors IA et contraction investissements data centers."
+ },
+ "RS2K": {
+  "score": -3,
+  "justif": "Russell 2000 subit contagion du sell-off tech américain, perte de momentum post-élections, composition sensible à révision croissance."
+ },
+ "PUST": {
+  "score": -5,
+  "justif": "Nasdaq-100 -5,4% en clôture, concentration extrême sur Mag 7 lourdement frappées (Amazon -9%, Qualcomm -10% premarket)."
+ },
+ "EXA1": {
+  "score": 2,
+  "justif": "Banques euro rebondissent : BNP +4,7%, SG +3,8%, CA +3,3% sur baisse taux obligataires à 4,83% malgré incertitude budgétaire française."
+ },
+ "STEC": {
+  "score": -4,
+  "justif": "Technologie Europe en baisse prononcée, PHLX SOX -10-12%, secteur lourdement vendu sur révision capex IA/déploiement data centers."
+ },
+ "DEFS": {
+  "score": -4,
+  "justif": "Défense européenne s'effondre : Rheinmetall -16% après révision baisse guidance 2026 (2e fois en 3 mois), secteur -3%."
+ },
+ "SMH": {
+  "score": -5,
+  "justif": "Semi-conducteurs mondiaux en débâcle : SMH -8,7%, SOX -10-12%, craintes massives déploiement data centers et capex IA freinage régulatorire."
+ },
+ "GOAI": {
+  "score": -5,
+  "justif": "IA/Robotique mondiaux sévèrement corrigés : panique investisseurs sur coûts capex IA excessifs (Amazon -9%), ralentissement centres données."
+ }
+}
