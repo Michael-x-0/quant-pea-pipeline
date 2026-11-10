@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 2,
+  "justif": "S&P 500 +2,35% et Nasdaq +2,74% lundi, rebond après correction technologique semaine passée et chute du pétrole (WTI -4,38%, Brent -5,85%), sans catalyseur majeur identifiable."
+ },
+ "PE500": {
+  "score": 2,
+  "justif": "S&P 500 +2,35% lundi en rebond technique post-correction, dopé par baisse du pétrole; CPI octobre attendu demain (11-10) avec risque asymétrique, reste neutre aujourd'hui."
+ },
+ "PCEU": {
+  "score": 1,
+  "justif": "CAC 40 +1,16%, STOXX Europe 600 +1,26%, rebond technique des banques (+2,79%) après annonce fusion Crédit Agricole-Banco BPM; rebond fragmenté sans catalyseur majeur."
+ },
+ "PAEEM": {
+  "score": 1,
+  "justif": "Marchés émergents bénéficient du rebond général, TSMC annoncé à 76% parts marché fonderie 2027 (vs 70% actuellement), léger biais positif sur demande IA persistent."
+ },
+ "PTPXE": {
+  "score": 0,
+  "justif": "Pas de catalyseur spécifique au yen ou marché japonais publiée le 9-11; marchés mondiaux en rebond technique sans événement nippon identifiable."
+ },
+ "RS2K": {
+  "score": 2,
+  "justif": "Russell 2000 bénéficie du rebond US généralisé (+2,35% S&P 500), baisse du pétrole favorable aux petites caps domestiques, rebond fragmenté post-correction."
+ },
+ "PUST": {
+  "score": 2,
+  "justif": "Nasdaq +2,74% lundi, rebond des semi-conducteurs après correction jeudi-vendredi, mais Nvidia -5% (enquête interne espionnage Jensen Huang); rebond mitigé dans tech."
+ },
+ "EXA1": {
+  "score": 2,
+  "justif": "Euro STOXX Banks +3,1%, Banco BPM +10% suite annonce fusion Crédit Agricole; secteur bancaire zone euro en hausse malgré risque BCe (66% probabilité hausse taux décembre)."
+ },
+ "STEC": {
+  "score": 1,
+  "justif": "STOXX Europe 600 Tech rebond technique après correction IA semaine précédente; Nvidia -5% à New York pèse sur sentiment, gains fragmentés en Europe."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Secteur defense Europe bénéficie du rebond général (gagnants STOXX Europe 600 du jour); pas de nouveau catalyseur géopolitique identifié le 9-11."
+ },
+ "SMH": {
+  "score": 1,
+  "justif": "VanEck Semi rebond technique après correction IA jeudi-vendredi; Nvidia -5% investigation (20% court interest SOXX), tensions géopolitiques Chine persistantes."
+ },
+ "GOAI": {
+  "score": 1,
+  "justif": "Rebound technique after AI selloff last week; Democrats midterms raise regulation concerns on data centers/energy, offsetting renewed IA buying interest."
+ }
+}
