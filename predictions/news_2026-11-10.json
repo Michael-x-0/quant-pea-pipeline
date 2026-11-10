@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -1,
+  "justif": "Inflation US 0,4% vs 0,3% anticipé, pression vendeuse monde; relief partiel sur recul pétrole."
+ },
+ "PE500": {
+  "score": -2,
+  "justif": "CPI octobre 0,4% et core 0,3%, tous deux supérieurs consensus; perspectives taux fédéraux durcies."
+ },
+ "PCEU": {
+  "score": -1,
+  "justif": "Inflation eurozone 4% en octobre à 3 ans de haut; énergie +20,8%."
+ },
+ "PAEEM": {
+  "score": 0,
+  "justif": "Marché émergent en attente; TSMC T3 solide mais semi-conducteurs malmenés globalement."
+ },
+ "PTPXE": {
+  "score": 1,
+  "justif": "Nikkei +2,2% à 2,39%, rebond tech post-vente; tensions géopolitiques Iran atténuées."
+ },
+ "RS2K": {
+  "score": 0,
+  "justif": "Russell 2000 en retrait sur CPI hot US; petites caps sensibles à taux."
+ },
+ "PUST": {
+  "score": -2,
+  "justif": "Nasdaq-100 reculé 0,60% sur CPI; inquiétude hausse Fed décembre, semi-conducteurs -6%."
+ },
+ "EXA1": {
+  "score": -2,
+  "justif": "Banques eurozone pénalisées par inflation 4% zone euro et remontée taux longs."
+ },
+ "STEC": {
+  "score": -3,
+  "justif": "Secteur tech Europe malmené; semi-conducteurs européens -3% à -2%, correction sectorielle majeure."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Détente géopolitique Iran limite demande défense; flux tech et énergie neutre."
+ },
+ "SMH": {
+  "score": -3,
+  "justif": "Semi-conducteurs mondiaux en crise; index SOX -9%, contraction investissements IA/data centers."
+ },
+ "GOAI": {
+  "score": -2,
+  "justif": "IA/robotique exposés aux semi-conducteurs; préoccupations capex data centers s'intensifient."
+ }
+}
