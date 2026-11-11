@@ -1,50 +1,50 @@
 {
  "WPEA": {
-  "score": -1,
-  "justif": "Inflation US 0,4% vs 0,3% anticipé, pression vendeuse monde; relief partiel sur recul pétrole."
+  "score": 1,
+  "justif": "Sentiment mondial globalement positif porté par rebond IA et résultats CoreWeave, modéré par inflation CPI octobre 0,4% supérieure aux attentes."
  },
  "PE500": {
-  "score": -2,
-  "justif": "CPI octobre 0,4% et core 0,3%, tous deux supérieurs consensus; perspectives taux fédéraux durcies."
+  "score": 2,
+  "justif": "S&P 500 +1,31% soutenu par rebond semi-conducteurs +5,6% (Nvidia, CoreWeave +20%), mais contrebalancé par donnée CPI chaude (0,4% vs 0,3% attendu)."
  },
  "PCEU": {
-  "score": -1,
-  "justif": "Inflation eurozone 4% en octobre à 3 ans de haut; énergie +20,8%."
+  "score": 1,
+  "justif": "Europe +0,7% à nouveau sommet de clôture (STOXX 600 : 663,05 pts), rally banques +3,1% et défense +4,2%, freinés par perspective hausse taux Fed."
  },
  "PAEEM": {
-  "score": 0,
-  "justif": "Marché émergent en attente; TSMC T3 solide mais semi-conducteurs malmenés globalement."
+  "score": 1,
+  "justif": "Marchés émergents stables : Chine +0,4%, positivisme IA global sans catalyseur spécifique émergents."
  },
  "PTPXE": {
   "score": 1,
-  "justif": "Nikkei +2,2% à 2,39%, rebond tech post-vente; tensions géopolitiques Iran atténuées."
+  "justif": "Nikkei +1,3%, rebond IA soutient indices asiatiques mais aucun catalyseur spécifique Japon."
  },
  "RS2K": {
-  "score": 0,
-  "justif": "Russell 2000 en retrait sur CPI hot US; petites caps sensibles à taux."
+  "score": 1,
+  "justif": "Russell 2000 inclus dans rally US général (+0,89%), moins sensible au rebond semi-conducteurs que Nasdaq."
  },
  "PUST": {
-  "score": -2,
-  "justif": "Nasdaq-100 reculé 0,60% sur CPI; inquiétude hausse Fed décembre, semi-conducteurs -6%."
+  "score": 2,
+  "justif": "Nasdaq +1,60% porté par rebond spectaculaire semi-conducteurs (+5,6%) et CoreWeave (+20%), catalyseur significatif technologie."
  },
  "EXA1": {
-  "score": -2,
-  "justif": "Banques eurozone pénalisées par inflation 4% zone euro et remontée taux longs."
+  "score": 1,
+  "justif": "Euro STOXX Banques +3,1% (UniCredit +6,3% sur résultats Q3 forts), rally modéré par tensions taux Fed attendus."
  },
  "STEC": {
-  "score": -3,
-  "justif": "Secteur tech Europe malmené; semi-conducteurs européens -3% à -2%, correction sectorielle majeure."
+  "score": 2,
+  "justif": "Technologie Europe bénéficie du rebond semi-conducteurs global et optimisme IA, secteur technologie S&P 500 +2,7%."
  },
  "DEFS": {
-  "score": 1,
-  "justif": "Détente géopolitique Iran limite demande défense; flux tech et énergie neutre."
+  "score": 2,
+  "justif": "Défense Europe en tête secteur STOXX 600 +4,2%, contexte géopolitique et hausse budgets de défense soutiennent le rallye."
  },
  "SMH": {
-  "score": -3,
-  "justif": "Semi-conducteurs mondiaux en crise; index SOX -9%, contraction investissements IA/data centers."
+  "score": 3,
+  "justif": "Semi-conducteurs mondiaux +5,6% portés par CoreWeave +20%, Sandisk +14%, Micron +12% : catalyseur significatif IA infrastructure et confiance dépenses."
  },
  "GOAI": {
-  "score": -2,
-  "justif": "IA/robotique exposés aux semi-conducteurs; préoccupations capex data centers s'intensifient."
+  "score": 2,
+  "justif": "IA/robotique mondiaux bénéficient directement de rebond confiance CoreWeave et optimisme secteur semi-conducteurs liés infrastructures IA."
  }
 }
