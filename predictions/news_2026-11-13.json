@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -2,
+  "justif": "Indice mondial secoué : leadership Nvidia en crise (CEO démissionnaire), rendements US en hausse (10Y à 5.1%), tensions Iran persistantes, yen affaibli. Bilan semaine positive (+2.5% S&P500) contredit par tensions macro."
+ },
+ "PE500": {
+  "score": -2,
+  "justif": "S&P 500 -0.4% vendredi après volatilité Nvidia (CEO démission), PPI octobre modéré mais marchés anticipent hausses Fed en décembre (88% de probabilité). Rendements 10Y à 5.1%."
+ },
+ "PCEU": {
+  "score": 0,
+  "justif": "STOXX 600 +0.02% vendredi, record de semaine (+2.4%). Rotation défensive bénéfique malgré choc Nvidia: pétrole/énergie (+), assurances, résistance des résultats. Rendements allemands stables."
+ },
+ "PAEEM": {
+  "score": -1,
+  "justif": "Marchés émergents mixtes, Hang Seng -1.5% sur tensions AI. Exposition pays émergents à semiconducteurs élevée. Uncertaintés réglementaires Chine post-affaire Nvidia contrepèsent stabilité relative vs US."
+ },
+ "PTPXE": {
+  "score": 0,
+  "justif": "Nikkei +0.65% vendredi malgré crise Nvidia. USD/JPY 160.1 : avertissements intervention BoJ en focus, mais marché technologique japonais montre résilience. Semaine dans normes pour ex-expositions macros."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Russell 2000 -0.5% vendredi, poids tech légèrement inférieur mais rendements élevés (-4% semaine). Sensibilité aux hausses taux Fed : marché anticipe +25 bps décembre (88%). Flux rotation vers défensif."
+ },
+ "PUST": {
+  "score": -3,
+  "justif": "Nasdaq-100 -1.7% vendredi, QQQ -1.2%, semis -4.1%. Leadership Nvidia décapité (CEO démission 12 nov), choc systémique sur confiance AI/semiconducteurs, démêlage rotation AMD/Broadcom. Volatilité extrême, record d'une année."
+ },
+ "EXA1": {
+  "score": 0,
+  "justif": "Banques euro stables malgré volatilité. Goldman Sachs upgrade 12-mois STOXX 600, mais downgrade assurances. Rendements allemands modérés, spreads périphériques mixtes. Pas catalyseur spécifique secteur banques zone euro."
+ },
+ "STEC": {
+  "score": -3,
+  "justif": "Tech Europe -1.5% à -3%, Infineon -4.3%, ASML -2.8%. Leadership Nvidia en crise crée incertitude AI supply chain, semiconducteurs européens exposés. Rotation défensive pèse fortement sur technologie."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Défense Europe montre résilience : tensions Iran/Moyen-Orient soutiennent demande. Semaine positive pour défense en contexte macro dégradé. Pétrole en hausse (+tensons géopolitiques) bénéfique pour secteur."
+ },
+ "SMH": {
+  "score": -4,
+  "justif": "Semiconducteurs mondiaux -4.1% (SMH). Crise leadership Nvidia directe (CEO démission Nielsen Huang), mélange rotation AMD/Broadcom volatilité extrême. Craintes réglementaires Chine, incertitude durée leadership. Choc majeur d'amplitude historique."
+ },
+ "GOAI": {
+  "score": -3,
+  "justif": "IA/robotique pénalisés par crise Nvidia : perte confiance investisseurs en « narrative » AI, tensions réglementaires Chine, révision valorisations hautes. Cascade ventes tech/croissance. Catalyseur significatif négatif."
+ }
+}
