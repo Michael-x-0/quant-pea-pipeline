@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -1,
+  "justif": "Wall Street recule pour le 3e jour consécutif, Nasdaq -2,7%, dans l'attente des résultats Nvidia et contexte macro de taux plus élevés."
+ },
+ "PE500": {
+  "score": -2,
+  "justif": "S&P 500 -1,9%, indices US affectés par inflation persistante (CPI octobre +0,4% vs +0,3% attendu), perspectives de hausse Fed décembre à 25 pb."
+ },
+ "PCEU": {
+  "score": 0,
+  "justif": "STOXX Europe 600 stable (+0,09%), banques et défense compensent les pertes Tech face aux ventes asiatiques ; agenda macro léger."
+ },
+ "PAEEM": {
+  "score": -2,
+  "justif": "Marchés asiatiques sous pression : Taiwan -6%, Nikkei -2,4%, contraction PIB Japon Q3 -0,1% annualisée, inquiétudes sur AI trade."
+ },
+ "PTPXE": {
+  "score": -2,
+  "justif": "Japon : PIB Q3 contraction de -0,1% a/a, Nikkei sous 60 000, tech lourdement vendue avant résultats Nvidia."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Russell 2000 affecté par hausse des taux obligataires (+5,02% sur 10Y) suite aux données inflation CPI/PPI plus chaudes que prévu."
+ },
+ "PUST": {
+  "score": -2,
+  "justif": "Nasdaq 100 -2,7%, déclin pour 3e séance, valorisations IA réévaluées à baisse, anticipations de taux serrées jusqu'en décembre."
+ },
+ "EXA1": {
+  "score": 0,
+  "justif": "Banques zone euro : UniCredit +6,3% (Q3 +24% y/y), dealmaking Crédit Agricole/Banco BPM soutient, Euro STOXX Banks +3,1%."
+ },
+ "STEC": {
+  "score": -3,
+  "justif": "Tech Europe chute : TSMC sous pression, Taiwan effondré, inquiétudes sur demande IA et réserves d'analystes sur Nvidia profitabilité."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Défense Europe soutenue : EIB annonce 5+ Mds EUR investis 2026, Rheinmetall Q2 CA +69% y/y, appétit géopolitique maintenu."
+ },
+ "SMH": {
+  "score": -4,
+  "justif": "Semiconducteurs mondiaux en crise : indice Phili -11%, Taiwan -6%, TSMC/Samsung lourdement vendus, craintes profitabilité Nvidia/supply chain."
+ },
+ "GOAI": {
+  "score": -2,
+  "justif": "IA/Robotique : ventes massives sur AI trade, CoreWeave relance espoirs mais révisions à baisse sur infra IA, Nvidia earnings test majeur."
+ }
+}
