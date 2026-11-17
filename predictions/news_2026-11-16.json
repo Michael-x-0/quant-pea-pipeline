@@ -1,50 +1,50 @@
 {
  "WPEA": {
-  "score": -1,
-  "justif": "Wall Street recule pour le 3e jour consécutif, Nasdaq -2,7%, dans l'attente des résultats Nvidia et contexte macro de taux plus élevés."
+  "score": -3,
+  "justif": "Indices mondiaux en baisse marquée : S&P 500 -1,9%, Nikkei -1,34%, Stoxx 600 -0,57%, entraînés par aversion au risque sur IA et attentes hausse Fed."
  },
  "PE500": {
-  "score": -2,
-  "justif": "S&P 500 -1,9%, indices US affectés par inflation persistante (CPI octobre +0,4% vs +0,3% attendu), perspectives de hausse Fed décembre à 25 pb."
+  "score": -3,
+  "justif": "S&P 500 perd 1,9% à 7.340 points, plus bas depuis fin juillet, suite aux nouvelles restrictions US sur puces IA et inquiétudes valorisations."
  },
  "PCEU": {
-  "score": 0,
-  "justif": "STOXX Europe 600 stable (+0,09%), banques et défense compensent les pertes Tech face aux ventes asiatiques ; agenda macro léger."
+  "score": -2,
+  "justif": "Stoxx 600 recule 0,57%, DAX -0,72%, impacté par craintes technologie et hausse des rendements obligataires zone euro suite propos hawkish BCE."
  },
  "PAEEM": {
-  "score": -2,
-  "justif": "Marchés asiatiques sous pression : Taiwan -6%, Nikkei -2,4%, contraction PIB Japon Q3 -0,1% annualisée, inquiétudes sur AI trade."
+  "score": -3,
+  "justif": "Actions émergentes affectées par contagion vente IA, dénouement positions technologiques mondiales avant résultats Nvidia."
  },
  "PTPXE": {
   "score": -2,
-  "justif": "Japon : PIB Q3 contraction de -0,1% a/a, Nikkei sous 60 000, tech lourdement vendue avant résultats Nvidia."
+  "justif": "Nikkei replie 1,34%, contaminé par faiblesse tech asiatique et nouvelles restrictions américaines exportations puces IA vers cinq pays."
  },
  "RS2K": {
-  "score": -1,
-  "justif": "Russell 2000 affecté par hausse des taux obligataires (+5,02% sur 10Y) suite aux données inflation CPI/PPI plus chaudes que prévu."
+  "score": -2,
+  "justif": "Russell 2000 suit la baisse générale US via attentes taux et risque-off, sans catalyseur spécifique petites caps."
  },
  "PUST": {
-  "score": -2,
-  "justif": "Nasdaq 100 -2,7%, déclin pour 3e séance, valorisations IA réévaluées à baisse, anticipations de taux serrées jusqu'en décembre."
+  "score": -3,
+  "justif": "Nasdaq-100 chute 2,5%, dépassant largement S&P 500, sur démission CEO Nvidia et contrôles export puces avancées annoncés 16 nov."
  },
  "EXA1": {
-  "score": 0,
-  "justif": "Banques zone euro : UniCredit +6,3% (Q3 +24% y/y), dealmaking Crédit Agricole/Banco BPM soutient, Euro STOXX Banks +3,1%."
+  "score": -2,
+  "justif": "Deutsche Bank -6% sur enquête presse 15 mio documents internes, secteur bancaire zone euro fragilisé malgré opérations M&A positives."
  },
  "STEC": {
-  "score": -3,
-  "justif": "Tech Europe chute : TSMC sous pression, Taiwan effondré, inquiétudes sur demande IA et réserves d'analystes sur Nvidia profitabilité."
+  "score": -4,
+  "justif": "Technologie Europe -1,32% début séance, semi-conducteurs exportent vers baisse massive : Intel -28%, puces soumises nouvelles restrictions américaines."
  },
  "DEFS": {
-  "score": 1,
-  "justif": "Défense Europe soutenue : EIB annonce 5+ Mds EUR investis 2026, Rheinmetall Q2 CA +69% y/y, appétit géopolitique maintenu."
+  "score": 0,
+  "justif": "Défense Europe anticipée en hausse locale (4,2% potentiel) mais contrebalancée par baisse indices généraux et risque-off global tempère catalyseurs."
  },
  "SMH": {
   "score": -4,
-  "justif": "Semiconducteurs mondiaux en crise : indice Phili -11%, Taiwan -6%, TSMC/Samsung lourdement vendus, craintes profitabilité Nvidia/supply chain."
+  "justif": "Semiconducteurs mondiaux en crise : restrictions export puces IA annoncées 16 nov par Commerce Dept US, départ CEO Nvidia renforce doutes valorisations."
  },
  "GOAI": {
-  "score": -2,
-  "justif": "IA/Robotique : ventes massives sur AI trade, CoreWeave relance espoirs mais révisions à baisse sur infra IA, Nvidia earnings test majeur."
+  "score": -4,
+  "justif": "IA/robotique monde en dénouement massif, perte confiance à court terme malgré demande long terme, dénouement positions avant Nvidia earnings."
  }
 }
