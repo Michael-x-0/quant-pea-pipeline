@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -2,
+  "justif": "Vente générale (-0,7% Euro Stoxx 50 et 600, tensions tech et bancaires, S&P 500 -1,0% avant earnings Nvidia)."
+ },
+ "PE500": {
+  "score": -2,
+  "justif": "S&P 500 chute 1,03% à 7 340 en fermeture, plus bas niveau depuis juillet, craintes IA et hausse taux Fed décembre attendue."
+ },
+ "PCEU": {
+  "score": -3,
+  "justif": "Europe en baisse (-0,7% STOXX 600), tensions bancaires marquées (Deutsche Bank -5%), tech faiblisse (-2,2% SAP), contexte macro difficile."
+ },
+ "PAEEM": {
+  "score": -2,
+  "justif": "Asie Pacifique -1,5%, Taiwan Taiex -2,5% et Kospi -2,6%, restrictions US sur puces IA, chute TSMC et semiconducteurs asiatiques."
+ },
+ "PTPXE": {
+  "score": -1,
+  "justif": "Nikkei -1,3%, baisse modérée en Asie, risque FX favorable (dollar fort mais en repli depuis 19-mois high), contexte macro neutre pour yen."
+ },
+ "RS2K": {
+  "score": -2,
+  "justif": "Russell 2000 -1,45% (2 703), nouveaux plancher sur 7 mois, petites caps pénalisées par hausse taux et tech selloff généralisé."
+ },
+ "PUST": {
+  "score": -2,
+  "justif": "Nasdaq -0,74%, pression tech avant Nvidia earnings (17 nov), crise de confiance IA, doubts valorisations, 61% Nasdaq 100 en bear market."
+ },
+ "EXA1": {
+  "score": -3,
+  "justif": "Banques zone euro en crise, Deutsche -5%, secteur bancaire sous fortes pressions vendeuses, tensions géopolitiques et taux Fed décembre attendu."
+ },
+ "STEC": {
+  "score": -2,
+  "justif": "Tech Europe fléchit (-2,2% SAP, ASML -1,7%), vendeurs sur software et semi-conducteurs, perte de confiance IA généralisée en Europe."
+ },
+ "DEFS": {
+  "score": 1,
+  "justif": "Ministres défense validé 17 nov 8 axes coopération (missiles, cloud sécurisé), budgets 418 Mds€ 2025 → 454 Mds€ 2026, fondamentaux positifs structurels."
+ },
+ "SMH": {
+  "score": -2,
+  "justif": "Semiconducteurs baissent (restrictions US puces IA 16 nov, TSMC -6%, Samsung -3,3%), craintes financement Nvidia et commandes retardées."
+ },
+ "GOAI": {
+  "score": -1,
+  "justif": "IA robotique affecté par correction IA générale, doubts valorisations mais investissements structurels en IA hardware persistants long terme."
+ }
+}
