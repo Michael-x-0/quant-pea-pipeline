@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -2,
+  "justif": "Marché mondial fragilisé après choc IPO Anthropic et révision baissière Fed; S&P 500 -2,02% et Nasdaq -2,25% jeudi, retombée tech entraîne Europe."
+ },
+ "PE500": {
+  "score": -2,
+  "justif": "S&P 500 close -2,02% vendredi 18 nov; Fed hawkish sur inflation avec PPI à 6,5% et CPI élevé remettent en question la pause monétaire."
+ },
+ "PCEU": {
+  "score": -1,
+  "justif": "Bourses européennes repli après euphorie initiale: CAC -0,81%, DAX -1,06%, FTSE -0,93%; contagion baisse tech US, craintes BCE sur taux."
+ },
+ "PAEEM": {
+  "score": -1,
+  "justif": "Marchés émergents hors Japon affaiblis: indice MSCI Asie-Pac -1,7% jeudi, plus bas en 7 mois, sur craintes IA et remontée taux."
+ },
+ "PTPXE": {
+  "score": 0,
+  "justif": "Nikkei +0,71% jeudi après export hausse 20,5% mais Topix -1,53%; dynamique contrastée reflète divergence secteurs, bilan proche de zéro."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Russell 2000 -2,18% jeudi dans réaction générale tech US; rotation vers small caps limée par craintes inflation et décisions Fed à venir."
+ },
+ "PUST": {
+  "score": -2,
+  "justif": "Nasdaq-100 -2,25% jeudi après boom initial sur Anthropic; Fed messaging hawkish sur taux lève euphorie IA initiale."
+ },
+ "EXA1": {
+  "score": -1,
+  "justif": "Banques zone euro affectées par hausse taux obligataires (France +6,77bp, Italie +2,6bp) et incertitude BCE sur taux; UniCredit +1,9% sur fusion Commerzbank."
+ },
+ "STEC": {
+  "score": -2,
+  "justif": "Tech Europe chutée après euphorie Anthropic: redécouverte des doutes valuations IA; semaine tech faible avant IPO, remise en question capex IA."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Repli actions mais pas de catalyseur défense; tensions géopolitiques stables (Trump-Poutine discussions), pas de choc systémique détectable."
+ },
+ "SMH": {
+  "score": -1,
+  "justif": "Semiconducteurs US en repli jeudi avec Nasdaq; mais Soitec prévoit +40% CA 2026-27 sur photonique/IA et Nikkei semi-cond. gagnants (SoftBank +4,55%)."
+ },
+ "GOAI": {
+  "score": -1,
+  "justif": "IA/robotique monde subissent révision baissière post-Anthropic après envol mercredi; Fed tone hawkish sur taux décourage allocations IA, contrairement semaine dernière."
+ }
+}
