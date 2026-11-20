@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -4,
+  "justif": "Indices mondiaux en correction : S&P 500 -3,70%, Nasdaq -5,28%, CAC 40 -1,89%, DAX -2,60%. Défiance AI généralisée, sans catalyseur isolable nouveau, régime de marché altéré."
+ },
+ "PE500": {
+  "score": -4,
+  "justif": "S&P 500 perd 265pt (-3,70%) pour son 7e jour consécutif de baisse. Semaine -8,6%, entrée en correction. Chute secteur AI/semiconducteurs entraîne large capitalisation."
+ },
+ "PCEU": {
+  "score": -3,
+  "justif": "Europe -2% en moyenne (DAX -2,60%, Eurostoxx 50 -2,81%, CAC -1,89%). Semiconducteurs et tech Europe chutent massivement. Stress obligataire France signalé (taux d'emprunt 20ans à 2 décennies de maximum)."
+ },
+ "PAEEM": {
+  "score": -4,
+  "justif": "Marchés émergents embarqués dans correction mondiale. Japon Nikkei -4%, Corée Kospi -5%. Défiance vis-à-vis technologie et IA affecte toute région Asie-Pacifique."
+ },
+ "PTPXE": {
+  "score": -3,
+  "justif": "Japon TOPIX affecté : Nikkei -4%. Inflation CPI octobre 2,3% YoY (taux 1 an depuis nov 2025) renforce attentes hausse BoJ décembre. Yen se renforce (159,13) sur aversion au risque global."
+ },
+ "RS2K": {
+  "score": -4,
+  "justif": "Russell 2000 : petites cap US souffrent correction marché large. Pas de données spécifiques mais corrélé à S&P 500 et contexte AI-driven de sortie de positions."
+ },
+ "PUST": {
+  "score": -5,
+  "justif": "Nasdaq-100 s'effondre -5,61%, pire semaine depuis mars 2020. Anthropic IPO historique record (81 Mds$) rate son rebond (-11,28% jour 2). Nvidia -11-14%, AMD -11%, Broadcom -11%, SMH baisse 11%, PHLX semi -7%. Régime 'full de-risking'."
+ },
+ "EXA1": {
+  "score": -2,
+  "justif": "Banques zone euro affectées par stress rate obligataire France, remontée taux longs. Pas d'actualité bancaire spécifique positive détectée. Rotation vers haven assets."
+ },
+ "STEC": {
+  "score": -4,
+  "justif": "Tech Europe chute -2,7% (pire performers ASML, ASM, Be Semi). Semiconducteurs et AI Europe épousent rout américain. Semaine catastrophique secteur technologie Europe."
+ },
+ "DEFS": {
+  "score": -1,
+  "justif": "Défense Europe n'a pas de catalyseur macro spécifique aujourd'hui. Marché général en baisse mais secteur défense moins corrélé à chute AI/tech que reste du marché."
+ },
+ "SMH": {
+  "score": -5,
+  "justif": "Semiconducteurs mondiaux s'effondrent : Nvidia -14% (enquête SEC sur comptabilité rapportée), AMD -10%, Broadcom -9%, Micron -12%, Taiwan Electron -7%, Renesas -7%. Pire semaine depuis 2001 (chips -35% soit niveau oct-nov 2008)."
+ },
+ "GOAI": {
+  "score": -5,
+  "justif": "IA/Robotique monde en capitulation : Anthropic -11%, baisse généralisée AI trade, réajustement massif valuations. Défiance modèle économique IA (capex colossal, ROI incertain). Régime choc systémique."
+ }
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Rapport PEA — 2026-11-20</title>
+<style>
+  body { font-family: -apple-system, Segoe UI, Arial, sans-serif; max-width: 1060px; margin: 30px auto; padding: 0 20px; color: #1a1a1a; line-height: 1.5; }
+  h1 { font-size: 1.5em; border-bottom: 3px solid #1a4d8f; padding-bottom: 10px; }
+  h2 { font-size: 1.15em; color: #1a4d8f; margin-top: 34px; border-bottom: 1px solid #ddd; padding-bottom: 6px; }
+  h3 { font-size: 1.0em; color: #333; margin-top: 22px; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 0.92em; }
+  th, td { border: 1px solid #ddd; padding: 6px 9px; text-align: right; }
+  th { background: #1a4d8f; color: #fff; text-align: center; }
+  td:first-child, th:first-child { text-align: left; font-weight: 600; }
+  tr:nth-child(even) { background: #f6f8fb; }
+  .pos { color: #0a7a2f; font-weight: 600; }
+  .neg { color: #b3221e; font-weight: 600; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 0.85em; font-weight: 600; }
+  .ok { background: #dff3e3; color: #0a7a2f; }
+  .nok { background: #fbe0df; color: #b3221e; }
+  .note { background: #fff8e1; border-left: 4px solid #f0ad4e; padding: 10px 14px; margin: 14px 0; font-size: 0.93em; }
+  .reserve { background: #fdeceb; border-left: 4px solid #b3221e; padding: 10px 14px; margin: 14px 0; font-size: 0.93em; }
+  .calib { background: #eef4fb; border-left: 4px solid #1a4d8f; padding: 10px 14px; margin: 14px 0; font-size: 0.93em; }
+  .sect th { background: #6b4d8f; }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #ddd; font-size: 0.85em; color: #555; }
+  .small { font-size: 0.85em; color: #555; }
+  td.just { text-align: left; font-weight: 400; font-size: 0.9em; }
+</style>
+</head>
+<body>
+<h1>📊 Rapport PEA — 2026-11-20</h1>
+<p class="small">Analyste quotidien automatisé — modèle <strong>v2.0</strong>. Univers : 7 ETF socle (éligibles PEA, hors scope PAD) + 5 ETF sectoriels <strong>en suivi seul</strong>. Données Boursorama EOD, clôture Euronext définitive.</p>
+<div class="reserve"><strong>Statut PAD des lignes sectorielles.</strong> Les cinq ETF sectoriels (EXA1, STEC, DEFS, SMH, HLT) sont des fonds sectoriels au sens des critères PAD : ils sont <strong>en scope</strong> et ne sont pas investissables par Michael sans autorisation préalable. Ils figurent ici à titre de suivi de marché uniquement — aucun avis d'investissement personnel n'est formulé sur ces lignes.</div>
+<h2>1. Cours et variations exactes (source : dataset local)</h2>
+<h3>Socle — investissable</h3>
+<table>
+<tr><th>Ticker</th><th>Close</th><th>Var 1J</th><th>Var 5J</th><th>YTD</th><th>Var 1 an</th><th>RSI14</th><th>Z20</th><th>Vol. 20j ann.</th></tr>
+<tr><td>WPEA</td><td>6,727</td><td class="neg">-3,14%</td><td class="neg">-5,60%</td><td class="pos">+9,91%</td><td class="pos">+10,54%</td><td>26,7</td><td>-2,98</td><td>18,6%</td></tr>
+<tr><td>PE500</td><td>51,600</td><td class="neg">-3,48%</td><td class="neg">-5,98%</td><td class="pos">+6,50%</td><td class="pos">+7,44%</td><td>20,3</td><td>-2,77</td><td>19,4%</td></tr>
+<tr><td>PCEU</td><td>38,740</td><td class="neg">-1,95%</td><td class="neg">-5,55%</td><td class="pos">+8,27%</td><td class="pos">+10,28%</td><td>31,0</td><td>-2,73</td><td>15,6%</td></tr>
+<tr><td>PAEEM</td><td>30,990</td><td class="neg">-5,01%</td><td class="neg">-7,70%</td><td class="pos">+8,09%</td><td class="pos">+9,59%</td><td>27,4</td><td>-2,80</td><td>33,1%</td></tr>
+<tr><td>PTPXE</td><td>36,670</td><td class="neg">-3,40%</td><td class="neg">-6,15%</td><td class="pos">+14,56%</td><td class="pos">+14,32%</td><td>27,8</td><td>-2,67</td><td>21,9%</td></tr>
+<tr><td>RS2K</td><td>359,780</td><td class="neg">-2,65%</td><td class="neg">-4,77%</td><td class="pos">+13,08%</td><td class="pos">+9,70%</td><td>33,4</td><td>-2,75</td><td>21,3%</td></tr>
+<tr><td>PUST</td><td>93,770</td><td class="neg">-5,66%</td><td class="neg">-6,49%</td><td class="pos">+8,05%</td><td class="pos">+7,74%</td><td>30,2</td><td>-2,49</td><td>33,5%</td></tr>
+</table>
+<h3>Sectoriels — suivi seul</h3>
+<table class="sect">
+<tr><th>Ticker</th><th>Close</th><th>Var 1J</th><th>Var 5J</th><th>YTD</th><th>Var 1 an</th><th>RSI14</th><th>Z20</th><th>Vol. 20j ann.</th></tr>
+<tr><td>EXA1</td><td>18,638</td><td class="neg">-2,84%</td><td class="neg">-6,93%</td><td class="pos">+9,31%</td><td class="pos">+12,70%</td><td>34,9</td><td>-1,22</td><td>27,6%</td></tr>
+<tr><td>STEC</td><td>6,916</td><td class="neg">-5,34%</td><td class="neg">-9,33%</td><td class="pos">+8,60%</td><td class="pos">+7,35%</td><td>23,7</td><td>-2,73</td><td>31,0%</td></tr>
+<tr><td>DEFS</td><td>5,333</td><td class="neg">-3,07%</td><td class="neg">-5,48%</td><td class="neg">-5,17%</td><td class="neg">-3,60%</td><td>31,0</td><td>-2,38</td><td>26,5%</td></tr>
+<tr><td>SMH</td><td>70,298</td><td class="neg">-11,59%</td><td class="neg">-11,95%</td><td class="pos">+32,69%</td><td class="pos">+32,14%</td><td>30,3</td><td>-2,15</td><td>70,5%</td></tr>
+<tr><td>GOAI</td><td>126,970</td><td class="neg">-6,58%</td><td class="neg">-6,04%</td><td class="pos">+12,65%</td><td class="pos">+11,03%</td><td>33,0</td><td>-2,04</td><td>41,4%</td></tr>
+</table>
+<h2>2. Bilan des prédictions passées (auto-évaluation)</h2>
+<p class="small">Comparaison des prédictions J+1 faites le 2026-11-18 vs réalisé exact du dataset. Univers évalué : 12 tickers (socle + sectoriel).</p>
+<table>
+<tr><th>Ticker</th><th>Prédit %</th><th>Réalisé %</th><th>Erreur (pts)</th><th>Direction</th></tr>
+<tr><td>WPEA</td><td>+0,09</td><td>-3,14</td><td>-3,23</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>PE500</td><td>+0,04</td><td>-3,48</td><td>-3,52</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>PCEU</td><td>+0,20</td><td>-1,95</td><td>-2,15</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>PAEEM</td><td>+0,18</td><td>-5,01</td><td>-5,20</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>PTPXE</td><td>+0,10</td><td>-3,40</td><td>-3,50</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>RS2K</td><td>+0,19</td><td>-2,65</td><td>-2,85</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>PUST</td><td>-0,09</td><td>-5,66</td><td>-5,57</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>EXA1</td><td>+0,01</td><td>-2,84</td><td>-2,85</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>STEC</td><td>+0,15</td><td>-5,34</td><td>-5,49</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>DEFS</td><td>+0,23</td><td>-3,07</td><td>-3,30</td><td><span class="badge nok">NON</span></td></tr>
+<tr><td>SMH</td><td>-0,10</td><td>-11,59</td><td>-11,50</td><td><span class="badge ok">OUI</span></td></tr>
+<tr><td>GOAI</td><td>-0,22</td><td>-6,58</td><td>-6,36</td><td><span class="badge ok">OUI</span></td></tr>
+</table>
+<p><strong>3/12 directions correctes</strong> &middot; erreur moyenne signée <strong>-4,63 pt</strong> &middot; erreur absolue moyenne <strong>4,63 pt</strong>.</p><h2>3. Prédictions — J+1 / J+5 / fin d'année</h2>
+<p class="small">Valeur unique = signal quant déterministe + overlay news borné. Échelle news <strong>[-5, +5]</strong> (élargie le 11/08/2026) · J+1 : quant + score×0,04 · J+5 : quant + score×0,10 · EOY : quant + score×0,30. Influence maximale des news : ±0,20 pt (J+1), ±0,50 pt (J+5), ±1,50 pt (EOY) — identique à la v1 malgré l'échelle élargie. Barème : config/news_scale.md</p>
+<h3>Socle</h3>
+<table>
+<tr><th>Ticker</th><th>Quant J+1</th><th>News</th><th>Préd. J+1</th><th>Quant J+5</th><th>Préd. J+5</th><th>Quant EOY</th><th>Préd. EOY</th><th>Justification du score news</th></tr>
+<tr><td>WPEA</td><td class="pos">+0,38%</td><td>-4</td><td class="pos">+0,22%</td><td class="pos">+0,32%</td><td class="neg">-0,09%</td><td class="neg">-1,53%</td><td class="neg">-2,73%</td><td class="just">Indices mondiaux en correction : S&P 500 -3,70%, Nasdaq -5,28%, CAC 40 -1,89%, DAX -2,60%. Défiance AI généralisée, sans catalyseur isolable nouveau, régime de marché altéré.</td></tr>
+<tr><td>PE500</td><td class="pos">+0,29%</td><td>-4</td><td class="pos">+0,13%</td><td class="neg">-0,14%</td><td class="neg">-0,54%</td><td class="neg">-3,12%</td><td class="neg">-4,32%</td><td class="just">S&P 500 perd 265pt (-3,70%) pour son 7e jour consécutif de baisse. Semaine -8,6%, entrée en correction. Chute secteur AI/semiconducteurs entraîne large capitalisation.</td></tr>
+<tr><td>PCEU</td><td class="pos">+0,35%</td><td>-3</td><td class="pos">+0,23%</td><td class="pos">+0,55%</td><td class="pos">+0,25%</td><td class="pos">+0,01%</td><td class="neg">-0,89%</td><td class="just">Europe -2% en moyenne (DAX -2,60%, Eurostoxx 50 -2,81%, CAC -1,89%). Semiconducteurs et tech Europe chutent massivement. Stress obligataire France signalé (taux d'emprunt 20ans à 2 décennies de maximum).</td></tr>
+<tr><td>PAEEM</td><td class="pos">+0,54%</td><td>-4</td><td class="pos">+0,38%</td><td class="pos">+0,04%</td><td class="neg">-0,36%</td><td class="neg">-4,48%</td><td class="neg">-5,68%</td><td class="just">Marchés émergents embarqués dans correction mondiale. Japon Nikkei -4%, Corée Kospi -5%. Défiance vis-à-vis technologie et IA affecte toute région Asie-Pacifique.</td></tr>
+<tr><td>PTPXE</td><td class="pos">+0,35%</td><td>-3</td><td class="pos">+0,23%</td><td class="pos">+0,06%</td><td class="neg">-0,24%</td><td class="neg">-2,58%</td><td class="neg">-3,48%</td><td class="just">Japon TOPIX affecté : Nikkei -4%. Inflation CPI octobre 2,3% YoY (taux 1 an depuis nov 2025) renforce attentes hausse BoJ décembre. Yen se renforce (159,13) sur aversion au risque global.</td></tr>
+<tr><td>RS2K</td><td class="pos">+0,42%</td><td>-4</td><td class="pos">+0,26%</td><td class="pos">+0,46%</td><td class="pos">+0,06%</td><td class="neg">-1,10%</td><td class="neg">-2,30%</td><td class="just">Russell 2000 : petites cap US souffrent correction marché large. Pas de données spécifiques mais corrélé à S&P 500 et contexte AI-driven de sortie de positions.</td></tr>
+<tr><td>PUST</td><td class="pos">+0,50%</td><td>-5</td><td class="pos">+0,30%</td><td class="pos">+0,09%</td><td class="neg">-0,41%</td><td class="neg">-3,82%</td><td class="neg">-5,32%</td><td class="just">Nasdaq-100 s'effondre -5,61%, pire semaine depuis mars 2020. Anthropic IPO historique record (81 Mds$) rate son rebond (-11,28% jour 2). Nvidia -11-14%, AMD -11%, Broadcom -11%, SMH baisse 11%, PHLX semi -7%. Régime 'full de-risking'.</td></tr>
+</table>
+<h3>Sectoriels — suivi seul</h3>
+<table class="sect">
+<tr><th>Ticker</th><th>Quant J+1</th><th>News</th><th>Préd. J+1</th><th>Quant J+5</th><th>Préd. J+5</th><th>Quant EOY</th><th>Préd. EOY</th><th>Justification du score news</th></tr>
+<tr><td>EXA1</td><td class="pos">+0,24%</td><td>-2</td><td class="pos">+0,16%</td><td class="pos">+0,17%</td><td class="neg">-0,03%</td><td class="neg">-0,98%</td><td class="neg">-1,58%</td><td class="just">Banques zone euro affectées par stress rate obligataire France, remontée taux longs. Pas d'actualité bancaire spécifique positive détectée. Rotation vers haven assets.</td></tr>
+<tr><td>STEC</td><td class="pos">+0,50%</td><td>-4</td><td class="pos">+0,34%</td><td class="pos">+0,00%</td><td class="neg">-0,40%</td><td class="neg">-4,26%</td><td class="neg">-5,46%</td><td class="just">Tech Europe chute -2,7% (pire performers ASML, ASM, Be Semi). Semiconducteurs et AI Europe épousent rout américain. Semaine catastrophique secteur technologie Europe.</td></tr>
+<tr><td>DEFS</td><td class="pos">+0,42%</td><td>-1</td><td class="pos">+0,38%</td><td class="pos">+0,29%</td><td class="pos">+0,19%</td><td class="neg">-2,03%</td><td class="neg">-2,33%</td><td class="just">Défense Europe n'a pas de catalyseur macro spécifique aujourd'hui. Marché général en baisse mais secteur défense moins corrélé à chute AI/tech que reste du marché.</td></tr>
+<tr><td>SMH</td><td class="pos">+0,77%</td><td>-5</td><td class="pos">+0,57%</td><td class="neg">-0,58%</td><td class="neg">-1,08%</td><td class="neg">-9,89%</td><td class="neg">-11,39%</td><td class="just">Semiconducteurs mondiaux s'effondrent : Nvidia -14% (enquête SEC sur comptabilité rapportée), AMD -10%, Broadcom -9%, Micron -12%, Taiwan Electron -7%, Renesas -7%. Pire semaine depuis 2001 (chips -35% soit niveau oct-nov 2008).</td></tr>
+<tr><td>GOAI</td><td class="pos">+0,40%</td><td>-5</td><td class="pos">+0,20%</td><td class="neg">-0,47%</td><td class="neg">-0,97%</td><td class="neg">-5,83%</td><td class="neg">-7,33%</td><td class="just">IA/Robotique monde en capitulation : Anthropic -11%, baisse généralisée AI trade, réajustement massif valuations. Défiance modèle économique IA (capex colossal, ROI incertain). Régime choc systémique.</td></tr>
+</table>
+<h2>4. Modifications du modèle appliquées à cette exécution</h2>
+<p><span class="badge ok">REJETE_VALIDATION</span></p>
+<div class="calib">Auto-calibration : candidat REJETÉ. L'ajustement proposé (momentum 20 s, -0,0250) améliorait l'échantillon d'apprentissage mais le gain sur l'échantillon de validation (51,9 % → 52,3 % de hit ratio J+1) reste sous le seuil de significativité de 0,3 pt : indiscernable du bruit. Poids inchangés.</div>
+<table>
+<tr><th>Métrique</th><th>Apprentissage (70 % anciens)</th><th>Validation (30 % récents)</th></tr>
+<tr><td>Hit ratio J+1</td><td>52,0%</td><td>51,9%</td></tr>
+<tr><td>Hit ratio J+5</td><td>52,8%</td><td>49,8%</td></tr>
+<tr><td>Observations J+1</td><td>3449</td><td>1481</td></tr>
+</table>
+<p class="small">Hit ratio des prédictions <em>réellement publiées</em> sur les 120 dernières observations : <strong>45,8 %</strong>. Cet indicateur pilote le mécanisme de rollback.</p>
+<p class="small">Garde-fous actifs : seuil de 20 séances évaluées par ticker · pas maximal de 5 % par exécution · borne dure de ±30 % autour des poids v1 · validation walk-forward obligatoire · rollback si le hit ratio live perd plus de 5 pt sur 10 séances.</p>
+<h2>5. Résumé de l'actualité du jour</h2>
+<p><strong>Débâcle systémique du secteur IA et des semiconducteurs — Réajustement de régime.</strong></p><p>Les marchés boursiers mondiaux ont connu vendredi une journée historique de dérisquage généralisé, avec <strong>l'S&P 500 en correction (-3,70%, 7e jour consécutif de baisse)</strong>, le Nasdaq Composite effondré <strong>-5,28% pour son pire jour depuis mars 2020</strong>, et le Nasdaq-100 <strong>-5,61% (marge de 20% de bear market).</strong> Cette débâcle intervient 24h après l'introduction en bourse d'Anthropic (IPO record 81 Md$), dont le stock s'est effondré au 2e jour (-11%), rompant l'euphorie attendue.</p><p><strong>Semiconducteurs et puces IA anéantis :</strong> <strong>Nvidia -14% (enquête SEC)</strong>, AMD -10%, Broadcom -9%, Micron -12%, Tokyo Electron -7%. L'indice PHLX Semiconducteurs a sombré -7%, avec chip stocks enregistrant leur pire semaine depuis septembre 2001 (chute de 35%, niveau équivalent à octobre-novembre 2008). La crainte d'un ralentissement massif des dépenses en data centers AI et de modèles économiques non-viables sous-tend ce rout.</p><p><strong>Contagion globale :</strong> Europe (DAX -2,60%, Eurostoxx 50 -2,81%, CAC 40 -1,89%), Japon (Nikkei -4% malgré inflation CPI 2,3% renforçant hausse BoJ en décembre), Asie émergente. France signale stress obligataire avec taux 20 ans à plus hauts depuis des décennies. Le yen se renforce (JPY 159,13) sur aversion au risque global.</p><p><strong>Diagnostic marché :</strong> Réajustement majeur des valuations IA après euphorie 2023-2026 (Magnificent 7 perte $3,5 Trds cap market en 6 mois). Économie sous-jacente reste solide (ventes retail core +0,6%, inflation attendue modérée en novembre PCE 25/11), mais appétit pour risque volatilisé. Pas de catalyseur macro isolable negatif nouveau —c'est un repricing de croyance sur ROI capex IA.</p><p><strong>Calendrier à surveiller :</strong> PCE inflation (25 nov, marché attend 2,8%), FOMC decision (9 déc après CPI 10 déc). Fed sous attente de hausse taux décembre (60-80% pricing). Risque d'accélération décrue si sentiment AI se détériore davantage lundi.</p><footer>Rapport généré par make_report.py · modèle v2.0 · composante quant strictement déterministe et reproductible (mêmes cours ⇒ mêmes valeurs) ; seule l'attribution du score news comporte une part de jugement, bornée. Ce document est un outil de suivi personnel et ne constitue pas un conseil en investissement.</footer>
+</body>
+</html>
