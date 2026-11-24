@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 2,
+  "justif": "Reprise mondiale portée par le rebond tech après le retour de Jensen Huang à Nvidia (+31%), MSCI Asie-Pac +4,1%, Europe Stoxx 600 +1,8%, mais tensions inflationnistes sous-jacentes persistent."
+ },
+ "PE500": {
+  "score": 3,
+  "justif": "S&P 500 +4,73% lundi sur rallye IA post-Huang, technologie motrice du rebond ; données PMI US en ralentissement mais pas défaillant ; 2026 bilan net positif pour le large-cap américain."
+ },
+ "PCEU": {
+  "score": 1,
+  "justif": "Europe rebondit +1,8% Stoxx 600, DAX +2,2%, CAC +1,5%, mais divergence France-Allemagne marquée (PMI France 46,2 en baisse, Allemagne accélère) ; tensions géopolitiques limitées."
+ },
+ "PAEEM": {
+  "score": 3,
+  "justif": "Taïwan surmonté +9% lundi sur rallye TSMC +14,08%, Nikkei CME pricing +2,97% ; IA et semi-conducteurs dopent l'exposition émergente Asie."
+ },
+ "PTPXE": {
+  "score": 2,
+  "justif": "TOPIX rallye limité (+2% attendu à ouverture) vs Nikkei ; yen faiblesse soutient exportateurs ; données PMI Japon firmes mais pas spectaculaires en novembre."
+ },
+ "RS2K": {
+  "score": 1,
+  "justif": "Russell 2000 bénéficie du rebond large US lundi mais petites caps moins portées par le rally tech IA ; stabilité macro sous-jacente."
+ },
+ "PUST": {
+  "score": 3,
+  "justif": "Nasdaq-100 +6,51% lundi, plus gros rebond depuis avril 2025, porté par Nvidia +31%, semi-conducteurs et IA ; technologie ultra-dominante."
+ },
+ "EXA1": {
+  "score": 1,
+  "justif": "Banques zone euro stables, rebond modeste lundi ; taux BCE inchangés fin octobre, prochaine décision 17 décembre (91% probabilité hausse 25 bp)."
+ },
+ "STEC": {
+  "score": 3,
+  "justif": "Technologie Europe Stoxx surperformante lundi, ASML +8,9%, AT&S +13% sur rallye semi-conducteurs ; composante majeure du rebond européen."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Défense Europe sans catalyseur net identifiable lundi ; géopolitique calme, pas de choc d'armement signalé."
+ },
+ "SMH": {
+  "score": 4,
+  "justif": "Semiconducteurs mondiaux en catalyseur majeur : TSMC +14%, Nvidia +31%, Huang retour CEO après scandale, CME Nikkei +3% ; rallye de réassurance post-AI sell-off."
+ },
+ "GOAI": {
+  "score": 3,
+  "justif": "IA et robotique dopées par retour Huang et reconsolidation optimisme sur IA physique vs scandale gouvernance ; Nvidia annonce Nemotron for Science."
+ }
+}
