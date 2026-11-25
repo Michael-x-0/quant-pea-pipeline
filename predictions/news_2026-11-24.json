@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -2,
+  "justif": "Matin : marché mondial volatilité élevée suite repricing IA et tarifs douaniers potentiels (US Trade Representative sur capacités usines) ; PCE USA 14h30 est catalyseur clé."
+ },
+ "PE500": {
+  "score": -2,
+  "justif": "Agenda macro US chargé : PCE octobre 0,3% m/m attendu et PIB Q3 2e est. 3,5% ; données d'inflation centrale pour Fed décision décembre ; marché attend confirmation d'une pression prix modérée."
+ },
+ "PCEU": {
+  "score": -1,
+  "justif": "Confiance consommateurs France 08h45 ; Europe affaiblie par écarts Allemagne/France ; données US PCE de référence pour EUR/USD ; pas de catalyseur européen majeur aujourd'hui."
+ },
+ "PAEEM": {
+  "score": -2,
+  "justif": "Repricing brutal semiconducteurs (Nvidia volatilité implicite +55% en 48h) affecte Taiwan/TSMC et émergents tech ; nervosité générale sur valorisations IA ; marché attend clarté PCE US."
+ },
+ "PTPXE": {
+  "score": -1,
+  "justif": "Japon : Corporate Service Price Index octobre attendu ; marché général affaibli par doutes IA ; yen soutenu par appétit pour sécurité suite tensions géopolitiques."
+ },
+ "RS2K": {
+  "score": -2,
+  "justif": "Small-caps US sensibles à taux ; PCE/GDP USA 14h30 déterminant pour anticipations de taux 2027 ; environnement risqué élevé, marché cherche clarté sur inflation."
+ },
+ "PUST": {
+  "score": -2,
+  "justif": "Nasdaq tech lourdement pondéré : repricing brutal Nvidia/semiconds depuis 48h détériore sentiments IA ; PCE et GDP USA clés ; momentum négatif sur growth stocks."
+ },
+ "EXA1": {
+  "score": -1,
+  "justif": "Banques zone euro : taux en baisse (anticipations flexion Fed revues) réduisent marges crédit ; ECB notulis 16h30 mais sans nouvelle décision ; prudence générale."
+ },
+ "STEC": {
+  "score": -3,
+  "justif": "Semiconducteurs/Tech Europe : débâcle de Nvidia (-55% vol.impl.) en 48h, repricing IA haussière corrigée ; tensions tarifs US ajoutent crainte ; données PCE USA 14h30 centrale."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Défense Europe stable ; tensions géopolitiques Iran persistes mais apaisement récent ; pas de catalyseur armement majeur annoncé ce jour ; sentiment neutre."
+ },
+ "SMH": {
+  "score": -4,
+  "justif": "VanEck Semiconds monde : repricing catastrophique secteur suite doutes IA : Nvidia vol.impl. +55% en 48h, positions short accélèrent correction ; données PCE USA 14h30 déterminantes."
+ },
+ "GOAI": {
+  "score": -3,
+  "justif": "IA/Robotique monde : débâcle Nvidia/semiconds depuis vendredi 22 nov détruit sentiments IA ; reprofilage risque massif ; attente PCE USA 14h30 pour clarté taux inflation."
+ }
+}
