@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": -2,
+  "justif": "Vente massive en technologies plombée par craintes sur l'IA, menaces tarifaires américaines, Nasdaq -4% en séance intraday avant rebond partiel."
+ },
+ "PE500": {
+  "score": -2,
+  "justif": "S&P 500 reculé 2,9% en séance suite déboires tech et proposition droits de douane US, inflation PCE à +3,8% relançant débat politique monétaire."
+ },
+ "PCEU": {
+  "score": -2,
+  "justif": "STOXX 600 replié 0,93% pénalisé par technologies et semi-conducteurs, tensions géopolitiques Golfe soutenant énergie mais inquiétudes macro plus larges."
+ },
+ "PAEEM": {
+  "score": -3,
+  "justif": "Marchés émergents asiatiques chutent : Taiwan -7,4%, TSMC -6,3% ADR, inversion rapide après euphorie Jensen Huang, liquidation positions IA et restrictions semi-conducteurs."
+ },
+ "PTPXE": {
+  "score": -1,
+  "justif": "TOPIX replié 0,50% sur doutes IA et tarifs américains, contrôlé par rebond partiel des indices américains en fin de séance."
+ },
+ "RS2K": {
+  "score": -1,
+  "justif": "Russell 2000 +0,71% fin de séance, rotation vers small-cap profit-taking rebond tech US, moins exposé craintes IA que Nasdaq."
+ },
+ "PUST": {
+  "score": -3,
+  "justif": "Nasdaq 100 -4% intraday approchant -20% du record (-bear market), affecté ventes massives IA, Nvidia -8%, retrait confiance rendements investissements IA."
+ },
+ "EXA1": {
+  "score": -2,
+  "justif": "Banques zone euro fragilisées par craintes récession et resserrement politique monétaire anticipé, UniCredit +6,3% mais secteur sous pression générale."
+ },
+ "STEC": {
+  "score": -4,
+  "justif": "Technologie Europe STOXX recule 2,88%, semi-conducteurs et IA plombés par liquidations massives, inversion euphorie lundi, doubtes rentabilité investissements IA."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Défense progresse 4,2% STOXX, contrebalancée par inquiétudes macro, création banque financement défense 30 nov, budget allemand défense relevé mais sentiment mixte."
+ },
+ "SMH": {
+  "score": -4,
+  "justif": "Semiconducteurs VanEck plombés : TSMC Taiwan -7,4%, MediaTek -10%, restrictions export puces US vers Chine, inversion rapide sentiments IA."
+ },
+ "GOAI": {
+  "score": -3,
+  "justif": "Robotique-IA monde hit par liquidations IA massives, Nvidia centre de turbulences, préoccupations rendements investissements IA pesant sur secteur futuriste."
+ }
+}
