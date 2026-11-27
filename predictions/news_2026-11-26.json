@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 1,
+  "justif": "Rebond technique européen sur Fed cut hopes ; reprise modérée post-thanksgiving sans nouveau catalyseur."
+ },
+ "PE500": {
+  "score": 1,
+  "justif": "Séance écourtée US (thanksgiving) ; Nasdaq/S&P 500 en attente d'inflation ; VIX élevé à 28."
+ },
+ "PCEU": {
+  "score": 1,
+  "justif": "STOXX 600 rebond +1,8 % hier ; nomination BCE Hernández de Cos crédibilise l'institution."
+ },
+ "PAEEM": {
+  "score": 0,
+  "justif": "Pas de catalyseur EM identifié ; marchés émergents peu affectés par agenda macro US/EU."
+ },
+ "PTPXE": {
+  "score": 0,
+  "justif": "USD/JPY stable 159.25 ; BoJ hawkish balancé par safe-haven timide ; aucun choc devises."
+ },
+ "RS2K": {
+  "score": 1,
+  "justif": "Russell 2000 suit dynamique US ; séance thanksgiving réduite sans direction claire."
+ },
+ "PUST": {
+  "score": 1,
+  "justif": "Nasdaq 100 dans attente inflation ; volatilité élevée mais pas de break directif avant données US."
+ },
+ "EXA1": {
+  "score": 1,
+  "justif": "Banques zone euro portées par rebond STOXX 600 et nouvelle direction BCE ; sentiment stabilisé."
+ },
+ "STEC": {
+  "score": 2,
+  "justif": "Tech Europe rebond +2,7 % hier sur STOXX ; amélioration mais risques AI/capex persist."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Pas d'actualité défense spécifique ; secteur suit marché général sans catalyseur."
+ },
+ "SMH": {
+  "score": -1,
+  "justif": "TSMC restreint envois <16nm aux clients chinois sans licence US ; pression supply-chain IA."
+ },
+ "GOAI": {
+  "score": 0,
+  "justif": "IA/robotique monde sans nouvelle majeure le 27 ; attente marché sur inflation/Fed."
+ }
+}
