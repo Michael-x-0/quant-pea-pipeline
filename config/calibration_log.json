@@ -1,5 +1,5 @@
 {
- "run_date": "2026-11-27",
+ "run_date": "2026-11-28",
  "version_avant": "v2.0",
  "tickers_eligibles": [
   "WPEA",
@@ -40,61 +40,61 @@
   "gain_min_validation": 0.003
  },
  "live": {
-  "hit_ratio_1d": 0.4583333333333333,
+  "hit_ratio_1d": 0.5166666666666667,
   "n_observations": 120
  },
  "train": {
   "avant": {
-   "hit_1d": 0.5206,
-   "hit_5d": 0.5306,
-   "mae_1d": 0.010133000907801535,
-   "n_obs_1d": 3475,
-   "n_obs_5d": 3475,
+   "hit_1d": 0.5218,
+   "hit_5d": 0.5318,
+   "mae_1d": 0.01017705590247064,
+   "n_obs_1d": 3486,
+   "n_obs_5d": 3486,
    "par_ticker": {
     "WPEA": {
-     "n": 305,
-     "hit_1d": 0.5311,
-     "hit_5d": 0.5607
+     "n": 306,
+     "hit_1d": 0.5327,
+     "hit_5d": 0.5621
     },
     "PE500": {
-     "n": 305,
-     "hit_1d": 0.5049,
-     "hit_5d": 0.6
+     "n": 306,
+     "hit_1d": 0.5065,
+     "hit_5d": 0.6013
     },
     "PCEU": {
-     "n": 305,
-     "hit_1d": 0.5508,
-     "hit_5d": 0.5115
+     "n": 306,
+     "hit_1d": 0.5523,
+     "hit_5d": 0.5131
     },
     "PAEEM": {
-     "n": 305,
-     "hit_1d": 0.5115,
-     "hit_5d": 0.5836
+     "n": 306,
+     "hit_1d": 0.5131,
+     "hit_5d": 0.585
     },
     "PTPXE": {
-     "n": 305,
-     "hit_1d": 0.5082,
-     "hit_5d": 0.5049
+     "n": 306,
+     "hit_1d": 0.5098,
+     "hit_5d": 0.5065
     },
     "RS2K": {
-     "n": 305,
-     "hit_1d": 0.5082,
-     "hit_5d": 0.4918
+     "n": 306,
+     "hit_1d": 0.5098,
+     "hit_5d": 0.4935
     },
     "PUST": {
-     "n": 305,
-     "hit_1d": 0.5279,
-     "hit_5d": 0.5246
+     "n": 306,
+     "hit_1d": 0.5294,
+     "hit_5d": 0.5261
     },
     "EXA1": {
-     "n": 305,
-     "hit_1d": 0.5607,
-     "hit_5d": 0.5246
+     "n": 306,
+     "hit_1d": 0.5621,
+     "hit_5d": 0.5261
     },
     "STEC": {
-     "n": 305,
-     "hit_1d": 0.5115,
-     "hit_5d": 0.4393
+     "n": 306,
+     "hit_1d": 0.5131,
+     "hit_5d": 0.4412
     },
     "DEFS": {
      "n": 240,
@@ -102,27 +102,27 @@
      "hit_5d": 0.4583
     },
     "SMH": {
-     "n": 296,
-     "hit_1d": 0.5203,
-     "hit_5d": 0.6081
+     "n": 297,
+     "hit_1d": 0.5219,
+     "hit_5d": 0.6094
     },
     "GOAI": {
-     "n": 194,
-     "hit_1d": 0.5258,
-     "hit_5d": 0.5567
+     "n": 195,
+     "hit_1d": 0.5231,
+     "hit_5d": 0.5538
     }
    }
   },
-  "objectif_avant": 0.42523,
-  "objectif_apres": 0.42836
+  "objectif_avant": 0.42614,
+  "objectif_apres": 0.42926
  },
  "test": {
   "avant": {
-   "hit_1d": 0.5176,
-   "hit_5d": 0.4914,
-   "mae_1d": 0.010345028389151854,
-   "n_obs_1d": 1503,
-   "n_obs_5d": 1455,
+   "hit_1d": 0.5173,
+   "hit_5d": 0.4904,
+   "mae_1d": 0.010286425188947018,
+   "n_obs_1d": 1504,
+   "n_obs_5d": 1456,
    "par_ticker": {
     "WPEA": {
      "n": 132,
@@ -132,7 +132,7 @@
     "PE500": {
      "n": 132,
      "hit_1d": 0.5682,
-     "hit_5d": 0.5234
+     "hit_5d": 0.5156
     },
     "PCEU": {
      "n": 132,
@@ -151,7 +151,7 @@
     },
     "RS2K": {
      "n": 132,
-     "hit_1d": 0.5227,
+     "hit_1d": 0.5152,
      "hit_5d": 0.5078
     },
     "PUST": {
@@ -170,28 +170,28 @@
      "hit_5d": 0.3984
     },
     "DEFS": {
-     "n": 103,
-     "hit_1d": 0.466,
-     "hit_5d": 0.4343
+     "n": 104,
+     "hit_1d": 0.4615,
+     "hit_5d": 0.44
     },
     "SMH": {
      "n": 128,
      "hit_1d": 0.4688,
-     "hit_5d": 0.4597
+     "hit_5d": 0.4516
     },
     "GOAI": {
      "n": 84,
-     "hit_1d": 0.5357,
+     "hit_1d": 0.5476,
      "hit_5d": 0.55
     }
    }
   },
   "apres": {
-   "hit_1d": 0.521,
-   "hit_5d": 0.4914,
-   "mae_1d": 0.010347640573084415,
-   "n_obs_1d": 1503,
-   "n_obs_5d": 1455,
+   "hit_1d": 0.5206,
+   "hit_5d": 0.4904,
+   "mae_1d": 0.010288287236146457,
+   "n_obs_1d": 1504,
+   "n_obs_5d": 1456,
    "par_ticker": {
     "WPEA": {
      "n": 132,
@@ -201,7 +201,7 @@
     "PE500": {
      "n": 132,
      "hit_1d": 0.5758,
-     "hit_5d": 0.5
+     "hit_5d": 0.4922
     },
     "PCEU": {
      "n": 132,
@@ -220,7 +220,7 @@
     },
     "RS2K": {
      "n": 132,
-     "hit_1d": 0.5076,
+     "hit_1d": 0.5,
      "hit_5d": 0.5234
     },
     "PUST": {
@@ -239,24 +239,24 @@
      "hit_5d": 0.3984
     },
     "DEFS": {
-     "n": 103,
-     "hit_1d": 0.4854,
-     "hit_5d": 0.4444
+     "n": 104,
+     "hit_1d": 0.4808,
+     "hit_5d": 0.45
     },
     "SMH": {
      "n": 128,
      "hit_1d": 0.4766,
-     "hit_5d": 0.4677
+     "hit_5d": 0.4597
     },
     "GOAI": {
      "n": 84,
-     "hit_1d": 0.5357,
+     "hit_1d": 0.5476,
      "hit_5d": 0.525
     }
    }
   },
-  "objectif_avant": 0.40569,
-  "objectif_apres": 0.40766
+  "objectif_avant": 0.40578,
+  "objectif_apres": 0.40775
  },
  "poids_avant": {
   "W_MOM20": 0.5,
@@ -286,5 +286,5 @@
   "W_MOM20": -0.025
  },
  "decision": "REJETE_VALIDATION",
- "resume_rapport": "Auto-calibration : candidat REJETÉ. L'ajustement proposé (momentum 20 s, -0,0250) améliorait l'échantillon d'apprentissage mais le gain sur l'échantillon de validation (51,8 % → 52,1 % de hit ratio J+1) reste sous le seuil de significativité de 0,3 pt : indiscernable du bruit. Poids inchangés."
+ "resume_rapport": "Auto-calibration : candidat REJETÉ. L'ajustement proposé (momentum 20 s, -0,0250) améliorait l'échantillon d'apprentissage mais le gain sur l'échantillon de validation (51,7 % → 52,1 % de hit ratio J+1) reste sous le seuil de significativité de 0,3 pt : indiscernable du bruit. Poids inchangés."
 }

@@ -1,0 +1,50 @@
+{
+ "WPEA": {
+  "score": 1,
+  "justif": "Marché mondial en hausse légère après rebond tech post-Thanksgiving ; S&P 500 +1,6%, Nasdaq +2,3% vendredi, soutenu par appétit pour le risque sur annonces chinoises d'IA."
+ },
+ "PE500": {
+  "score": 1,
+  "justif": "S&P 500 ferme à +1,6% vendredi 27-nov en séance écourtée, dopé par rebond semi-conducteurs et données macro d'inflation légèrement rassurantes."
+ },
+ "PCEU": {
+  "score": 1,
+  "justif": "CAC 40 +0,58% vendredi, DAX +0,86%, indices européens stables en attente verdict S&P sur notation souveraine France ; inflation France révisée à 2,9% y/y."
+ },
+ "PAEEM": {
+  "score": 2,
+  "justif": "Marchés émergents portés par rebond risque global : CSI300 +4,17% vendredi sur politique d'État chinoise pro-IA, contagion Asie Kospi +4,3%."
+ },
+ "PTPXE": {
+  "score": 2,
+  "justif": "TOPIX +1,73% vendredi 27-nov à 3815,20 pts, Nikkei +2,11% ; rebond régional sur appétit risque global et annonces chinoises d'IA favorables aux exportateurs."
+ },
+ "RS2K": {
+  "score": 1,
+  "justif": "Russell 2000 +4,7% sur semaine en dynamique risque post-Thanksgiving ; séance 27-nov écourtée soutient petites caps US."
+ },
+ "PUST": {
+  "score": 1,
+  "justif": "Nasdaq Composite +2,3% vendredi 27-nov ; rebond semi-conducteurs et IA après volatilité mi-novembre, secteur tech leader avec Nvidia modeste +2%."
+ },
+ "EXA1": {
+  "score": 1,
+  "justif": "Banques eurozone en légère hausse ; indices bancaires européens stables vendredi, pressions inflationnistes apaisées par données France/Espagne préliminaires."
+ },
+ "STEC": {
+  "score": 1,
+  "justif": "Technologie Europe suit rebond global vendredi ; séance écourtée US, appétit pour risque tech favorise secteur dans contexte IA-mémoire positif."
+ },
+ "DEFS": {
+  "score": 0,
+  "justif": "Pas de catalyseur défense majeur 27-nov ; géopolitique stable, marché ordinaire sans tension armement spécifique."
+ },
+ "SMH": {
+  "score": 2,
+  "justif": "Semi-conducteurs SOXX +4,76% vendredi ; Sandisk +15,96%, Micron +7,60% sur preuve Kioxia/Nvidia et débouclage tensions approvisionnement substrats."
+ },
+ "GOAI": {
+  "score": 2,
+  "justif": "IA/Robotique portés par politique chinoise pro-tech 27-nov ; Genesis AI levée $500M série A mi-novembre, initiatives Karnataka IA/robotique régionales positives."
+ }
+}
